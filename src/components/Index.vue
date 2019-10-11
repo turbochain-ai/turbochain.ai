@@ -576,7 +576,7 @@ Vue.use(banner)
                         margin-top: 10vh;
                         .item{
                             width: 100%;
-                            margin-bottom: 16vh;
+                            margin-bottom: 12vh;
                             .item-num{
                                 width: 6vw;
                                 min-width: 6vw;

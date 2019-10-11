@@ -2,7 +2,7 @@
   <div  >
       <div class="main_top" :style="topBgImage">
           <div class="main_txt">
-              <div style="color: #fff;">
+              <div class="title" style="color: #fff;">
                   <p style="font-size: 4rem;font-weight: bold;margin-bottom: 1rem">泰链区块链</p>
                   <p style="font-size: 2rem;">价值互联网基础设施 企业上链、人上链的基础平台</p>
               </div>
@@ -70,11 +70,9 @@
         data() {
             return {
                 topBgImage: {
-                    height: "100vh",
                     backgroundImage: "url(" + cover + ")"
                 },
                 middelBgImage: {
-                    height: "2500px",
                     backgroundImage: "url(" + section_bg + ")"
                 }
             }
@@ -84,7 +82,7 @@
 
 <style scoped lang="scss">
     .content{
-        width: 1000px;
+        width: 900px;
         margin: 0 auto;
         margin-top: 4rem;
     }
@@ -97,16 +95,35 @@
     }
     .main_top {
         padding-top: 64px;
+        overflow: hidden;
         /*background-size: 110%;*/
         background: url(./../assets/images/cover.jpg) center no-repeat;
     }
     .main_txt{
-        width: 1200px;
+        width:100vw;
         margin: 0 auto;
         text-align: center;
         margin-top: 6rem;
+        .title{
+            width: 100vw;
+        }
     }
     .main_middle {
         padding-top: 70px;
+    }
+    @media screen and (max-width: 900px) {
+        .main_txt{
+            width: 85vw;
+            margin: 0 auto;
+            text-align: center;
+            margin-top: 6rem;
+            .title{
+                width: 100%;
+            }
+        }
+        .content{
+            width: 85vw;
+            margin-bottom: 10vh;
+        }
     }
 </style>

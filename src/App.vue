@@ -79,16 +79,8 @@
     },
     data() {
       return {
-        isRouterAlive: true,
-        menuindex:1
+        isRouterAlive: true
       }
-    },
-    computed: {
-      languageValue: function() {
-        let curlang = this.$store.getters.lang;
-        if (curlang == "English") this.$i18n.locale = "en";
-        return curlang;
-      },
     },
     methods: {
       reload() {
@@ -97,25 +89,6 @@
           this.isRouterAlive = true;
         });
       },
-      changeValue(index){
-        // alert(index)
-        // alert("111");
-        // console.log("index: ", index)
-        this.menuindex = index;
-      },
-      changeLanguage(name) {
-        console.log('111111111');
-        if (name == "en") {
-          this.reload();
-          this.$store.commit("setlang", "English");
-          this.$i18n.locale = "en";
-        }
-        if (name == "cn") {
-          this.reload();
-          this.$store.commit("setlang", "简体中文");
-          this.$i18n.locale = "zh";
-        }
-      }
     }
   }
 </script>

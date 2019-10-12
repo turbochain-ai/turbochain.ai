@@ -1,8 +1,8 @@
 module.exports = {
   header: {
-    home: 'home',
-    solution: 'solution ',
-    news: 'news',
+    home: 'Home',
+    solution: 'Solution ',
+    news: 'News',
     service: 'Product And Solution',
     joinUs: 'Join Us',
     aboutUs: 'About Us',

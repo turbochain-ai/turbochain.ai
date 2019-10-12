@@ -4,105 +4,183 @@
             <a class="" href=""><img src="../assets/homepage_logo.png" style="height: 44px;"></a>
         </div>
         <div class="header-web">
-            <div class="nav">
-                <ul class="nav_list">
-                    <router-link to="/index">
-                        <li v-bind:class="{ nav_active: 1 == menuindex }"  @click="changeValue(1)" >{{$t("header.home")}}</li>
-                    </router-link>
-                    <li>
-                        <Dropdown style="z-index: 9999;position: relative" class="other">
-                            <a  v-bind:class="{ nav_active1 : 21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}" href="javascript:void(0)">{{$t("header.solution")}} &nbsp;<img class="icon-arrow" src="../assets/arrow_down.png"> <!--<Icon type="ios-arrow-down"></Icon>--></a>
-                            <DropdownMenu class="menu_list02" slot="list">
-                                <DropdownItem>
-                                    <router-link class="nav_list" to="/solution/supplyChainFinance">
-                                        <a v-bind:class="{nav_active1 : 21==menuindex, nav_active2: 21!=menuindex}" @click="changeValue(21)" >供应链金融</a>
-                                    </router-link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <router-link class="nav_list" to="/solution/bankConfirmation">
-                                        <a v-bind:class="{nav_active1 : 22==menuindex, nav_active2: 22!=menuindex}" @click="changeValue(22)" >银行询证</a>
-                                    </router-link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <router-link class="nav_list" to="/solution/blockchainEducation">
-                                       <a v-bind:class="{nav_active1 : 23==menuindex, nav_active2: 23!=menuindex}" @click="changeValue(23)" >区块链教育</a>
-                                    </router-link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <router-link class="nav_list" to="/solution/blockchainLogistics">
-                                        <a v-bind:class="{nav_active1 : 24==menuindex, nav_active2: 24!=menuindex}" @click="changeValue(24)" >区块链物流</a>
-                                    </router-link>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <router-link class="nav_list" to="/solution/blockchainVideo">
-                                        <a v-bind:class="{nav_active1 : 25==menuindex, nav_active2: 25!=menuindex}" @click="changeValue(25)" >区块链影视</a>
-                                    </router-link>
-                                </DropdownItem>
-                            </DropdownMenu>
-                        </Dropdown>
-                    </li>
-                    <router-link to="/produceAndService">
-                        <!--<Dropdown style="z-index: 9999;position: relative" class="other">
-                            <li v-bind:class="{ nav_active1 : 31 == menuindex || 32 == menuindex || 33 == menuindex || 34 == menuindex || 35 == menuindex || 36 == menuindex || 37 == menuindex, nav_active2: 31 != menuindex && 32 != menuindex && 33 != menuindex && 34 != menuindex && 35 != menuindex && 36 != menuindex && 37 != menuindex}" href="javascript:void(0)">{{$t("header.service")}}&nbsp;<img class="icon-arrow" src="../assets/arrow_down.png"></li>
-                            <DropdownMenu class="menu_list02" slot="list">
-                                <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 31==menuindex, nav_active2: 31!=menuindex}" @click="changeValue(31)"  href="https://telecomm.io">teleComm</a>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 32==menuindex, nav_active2: 32!=menuindex}" @click="changeValue(32)" href="http://rpa.openserver.cn/">RPA</a>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 33==menuindex, nav_active2: 33!=menuindex}" @click="changeValue(33)">iOSP</a>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 34==menuindex, nav_active2: 34!=menuindex}" @click="changeValue(34)" href="https://ipex.openserver.cn/#/">交易所</a>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 35==menuindex, nav_active2: 35!=menuindex}" @click="changeValue(35)" href="https://mulechain.com/">mulechain</a>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 36==menuindex, nav_active2: 36!=menuindex}" @click="changeValue(36)">企业数据浏览器</a>
-                                </DropdownItem>
-                                <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 37==menuindex, nav_active2: 37!=menuindex}" @click="changeValue(37)" href="http://springislandlove.openserver.cn/">影视拍摄</a>
-                                </DropdownItem>
-                            </DropdownMenu>
-                        </Dropdown>-->
-<!--                        <li v-bind:class="{ nav_active: 3 == menuindex }"  @click="changeValue(3)" >{{$t("header.service")}}</li>-->
-                        <li v-bind:class="{ nav_active: 3 == menuindex }"  @click="changeValue(3)" >{{$t("产品与服务")}}</li>
-                    </router-link>
-                    <!--<li v-bind:class="{ nav_active: 4 == menuindex }" >新闻</li>-->
-                    <router-link to="/news">
-                        <li v-bind:class="{ nav_active: 4 == menuindex }"  @click="changeValue(4)" >{{$t("header.news")}}</li>
-                    </router-link>
-                    <router-link to="/aboutUs">
-                        <li v-bind:class="{ nav_active: 5 == menuindex }"  @click="changeValue(5)" >{{$t("header.aboutUs")}}</li>
-                    </router-link>
-                    <li v-bind:class="{ nav_active: 6 == menuindex }" >加入我们</li>
-                    <!--<router-link to="/joinUs">
-                        <li v-bind:class="{ nav_active: 6 == menuindex }"  @click="changeValue(6)" >{{$t("header.joinUs")}}</li>
-                    </router-link>-->
-                    <router-link to="/blockChain">
-                        <li v-bind:class="{ nav_active: 7 == menuindex }"  @click="changeValue(7)" >{{$t("header.blockChain")}}</li>
-                    </router-link>
-                </ul>
-            </div>
+            <nav>
+                <div class="nav">
+                    <ul class="nav_list">
+                        <router-link to="/index">
+                            <li v-bind:class="{ nav_active: 1 == menuindex }"  @click="changeValue(1)" >{{$t("header.home")}}</li>
+                        </router-link>
+                        <li>
+                            <Dropdown style="z-index: 9999;position: relative" class="other">
+                                <a  v-bind:class="{ nav_active1 : 21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}" href="javascript:void(0)">{{$t("header.solution")}} &nbsp;<img class="icon-arrow" src="../assets/arrow_down.png"> <!--<Icon type="ios-arrow-down"></Icon>--></a>
+                                <DropdownMenu class="menu_list02" slot="list">
+                                    <DropdownItem>
+                                        <router-link class="nav_list" to="/solution/supplyChainFinance">
+                                            <a v-bind:class="{nav_active1 : 21==menuindex, nav_active2: 21!=menuindex}" @click="changeValue(21)" >供应链金融</a>
+                                        </router-link>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <router-link class="nav_list" to="/solution/bankConfirmation">
+                                            <a v-bind:class="{nav_active1 : 22==menuindex, nav_active2: 22!=menuindex}" @click="changeValue(22)" >银行询证</a>
+                                        </router-link>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <router-link class="nav_list" to="/solution/blockchainEducation">
+                                            <a v-bind:class="{nav_active1 : 23==menuindex, nav_active2: 23!=menuindex}" @click="changeValue(23)" >区块链教育</a>
+                                        </router-link>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <router-link class="nav_list" to="/solution/blockchainLogistics">
+                                            <a v-bind:class="{nav_active1 : 24==menuindex, nav_active2: 24!=menuindex}" @click="changeValue(24)" >区块链物流</a>
+                                        </router-link>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <router-link class="nav_list" to="/solution/blockchainVideo">
+                                            <a v-bind:class="{nav_active1 : 25==menuindex, nav_active2: 25!=menuindex}" @click="changeValue(25)" >区块链影视</a>
+                                        </router-link>
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </Dropdown>
+                        </li>
+                        <router-link to="/produceAndService">
+                            <Dropdown style="z-index: 9999;position: relative" class="other">
+                                <a v-bind:class="{ nav_active1 : 31 == menuindex || 32 == menuindex || 33 == menuindex || 34 == menuindex || 35 == menuindex || 36 == menuindex || 37 == menuindex, nav_active2: 31 != menuindex && 32 != menuindex && 33 != menuindex && 34 != menuindex && 35 != menuindex && 36 != menuindex && 37 != menuindex}" href="javascript:void(0)">{{$t("header.service")}}&nbsp;<img class="icon-arrow" src="../assets/arrow_down.png"></a>
+                                <DropdownMenu class="menu_list02" slot="list">
+                                    <DropdownItem>
+                                        <a v-bind:class="{nav_active1 : 31==menuindex, nav_active2: 31!=menuindex}" @click="changeValue(31)" >teleComm</a>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <a v-bind:class="{nav_active1 : 32==menuindex, nav_active2: 32!=menuindex}" @click="changeValue(32)">RPA</a>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <a v-bind:class="{nav_active1 : 33==menuindex, nav_active2: 33!=menuindex}" @click="changeValue(33)">iOSP</a>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <a v-bind:class="{nav_active1 : 34==menuindex, nav_active2: 34!=menuindex}" @click="changeValue(34)">交易所</a>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <a v-bind:class="{nav_active1 : 35==menuindex, nav_active2: 35!=menuindex}" @click="changeValue(35)">mulechain</a>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <a v-bind:class="{nav_active1 : 36==menuindex, nav_active2: 36!=menuindex}" @click="changeValue(36)">企业数据浏览器</a>
+                                    </DropdownItem>
+                                    <DropdownItem>
+                                        <a v-bind:class="{nav_active1 : 37==menuindex, nav_active2: 37!=menuindex}" @click="changeValue(37)">影视拍摄</a>
+                                    </DropdownItem>
+                                </DropdownMenu>
+                            </Dropdown>
+                            <!--                        <li v-bind:class="{ nav_active: 3 == menuindex }"  @click="changeValue(3)" >{{$t("header.service")}}</li>-->
+                        </router-link>
+                        <router-link to="/news">
+                            <li v-bind:class="{ nav_active: 4 == menuindex }"  @click="changeValue(4)" >{{$t("header.news")}}</li>
+                        </router-link>
+                        <router-link to="/aboutUs">
+                            <li v-bind:class="{ nav_active: 5 == menuindex }"  @click="changeValue(5)" >{{$t("header.aboutUs")}}</li>
+                        </router-link>
+                        <router-link to="/joinUs">
+                            <li v-bind:class="{ nav_active: 6 == menuindex }"  @click="changeValue(6)" >{{$t("header.joinUs")}}</li>
+                        </router-link>
+                        <router-link to="/blockChain">
+                            <li v-bind:class="{ nav_active: 7 == menuindex }"  @click="changeValue(7)" >{{$t("header.blockChain")}}</li>
+                        </router-link>
+                    </ul>
+                </div>
+            </nav>
             <div class="header-right">
                 <ul class="lang">
-                    <!--                          <li>简体中文</li>
-                                              <li>English</li>
-                                  <Dropdown @on-click="changeLanguage">
-                                      <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;">
-                                          {{languageValue}}
-                                          <Icon type="arrow-down-b"></Icon>
-                                      </a>
-                                      <DropdownMenu slot="list" id="change_language_theme">
-                                          <DropdownItem v-if="languageValue=='简体中文'" name="en" >English</DropdownItem>
-                                          <DropdownItem v-else name="cn">简体中文</DropdownItem>
-                                      </DropdownMenu>
-                                  </Dropdown>-->
+                    <Dropdown @on-click="changeLanguage">
+                        <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;">
+                            {{languageValue}}
+                            <Icon type="arrow-down-b"></Icon>
+                        </a>
+                        <DropdownMenu slot="list" id="change_language_theme">
+                            <DropdownItem v-if="languageValue=='简体中文'" name="en" >English</DropdownItem>
+                            <DropdownItem v-else name="cn">简体中文</DropdownItem>
+                        </DropdownMenu>
+                    </Dropdown>
                 </ul>
             </div>
+        </div>
+        <button type="button" class="nav-btn" @click="showMenu"><!--按钮--></button>
+        <div v-bind:style="{ display: isShow }" class="nav">
+            <ul>
+                <router-link to="/index">
+                    <li v-bind:class="{ nav_active: 1 == menuindex }"  @click="changeValue(1)" >{{$t("header.home")}}</li>
+                </router-link>
+                <li>
+                    <Dropdown style="z-index: 9999;position: relative" class="other">
+                        <a  v-bind:class="{ nav_active1 : 21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}" href="javascript:void(0)">{{$t("header.solution")}} &nbsp;<img class="icon-arrow" src="../assets/arrow_down.png"> <!--<Icon type="ios-arrow-down"></Icon>--></a>
+                        <DropdownMenu class="menu_list02" slot="list" style="color: red">
+                            <DropdownItem>
+                                <router-link class="nav_list" to="/solution/supplyChainFinance">
+                                    <a v-bind:class="{nav_active1 : 21==menuindex, nav_active2: 21!=menuindex}" @click="changeValue(21)" >供应链金融</a>
+                                </router-link>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <router-link class="nav_list" to="/solution/bankConfirmation">
+                                    <a v-bind:class="{nav_active1 : 22==menuindex, nav_active2: 22!=menuindex}" @click="changeValue(22)" >银行询证</a>
+                                </router-link>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <router-link class="nav_list" to="/solution/blockchainEducation">
+                                    <a v-bind:class="{nav_active1 : 23==menuindex, nav_active2: 23!=menuindex}" @click="changeValue(23)" >区块链教育</a>
+                                </router-link>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <router-link class="nav_list" to="/solution/blockchainLogistics">
+                                    <a v-bind:class="{nav_active1 : 24==menuindex, nav_active2: 24!=menuindex}" @click="changeValue(24)" >区块链物流</a>
+                                </router-link>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <router-link class="nav_list" to="/solution/blockchainVideo">
+                                    <a v-bind:class="{nav_active1 : 25==menuindex, nav_active2: 25!=menuindex}" @click="changeValue(25)" >区块链影视</a>
+                                </router-link>
+                            </DropdownItem>
+                        </DropdownMenu>
+                    </Dropdown>
+                </li>
+                <router-link to="/produceAndService">
+                    <Dropdown style="z-index: 9999;position: relative" class="other">
+                        <a v-bind:class="{ nav_active1 : 31 == menuindex || 32 == menuindex || 33 == menuindex || 34 == menuindex || 35 == menuindex || 36 == menuindex || 37 == menuindex, nav_active2: 31 != menuindex && 32 != menuindex && 33 != menuindex && 34 != menuindex && 35 != menuindex && 36 != menuindex && 37 != menuindex}" href="javascript:void(0)">{{$t("header.service")}}&nbsp;<img class="icon-arrow" src="../assets/arrow_down.png"></a>
+                        <DropdownMenu class="menu_list02" slot="list">
+                            <DropdownItem>
+                                <a v-bind:class="{nav_active1 : 31==menuindex, nav_active2: 31!=menuindex}" @click="changeValue(31)" >teleComm</a>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <a v-bind:class="{nav_active1 : 32==menuindex, nav_active2: 32!=menuindex}" @click="changeValue(32)">RPA</a>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <a v-bind:class="{nav_active1 : 33==menuindex, nav_active2: 33!=menuindex}" @click="changeValue(33)">iOSP</a>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <a v-bind:class="{nav_active1 : 34==menuindex, nav_active2: 34!=menuindex}" @click="changeValue(34)">交易所</a>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <a v-bind:class="{nav_active1 : 35==menuindex, nav_active2: 35!=menuindex}" @click="changeValue(35)">mulechain</a>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <a v-bind:class="{nav_active1 : 36==menuindex, nav_active2: 36!=menuindex}" @click="changeValue(36)">企业数据浏览器</a>
+                            </DropdownItem>
+                            <DropdownItem>
+                                <a v-bind:class="{nav_active1 : 37==menuindex, nav_active2: 37!=menuindex}" @click="changeValue(37)">影视拍摄</a>
+                            </DropdownItem>
+                        </DropdownMenu>
+                    </Dropdown>
+                    <!--                        <li v-bind:class="{ nav_active: 3 == menuindex }"  @click="changeValue(3)" >{{$t("header.service")}}</li>-->
+                </router-link>
+                <router-link to="/news">
+                    <li v-bind:class="{ nav_active: 4 == menuindex }"  @click="changeValue(4)" >{{$t("header.news")}}</li>
+                </router-link>
+                <router-link to="/aboutUs">
+                    <li v-bind:class="{ nav_active: 5 == menuindex }"  @click="changeValue(5)" >{{$t("header.aboutUs")}}</li>
+                </router-link>
+                <router-link to="/joinUs">
+                    <li v-bind:class="{ nav_active: 6 == menuindex }"  @click="changeValue(6)" >{{$t("header.joinUs")}}</li>
+                </router-link>
+                <router-link to="/blockChain">
+                    <li v-bind:class="{ nav_active: 7 == menuindex }"  @click="changeValue(7)" >{{$t("header.blockChain")}}</li>
+                </router-link>
+            </ul>
         </div>
     </div>
 </template>
@@ -119,7 +197,9 @@
         data() {
             return {
                 isRouterAlive: true,
-                menuindex:1
+                menuindex:1,
+                isShow: 'none',
+                isShowTwoMenu: 'none'
             }
         },
         computed: {
@@ -140,12 +220,13 @@
                 });
             },
             changeValue(index){
-                // alert(index)
-                // alert("111");
-                // console.log("index: ", index)
                 this.menuindex = index;
+                if (this.isShow == '') {
+                    this.isShow = 'none'
+                }
             },
             init() {
+                this.$store.commit("initLang");
                 let url = this.$route.path;
                 if (url.indexOf("index") != -1) {
                     this.menuindex = 1;
@@ -174,7 +255,6 @@
                 }
             },
             changeLanguage(name) {
-                console.log('111111111');
                 if (name == "en") {
                     this.reload();
                     this.$store.commit("setlang", "English");
@@ -185,12 +265,68 @@
                     this.$store.commit("setlang", "简体中文");
                     this.$i18n.locale = "zh";
                 }
+            },
+            showMenu: function(event) {
+                let el1 = event.currentTarget;
+                let el2 = event.target;
+                console.log('el1: ', el1);
+                console.log('el2: ', el2);
+                console.log('isShow: ', this.isShow);
+                console.log('是否相等：', this.isShow == 'none')
+                if (this.isShow == 'none') {
+                    this.isShow = ''
+                    console.log("this.isShow1: ", this.isShow)
+                } else {
+                    this.isShow = 'none'
+                }
+            },
+            showTwoMenu() {
+                console.log('this.isShowTwoMenu: ',isShowTwoMenu);
+                if (this.isShow == '') {
+                    if (this.isShowTwoMenu == '') {
+                        this.isShowTwoMenu = 'none'
+                    } else {
+                        this.isShowTwoMenu = ''
+                    }
+                } else {
+                    this.isShowTwoMenu = 'none'
+                }
             }
         }
     }
 </script>
 
 <style scoped lang="scss">
+    @media all and (min-width: 768px) {
+        nav > .nav-item > .dropdown{
+            padding-top: 20px;
+        }
+    }
+    .nav-btn{
+        display: none;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        z-index: 99999;
+        padding: 5px 5px 3px;
+        cursor: pointer;
+    }
+    @media all and (max-width: 768px) {
+        nav {
+            position: absolute;
+            display: none;
+            width: 100%;
+            top: 0;
+            right: 0;
+            z-index: 99998;
+            padding: 0 15px 30px;
+        }
+        .nav-btn {
+            display: inline-block;
+        }
+    }
+
+
     .menu_list02{
         float: none;
         width: 10vw;
@@ -301,7 +437,8 @@
         display: inline-block;
         color: #8C8D8C;
         font-size:14px;
-        padding: 0px 20px;
+        padding: 0vw 1.5625vw;
+        /*padding: 0px 20px;*/
         height: 62px;
         line-height: 62px;
         transition: 0.5s;

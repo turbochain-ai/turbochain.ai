@@ -161,12 +161,13 @@
     }
     .introduce{
         display: flex;
-        height: 90vh;
-        background:url("./../assets/images/Solution_bg4.jpg") no-repeat center;
+        height: auto;
+        min-height: 100vh;
+        background:url("./../assets/images/Solution_bg.jpg") no-repeat center;
         position: relative;
         .introduce_box{
             position: relative;
-            min-width:1000px;
+            width:1000px;
             margin: 0 auto;
             .more{
                 position: absolute;
@@ -198,7 +199,7 @@
                 /* top: 30vh;
                  left: 10vh;*/
                 height: 60%;
-               /* background:url("./../assets/solution_title_bg.png") no-repeat center;*/
+                /*background:url("./../assets/solution_title_bg.png") no-repeat center;*/
                 background-size: 500px;
                 padding-top: 36vh;
                 .title{
@@ -356,7 +357,7 @@
                 padding: 2vh 0;
                 line-height: 4vh;
                 p{
-                    padding-left: 6vh;
+                    padding-left: 32px;
                 }
             }
             .list_01{
@@ -370,6 +371,71 @@
             }
             .list_03, .list_13{
                 background:url("./../assets/wrong.png") no-repeat left;
+            }
+        }
+    }
+
+    @media screen and (max-width: 900px) {
+        .rotation_style{
+            width: 60%;
+            margin-top: -20%;
+            margin-left: -7%;
+        }
+        .summarize, .advantage, .demand, .contrast{
+            width: 85vw;
+        }
+
+        .summarize{
+            .list{
+                display: block;
+                .item{
+                    width: 80vw;
+                    padding: 0 2.5vw;
+                    margin-bottom: 4vh;
+                    .message{
+                        width: 90%;
+                        margin-bottom: 4vh;
+                    }
+                }
+            }
+        }
+        .advantage{
+            .content{
+                .border_lr{
+                    border: none;
+                }
+            }
+        }
+        .content{
+            margin: 0 auto;
+            display: block;
+
+            .item{
+                width: 100%;
+                margin-bottom: 8vh;
+            }
+        }
+        .introduce {
+            .introduce_box {
+                width: auto;
+                .left {
+                    width: 85vw;
+                    position: relative;
+                    margin: 0 auto;
+                    padding-top: 15vh;
+                    height: auto;
+                    .title {
+                        text-align:left;
+                    }
+                    .subtitle {
+                        text-align:left;
+                    }
+                }
+                .right {
+                    width: 85vw;
+                    top: 12vh;
+                    position: relative;
+                }
             }
         }
     }

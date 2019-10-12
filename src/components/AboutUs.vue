@@ -67,6 +67,7 @@
   }
   .about_us_text{
     .content{
+      text-align: justify;
       width: 100%;
       margin-top: 8vw;
       color: #e3e3e3;

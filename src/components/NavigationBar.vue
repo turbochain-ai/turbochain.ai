@@ -42,43 +42,46 @@
                         </Dropdown>
                     </li>
                     <router-link to="/produceAndService">
-                        <Dropdown style="z-index: 9999;position: relative" class="other">
-                            <a v-bind:class="{ nav_active1 : 31 == menuindex || 32 == menuindex || 33 == menuindex || 34 == menuindex || 35 == menuindex || 36 == menuindex || 37 == menuindex, nav_active2: 31 != menuindex && 32 != menuindex && 33 != menuindex && 34 != menuindex && 35 != menuindex && 36 != menuindex && 37 != menuindex}" href="javascript:void(0)">{{$t("header.service")}}&nbsp;<img class="icon-arrow" src="../assets/arrow_down.png"></a>
+                        <!--<Dropdown style="z-index: 9999;position: relative" class="other">
+                            <li v-bind:class="{ nav_active1 : 31 == menuindex || 32 == menuindex || 33 == menuindex || 34 == menuindex || 35 == menuindex || 36 == menuindex || 37 == menuindex, nav_active2: 31 != menuindex && 32 != menuindex && 33 != menuindex && 34 != menuindex && 35 != menuindex && 36 != menuindex && 37 != menuindex}" href="javascript:void(0)">{{$t("header.service")}}&nbsp;<img class="icon-arrow" src="../assets/arrow_down.png"></li>
                             <DropdownMenu class="menu_list02" slot="list">
                                 <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 31==menuindex, nav_active2: 31!=menuindex}" @click="changeValue(31)" >teleComm</a>
+                                    <a v-bind:class="{nav_active1 : 31==menuindex, nav_active2: 31!=menuindex}" @click="changeValue(31)"  href="https://telecomm.io">teleComm</a>
                                 </DropdownItem>
                                 <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 32==menuindex, nav_active2: 32!=menuindex}" @click="changeValue(32)">RPA</a>
+                                    <a v-bind:class="{nav_active1 : 32==menuindex, nav_active2: 32!=menuindex}" @click="changeValue(32)" href="http://rpa.openserver.cn/">RPA</a>
                                 </DropdownItem>
                                 <DropdownItem>
                                     <a v-bind:class="{nav_active1 : 33==menuindex, nav_active2: 33!=menuindex}" @click="changeValue(33)">iOSP</a>
                                 </DropdownItem>
                                 <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 34==menuindex, nav_active2: 34!=menuindex}" @click="changeValue(34)">交易所</a>
+                                    <a v-bind:class="{nav_active1 : 34==menuindex, nav_active2: 34!=menuindex}" @click="changeValue(34)" href="https://ipex.openserver.cn/#/">交易所</a>
                                 </DropdownItem>
                                 <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 35==menuindex, nav_active2: 35!=menuindex}" @click="changeValue(35)">mulechain</a>
+                                    <a v-bind:class="{nav_active1 : 35==menuindex, nav_active2: 35!=menuindex}" @click="changeValue(35)" href="https://mulechain.com/">mulechain</a>
                                 </DropdownItem>
                                 <DropdownItem>
                                     <a v-bind:class="{nav_active1 : 36==menuindex, nav_active2: 36!=menuindex}" @click="changeValue(36)">企业数据浏览器</a>
                                 </DropdownItem>
                                 <DropdownItem>
-                                    <a v-bind:class="{nav_active1 : 37==menuindex, nav_active2: 37!=menuindex}" @click="changeValue(37)">影视拍摄</a>
+                                    <a v-bind:class="{nav_active1 : 37==menuindex, nav_active2: 37!=menuindex}" @click="changeValue(37)" href="http://springislandlove.openserver.cn/">影视拍摄</a>
                                 </DropdownItem>
                             </DropdownMenu>
-                        </Dropdown>
+                        </Dropdown>-->
 <!--                        <li v-bind:class="{ nav_active: 3 == menuindex }"  @click="changeValue(3)" >{{$t("header.service")}}</li>-->
+                        <li v-bind:class="{ nav_active: 3 == menuindex }"  @click="changeValue(3)" >{{$t("产品与服务")}}</li>
                     </router-link>
-                    <router-link to="/news">
+                    <li v-bind:class="{ nav_active: 4 == menuindex }" >新闻</li>
+                    <!--<router-link to="/news">
                         <li v-bind:class="{ nav_active: 4 == menuindex }"  @click="changeValue(4)" >{{$t("header.news")}}</li>
-                    </router-link>
+                    </router-link>-->
                     <router-link to="/aboutUs">
                         <li v-bind:class="{ nav_active: 5 == menuindex }"  @click="changeValue(5)" >{{$t("header.aboutUs")}}</li>
                     </router-link>
-                    <router-link to="/joinUs">
+                    <li v-bind:class="{ nav_active: 6 == menuindex }" >加入我们</li>
+                    <!--<router-link to="/joinUs">
                         <li v-bind:class="{ nav_active: 6 == menuindex }"  @click="changeValue(6)" >{{$t("header.joinUs")}}</li>
-                    </router-link>
+                    </router-link>-->
                     <router-link to="/blockChain">
                         <li v-bind:class="{ nav_active: 7 == menuindex }"  @click="changeValue(7)" >{{$t("header.blockChain")}}</li>
                     </router-link>

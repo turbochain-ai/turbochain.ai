@@ -163,8 +163,9 @@
         display: flex;
         height: auto;
         min-height: 100vh;
-        background:url("./../assets/images/Solution_bg.jpg") no-repeat center;
+        background:url("./../assets/images/Solution_bg5.jpg") no-repeat center;
         position: relative;
+        background-size: cover;
         .introduce_box{
             position: relative;
             width:1000px;

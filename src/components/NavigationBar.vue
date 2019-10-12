@@ -71,10 +71,10 @@
 <!--                        <li v-bind:class="{ nav_active: 3 == menuindex }"  @click="changeValue(3)" >{{$t("header.service")}}</li>-->
                         <li v-bind:class="{ nav_active: 3 == menuindex }"  @click="changeValue(3)" >{{$t("产品与服务")}}</li>
                     </router-link>
-                    <li v-bind:class="{ nav_active: 4 == menuindex }" >新闻</li>
-                    <!--<router-link to="/news">
+                    <!--<li v-bind:class="{ nav_active: 4 == menuindex }" >新闻</li>-->
+                    <router-link to="/news">
                         <li v-bind:class="{ nav_active: 4 == menuindex }"  @click="changeValue(4)" >{{$t("header.news")}}</li>
-                    </router-link>-->
+                    </router-link>
                     <router-link to="/aboutUs">
                         <li v-bind:class="{ nav_active: 5 == menuindex }"  @click="changeValue(5)" >{{$t("header.aboutUs")}}</li>
                     </router-link>

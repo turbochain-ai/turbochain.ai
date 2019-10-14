@@ -117,14 +117,18 @@
             <div class="header-right">
                 <ul class="lang">
                     <Dropdown @on-click="changeLanguage">
+
                         <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">
+                            简体中文
+                        </a>
+                     <!--    <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">
                             {{languageValue}}
                             <Icon type="arrow-down-b"></Icon>
                         </a>
                         <DropdownMenu slot="list" id="change_language_theme">
                             <DropdownItem v-if="languageValue=='简体中文'" name="en">English</DropdownItem>
                             <DropdownItem v-else name="cn">简体中文</DropdownItem>
-                        </DropdownMenu>
+                        </DropdownMenu>-->
                     </Dropdown>
                 </ul>
             </div>

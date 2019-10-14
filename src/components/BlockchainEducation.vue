@@ -143,6 +143,8 @@
 
 
 <style src="./../assets/css/solution.css" scoped>
+</style>
+<style scoped lang="scss">
     .introduce {
         display: flex;
         height: auto;
@@ -152,3 +154,4 @@
         background-size: cover;
     }
 </style>
+

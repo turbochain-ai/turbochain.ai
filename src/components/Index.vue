@@ -20,32 +20,32 @@ Vue.use(banner)
                 <div class="main01_right">
                     <div class="what-container">
                         <p class="title main-title">WHAT IS TURBOCHAIN</p>
-                        <p class="subtitle main-subtitle">全球领先的区块链企业应用服务平台</p>
+                        <p class="subtitle main-subtitle">{{$t("index.subtitle")}}</p>
 
                         <ul class="list">
                             <li class="item">
                                 <span class="item-num">01</span>
                                 <div class="item-content">
-                                    <span class="item-title">全球化专业团队</span>
-                                    <span class="item-subtitle">目前团队和分支机构遍布中国、欧洲、美国、新加坡、日本等多个国家和地区</span>
+                                    <span class="item-title">{{$t("index.team")}}</span>
+                                    <span class="item-subtitle">{{$t("index.teamIntro")}}</span>
                                 </div>
                             </li>
                             <li class="item"><span class="item-num">02</span>
                                 <div class="item-content">
-                                    <span class="item-title">丰富的区块链应用商业生态</span>
-                                    <span class="item-subtitle">银行询证、食品安全、电商等多领域区块链企业应用成功案例，打破信息孤岛，打造创新协同和商业模式</span>
+                                    <span class="item-title">{{$t("index.business")}}</span>
+                                    <span class="item-subtitle">{{$t("index.businessIntro")}}</span>
                                 </div>
                             </li>
                             <li class="item"><span class="item-num">03</span>
                                 <div class="item-content">
-                                    <span class="item-title">对企业和开发者友好的区块链平台</span>
-                                    <span class="item-subtitle">提供灵活安全的区块链基础设施、软硬件结合的一站式解决方案，方便各类企业和开发者快速接入部署</span>
+                                    <span class="item-title">{{$t("index.friendly")}}</span>
+                                    <span class="item-subtitle">{{$t("index.friendlyIntro")}}</span>
                                 </div>
                             </li>
                             <li class="item"><span class="item-num">04</span>
                                 <div class="item-content">
-                                    <span class="item-title">合作伙伴推进区块链应用落地</span>
-                                    <span class="item-subtitle">遍布全球的商业和技术合作伙伴，相互赋能共同推动区块链应用的落地与创新</span>
+                                    <span class="item-title">{{$t("index.assign")}}</span>
+                                    <span class="item-subtitle">{{$t("index.assignIntro")}}</span>
                                 </div>
                             </li>
 
@@ -56,150 +56,121 @@ Vue.use(banner)
             </div>
             <div class="main02">
                 <p class="title main-title">SOLUTIONS</p>
-                <p class="subtitle main-subtitle">区块链解决方案</p>
+                <p class="subtitle main-subtitle">{{$t("index.solutions")}}</p>
                 <!--<p class="main-title main02_title" style="text-align: center;">区块链解决方案</p>-->
                 <div class="card-container">
                     <a class="card-list card01">
                         <div class="card-content">
-                            <p class="card-title">区块链搭建</p>
+                            <p class="card-title">{{$t("index.blockConstruction")}}</p>
                             <div class="content">
-                                <h4>产品和服务</h4>
-                                <p>1.基于Turbochain架构的公链 2.基于Turbochain架构的联盟链 3.基于Turbochain架构的私链</p>
-                                <h4>功能介绍</h4>
-                                <p>1.根据定制需求，指定数据上链 2.配合其他产品打造区块链生态</p>
-                                <h4>特点和优势</h4>
-                                <p>1.模块独立，消息队列结构
-                                    2.可扩展性强，模块可插拔
-                                    3.平行链技术，执行与状态分离
-                                </p>
+                                <h4>{{$t("index.productsAndServices")}}</h4>
+                                <p>{{$t("index.construction.service")}}</p>
+                                <h4>{{$t("index.functionIntroduction")}}</h4>
+                                <p>{{$t("index.construction.function")}}</p>
+                                <h4>{{$t("index.featuresAndAdvantages")}}</h4>
+                                <p>{{$t("index.construction.advantages")}}</p>
                             </div>
                         </div>
                     </a>
                     <a class="card-list card02">
                         <div class="card-content">
-                            <p class="card-title">行情交易系统</p>
+                            <p class="card-title">{{$t("index.tradingSystem")}}</p>
                             <div class="content">
-                                <h4>产品和服务</h4>
-                                <p>数字资产行情交易系统</p>
-                                <h4>功能介绍</h4>
-                                <p> 1.区块链基础知识 2.数字加密资产介绍 3.区块链的落地应用 4.数字加密资产开发和管理 5.通证经济 6.其他</p>
-                                <h4>特点和优势</h4>
-                                <p>可大幅提升事务执行效率
-                                </p>
+                                <h4>{{$t("index.productsAndServices")}}</h4>
+                                <p>{{$t("index.trading.service")}}</p>
+                                <h4>{{$t("index.functionIntroduction")}}</h4>
+                                <p>{{$t("index.trading.function")}}</p>
+                                <h4>{{$t("index.featuresAndAdvantages")}}</h4>
+                                <p>{{$t("index.trading.advantages")}}</p>
                             </div>
                         </div>
                     </a>
                     <a class="card-list card03">
                         <div class="card-content">
-                            <p class="card-title">区块链钱包</p>
+                            <p class="card-title">{{$t("index.blockChainWallet")}}</p>
                             <div class="content">
-                                <h4>产品和服务</h4>
-                                <p> 1.热钱包 2.冷钱包 3.蓝牙钱包</p>
-                                <h4>功能介绍</h4>
-                                <p>1.支持多条主链与平行链资产存储与转帐 2.用户自主管理私钥 3.Dapp应用智能交互 4.支持托管账户系统</p>
-                                <h4>特点和优势</h4>
-                                <p> 1.离线钱包与在线钱包智能交互，转帐更安全，使用更便捷。
-                                    2.私钥完全自主管理，不依赖第三方。
-                                    3.多钱包切换管理，资产管理更方便。
-                                    4.中心化托管账户钱包，便捷创建钱包， 不用担心资产丢失，随时随地恢复资产。
+                                <h4>{{$t("index.productsAndServices")}}</h4>
+                                <p> {{$t("index.wallet.service")}}</p>
+                                <h4>{{$t("index.functionIntroduction")}}</h4>
+                                <p>{{$t("index.wallet.function")}}</p>
+                                <h4>{{$t("index.featuresAndAdvantages")}}</h4>
+                                <p>{{$t("index.wallet.advantages")}}
                                 </p>
                             </div>
                         </div>
                     </a>
                     <a class="card-list card04">
                         <div class="card-content">
-                            <p class="card-title">红包模块</p>
+                            <p class="card-title">{{$t("index.redEnvelopeModule")}}</p>
                             <div class="content">
-                                <h4>产品和服务</h4>
-                                <p>红包模块</p>
-                                <h4>功能介绍</h4>
-                                <p>1.支持多种数字资产红包 2.红包实时到账 3.数字资产可自由划转</p>
-                                <h4>特点和优势</h4>
-                                <p>1.红包方式新颖有趣
-                                    2.托管账户红包
-                                    3.红包数据记录在链上
-                                </p>
+                                <h4>{{$t("index.productsAndServices")}}</h4>
+                                <p>{{$t("index.envelope.service")}}</p>
+                                <h4>{{$t("index.functionIntroduction")}}</h4>
+                                <p>{{$t("index.envelope.function")}}</p>
+                                <h4>{{$t("index.featuresAndAdvantages")}}</h4>
+                                <p>{{$t("index.envelope.advantages")}}</p>
                             </div>
                         </div>
                     </a>
                     <a class="card-list card05">
                         <div class="card-content">
-                            <p class="card-title">聊天模块</p>
+                            <p class="card-title">{{$t("index.chatModule")}}</p>
                             <div class="content">
-                                <h4>产品和服务</h4>
-                                <p>聊天模块</p>
-                                <h4>功能介绍</h4>
-                                <p>1.私密聊天 2.好友管理 3.好友添加保护 4.支持多媒体（文字、图片、视频） 5.支持阅后即焚 6.支持社群管理</p>
-                                <h4>特点和优势</h4>
-                                <p> 1.避免中心化聊天平台的信息泄露的可能
-                                    2.更好的客户管理能力和社群管理效力
-                                </p>
+                                <h4>{{$t("index.productsAndServices")}}</h4>
+                                <p>{{$t("index.chat.service")}}</p>
+                                <h4>{{$t("index.functionIntroduction")}}</h4>
+                                <p>{{$t("index.chat.function")}}</p>
+                                <h4>{{$t("index.featuresAndAdvantages")}}</h4>
+                                <p>{{$t("index.chat.advantages")}}</p>
                             </div>
                         </div>
                     </a>
                     <a class="card-list card06">
                         <div class="card-content">
-                            <p class="card-title">智能合约开发</p>
+                            <p class="card-title">{{$t("index.smartContractDevelopment")}}</p>
                             <div class="content">
-                                <h4>产品和服务</h4>
-                                <p>编写贴合所需应用场景的智能合约</p>
-                                <h4>功能介绍</h4>
-                                <p>1.EVM虚拟机支持，兼容以太坊
-                                    2.GO, JS, Java,python, C++等语言智能合约</p>
+                                <h4>{{$t("index.productsAndServices")}}</h4>
+                                <p>{{$t("index.smartContract.service")}}</p>
+                                <h4>{{$t("index.functionIntroduction")}}</h4>
+                                <p>{{$t("index.smartContract.function")}}</p>
                             </div>
                         </div>
                     </a>
                     <a class="card-list card07">
                         <div class="card-content">
-                            <p class="card-title">区块链电商</p>
+                            <p class="card-title">{{$t("index.blockChainECommerce")}}</p>
                             <div class="content">
-                                <h4>产品和服务</h4>
-                                <p>1.区块链电子商城 2.区块链积分商城 3.区块链积分联盟 4.区块链物流追溯系统 5.区块链合同存证系统</p>
-                                <h4>功能介绍</h4>
-                                <p> 1.交易上链（交易信息）
-                                    2.商品上链（出产地、物流、消费）
-                                    3.积分上链（发放、流转、兑换、消费、销毁）
-                                    4.数字资产支付（替代现有中心化模式）
-                                </p>
-                                <h4>功能介绍</h4>
-                                <p> 1.可以对商品防伪溯源
-                                    2.链上可实时查看交易信息
-                                    3.积分发放和管理、消费全透明
-                                    4.去中心化支付系统客户更放心
-                                </p>
+                                <h4>{{$t("index.productsAndServices")}}</h4>
+                                <p>{{$t("index.ECommerce.service")}}</p>
+                                <h4>{{$t("index.functionIntroduction")}}</h4>
+                                <p>{{$t("index.ECommerce.function")}}</p>
+                                <h4>{{$t("index.featuresAndAdvantages")}}</h4>
+                                <p> {{$t("index.ECommerce.advantages")}}</p>
                             </div>
                         </div>
                     </a>
                     <a class="card-list card08">
                         <div class="card-content">
-                            <p class="card-title">云矿机</p>
+                            <p class="card-title">{{$t("index.cloudMiningMachine")}}</p>
                             <div class="content">
-                                <h4>产品和服务</h4>
-                                <p>云矿机</p>
-                                <h4>功能介绍</h4>
-                                <p> 1.数字资产云挖矿 2.矿池管理 3.数字资产管理（划转、冻结、解冻）
-                                </p>
-                                <h4>特点和优势</h4>
-                                <p> 1.实现链上资产智能分配；
-                                    2.有助于数字资产管理和激励
-                                </p>
+                                <h4>{{$t("index.productsAndServices")}}</h4>
+                                <p>{{$t("index.miningMachine.service")}}</p>
+                                <h4>{{$t("index.functionIntroduction")}}</h4>
+                                <p> {{$t("index.miningMachine.function")}}</p>
+                                <h4>{{$t("index.featuresAndAdvantages")}}</h4>
+                                <p>{{$t("index.miningMachine.advantages")}}</p>
                             </div>
                         </div>
                     </a>
 
                     <a class="card-list card09">
                         <div class="card-content">
-                            <p class="card-title">定制化服务</p>
+                            <p class="card-title">{{$t("index.customizedService")}}</p>
                             <div class="content">
-                                <h4>产品和服务</h4>
-                                <p> 1.公链开源代码上传至项目方Github账户； 2.公链兼容币钱包，链上发行的数字资产可在币钱包内存储、转账； 3.提供公链建设生态所需接口、文档，含TOKEN发行….
-                                </p>
-                                <h4>功能介绍</h4>
-                                <p> 1.区块链基础知识 2.数字加密资产介绍
-                                    3.区块链的落地应用4.数字加密资产开发和管理
-                                    5.通证经济
-                                    6.其他
-                                </p>
+                                <h4>{{$t("index.productsAndServices")}}</h4>
+                                <p>{{$t('index.trading.service')}}</p>
+                                <h4>{{$t("index.functionIntroduction")}}</h4>
+                                <p>{{$t('index.trading.function')}}</p>
                             </div>
                         </div>
                     </a>

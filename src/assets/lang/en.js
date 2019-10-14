@@ -82,6 +82,10 @@ module.exports = {
     productsAndServices: 'Products and Services',
     functionIntroduction: 'Function Introduction',
     featuresAndAdvantages: 'Features and advantages'
-
+  },
+  aboutUs: {
+    aboutUs: '',
+    introduce: 'Launched in May 2019, the Thai Chain project is dedicated to creating a trusted, distributed business ecosystem that is transparent, collaborative, and cost-effective. Since its inception, Tai Chain has focused on the development of blockchain and artificial intelligence technology, and has now become one of the few blockchain platforms in the world that are used by well-known enterprises in various industries. By providing flexible and secure blockchain infrastructure, enterprise software solutions and development tools combined with hardware and software. The Thai Chain aims to complement each other with partners and developers, and to promote the application of blockchain technology to create a strong and sustainable business ecosystem.',
+    introduceOne: 'At present, Thai Chain has a blockchain professional team, more than half of which are professional blockchain application engineers. It has established branches and offices in many countries and regions, including Beijing, Shanghai, Shenzhen, Chengdu, Jinan, Wuhan, Xinjiang, China. , Singapore, Los Angeles, Japan, Tokyo, and Hong Kong, China. Thai Chain is also at the forefront in the research and development of blockchain technology. It is actively engaged in technical research cooperation on a global scale, and has reached blockchain technology research cooperation with many top academic institutions in the world.'
   }
 }

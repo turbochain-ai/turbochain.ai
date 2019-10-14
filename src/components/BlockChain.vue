@@ -3,15 +3,15 @@
       <div class="main_top" :style="topBgImage">
           <div class="main_txt">
               <div class="title" style="color: #fff;">
-                  <p style="font-size: 4rem;font-weight: bold;margin-bottom: 1rem">泰链区块链</p>
-                  <p style="font-size: 2rem;">价值互联网基础设施 企业上链、人上链的基础平台</p>
+                  <p style="font-size: 4rem;font-weight: bold;margin-bottom: 1rem">{{$t("blockChain.turboChain")}}</p>
+                  <p style="font-size: 2rem;">{{$t("blockChain.title")}}</p>
               </div>
               <div class="content">
                   <ul>
-                      <li>TurboChain是支持PoW/PBFT双共识机制的企业级区块链</li>
-                      <li>PoW适用于低速低频应用场景， 如：资金结算场景，内部交易场景，关联交易场景，供应链场景；PBFT适用于高速高频应用场景，如：物联网应用，即时通讯应用，工业互联应用等。</li>
-                      <li>TurboChain结合IPFS星际存储、IPCom星际通讯构建企业级区块链应用平台。IPFS星际存储实现企业级应用中大数据对象的分布式存储 ；IPCom星际通讯提供企业应用中人与设备、人与人、人与服务、服务与设备等数据通讯服务。</li>
-                      <li>TurboChain与企业财务、资金、共享、供应链、结算等系统一起构成完整的企业区块链应用解决方案</li>
+                      <li>{{$t("blockChain.contentOne")}}</li>
+                      <li>{{$t("blockChain.contentOne")}}</li>
+                      <li>{{$t("blockChain.contentOne")}}</li>
+                      <li>{{$t("blockChain.contentOne")}}</li>
                   </ul>
               </div>
           </div>

@@ -87,5 +87,13 @@ module.exports = {
     aboutUs: '',
     introduce: 'Launched in May 2019, the Thai Chain project is dedicated to creating a trusted, distributed business ecosystem that is transparent, collaborative, and cost-effective. Since its inception, Tai Chain has focused on the development of blockchain and artificial intelligence technology, and has now become one of the few blockchain platforms in the world that are used by well-known enterprises in various industries. By providing flexible and secure blockchain infrastructure, enterprise software solutions and development tools combined with hardware and software. The Thai Chain aims to complement each other with partners and developers, and to promote the application of blockchain technology to create a strong and sustainable business ecosystem.',
     introduceOne: 'At present, Thai Chain has a blockchain professional team, more than half of which are professional blockchain application engineers. It has established branches and offices in many countries and regions, including Beijing, Shanghai, Shenzhen, Chengdu, Jinan, Wuhan, Xinjiang, China. , Singapore, Los Angeles, Japan, Tokyo, and Hong Kong, China. Thai Chain is also at the forefront in the research and development of blockchain technology. It is actively engaged in technical research cooperation on a global scale, and has reached blockchain technology research cooperation with many top academic institutions in the world.'
-  }
+  },
+    blockChain: {
+        turboChain: 'TurboChain',
+        title: 'The basic platform for value Internet infrastructure enterprises to be on the chain and the people are on the chain',
+        contentOne: 'TurboChain is an enterprise-level blockchain that supports the PoW/PBFT dual consensus mechanism.',
+        contentTwo: 'PoW is suitable for low-speed low-frequency application scenarios, such as fund settlement scenarios, internal trading scenarios, related transaction scenarios, and supply chain scenarios. PBFT is suitable for high-speed high-frequency application scenarios such as IoT applications, instant messaging applications, and industrial interconnect applications.',
+        contentThree: 'TurboChain combines IPFS interstellar storage and IPCom interstellar communications to build an enterprise blockchain application platform. IPFS Intersatellite Storage enables distributed storage of big data objects in enterprise applications; IPCom Interstellar Communications provides data communication services for people and devices, people and people, people and services, services and devices in enterprise applications.',
+        contentFour: 'TurboChain forms a complete enterprise blockchain application solution together with corporate finance, capital, sharing, supply chain, settlement and other systems.'
+}
 }

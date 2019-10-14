@@ -400,6 +400,7 @@
         width: 100%;
     }
 .nav_phone{
+    display: none;
     position: absolute;
     width: 90vw;
     background-color: #000;
@@ -583,6 +584,9 @@
        .nav_left{
               display: none;
           }
+        .nav_phone{
+            display: block;
+        }
         .nav-btn {
               display: inline-block;
               position: fixed;

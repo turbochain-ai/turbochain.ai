@@ -390,27 +390,6 @@
         }
     }
 
-    @media screen and (min-width: 1280px) {
-        .core-items-wrapper {
-            width: 70vw;
-            margin: 0 auto;
-
-            .core-item {
-            }
-        }
-    }
-
-    @media screen and (max-width: 900px) {
-        .core-items-wrapper {
-            width: 90vw;
-
-            .core-item {
-                width: 80vw;
-                margin-bottom: 5vh;
-            }
-        }
-
-    }
 
     .core-item-title {
         font-size: 1.5rem;
@@ -572,5 +551,76 @@
     li {
         display: list-item;
         text-align: -webkit-match-parent;
+    }
+
+    @media screen and (max-width: 1280px){
+        .brief-center{
+            width: 75vw;
+        }
+        .core-items-wrapper .core-item{
+            width: 25%;
+        }
+    }
+    @media screen and (min-width: 900px){
+     /*   .core-content{
+            width: 85vw;
+            margin: 0 auto;
+        }
+        .core-items-wrapper .core-item{
+            width: 100%;
+        }
+        .coreProduct .core-content .core-items-wrapper{
+            display: block;
+        }*/
+    }
+    @media screen and (min-width: 1280px) {
+        .core-items-wrapper {
+            width: 70vw;
+            margin: 0 auto;
+
+            .core-item {
+            }
+        }
+    }
+    @media screen and (max-width: 900px) {
+        .core-items-wrapper {
+            width: 90vw;
+            .core-item {
+                width: 80vw;
+                margin-bottom: 5vh;
+            }
+        }
+        .core-content, .core-items-wrapper .core-item{
+            margin: 0 auto;
+            margin-bottom: 4vh;
+        }
+        .coreProduct .core-content .core-items-wrapper{
+            display: block;
+        }
+        .brief{
+            background: url("../assets/brief_pic01.png");
+            background-position: right;
+            background-size: cover;
+        }
+        .service .brief .summary{
+              padding: 0;
+          }
+        .service .brief .content{
+            width: 100%;
+        }
+        .brief .detail .detail-item-content{
+            color: #ffffff;
+        }
+
+        .brief-center{
+            width: 85vw;
+            background:none;
+            margin-top: 10vh;
+            .detail{
+                .detail-item{
+                    width: 100%;
+                }
+            }
+        }
     }
 </style>

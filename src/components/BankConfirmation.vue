@@ -246,7 +246,7 @@
         }
     }
     .summarize, .advantage, .demand, .contrast{
-        width: 70vw;
+        width: 1200px;
         margin: 0 auto;
         padding: 0px;
         margin-top: 15vh;

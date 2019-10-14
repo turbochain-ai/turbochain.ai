@@ -5,33 +5,33 @@
                 <div class="summary">
                     <h3 class="title"> TURBOCHAIN</h3>
                     <div class="content">
-                        泰链TurboChain是一站式区块链BaaS服务平台，提供包含区块链浏览器、区块链钱包、供应链金融、资产托管系统等一系列区块链综合服务。泰链TurboChain让区块链技术为您的品牌持续增值，拓展全新业务模式。
+                        {{$t("produceAndService.content")}}
                     </div>
                 </div>
                 <div class="detail">
                     <div class="detail-item">
-                        <h4 class="detail-item-title">高拓展</h4>
-                        <div class="detail-item-content">TurboChain可提供丰富的API接口、SDK开发工具包，让开发者更便捷的开发区块链应用</div>
+                        <h4 class="detail-item-title">{{$t("produceAndService.titleOne")}}</h4>
+                        <div class="detail-item-content">{{$t("produceAndService.contentOne")}}</div>
                     </div>
                     <div class="detail-item">
-                        <h4 class="detail-item-title">高安全</h4>
-                        <div class="detail-item-content">TurboChain拥有可靠的网络防护能力、运维能力，数据加密机制，可确保信息的安全</div>
+                        <h4 class="detail-item-title">{{$t("produceAndService.titleTwo")}}</h4>
+                        <div class="detail-item-content">{{$t("produceAndService.contentTwo")}}</div>
                     </div>
                     <div class="detail-item">
-                        <h4 class="detail-item-title">高性价比</h4>
-                        <div class="detail-item-content">TurboChain可根据企业需求，提供上链服务，节约成本</div>
+                        <h4 class="detail-item-title">{{$t("produceAndService.titleThree")}}</h4>
+                        <div class="detail-item-content">{{$t("produceAndService.contentThree")}}</div>
                     </div>
                     <div class="detail-item">
-                        <h4 class="detail-item-title">极速开发</h4>
-                        <div class="detail-item-content">TurboChain可满足大多数企业的需求，可快速将企业服务接入区块链</div>
+                        <h4 class="detail-item-title">{{$t("produceAndService.titleFour")}}</h4>
+                        <div class="detail-item-content">{{$t("produceAndService.contentFour")}}</div>
                     </div>
                     <div class="detail-item">
-                        <h4 class="detail-item-title">售后服务</h4>
-                        <div class="detail-item-content">TurboChain可提供优质的售后服务，帮助客户及时解决问题</div>
+                        <h4 class="detail-item-title">{{$t("produceAndService.titleFive")}}</h4>
+                        <div class="detail-item-content">{{$t("produceAndService.contentFive")}}</div>
                     </div>
                     <div class="detail-item">
-                        <h4 class="detail-item-title">专业化团队</h4>
-                        <div class="detail-item-content">TurboChain拥有专业化研发团队，可保证项目快速落地</div>
+                        <h4 class="detail-item-title">{{$t("produceAndService.titleSix")}}</h4>
+                        <div class="detail-item-content">{{$t("produceAndService.contentSix")}}</div>
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
             <div class="core-content">
                 <div class="title-wrapper">
                     <h3 class="title">SERVICE</h3>
-                    <span class="subtitle">服务</span>
+                    <span class="subtitle">{{$t("produceAndService.produceAndService")}}</span>
                 </div>
                 <div class="core-items-wrapper">
                     <a class="core-item3 core-item item01" href="https://mulechain.com/" target="_blank">
@@ -49,24 +49,24 @@
                     </a>
                     <a class="core-item3 core-item item02">
                         <img src="../assets/service_qysj.jpg" alt>
-                        <h3 class="core-item-title">企业数据浏览器</h3>
+                        <h3 class="core-item-title">{{$t("produceAndService.enterpriseDataBrowser")}}</h3>
                     </a>
                     <a class="core-item3 core-item item03" href="http://springislandlove.openserver.cn/"
                        target="_blank">
                         <img src="../assets/service_qdzl.jpg" alt>
-                        <h3 class="core-item-title">影视拍摄</h3>
+                        <h3 class="core-item-title">{{$t("produceAndService.filmAndTelevisionShooting")}}</h3>
                     </a>
                     <a class="core-item3 core-item item04" target="_blank">
                         <img src="../assets/core_pic1.png" alt>
-                        <h3 class="core-item-title">区块链浏览器</h3>
+                        <h3 class="core-item-title">{{$t("produceAndService.blockChainBrowser")}}</h3>
                     </a>
                     <a class="core-item3 core-item item05">
                         <img src="../assets/core_pic2.png" alt>
-                        <h3 class="core-item-title">区块链钱包</h3>
+                        <h3 class="core-item-title">{{$t("produceAndService.blockChainWallet")}}</h3>
                     </a>
                     <a class="core-item3 core-item item06" target="">
                         <img src="../assets/core_pic3.png" alt>
-                        <h3 class="core-item-title">定制化服务</h3>
+                        <h3 class="core-item-title">{{$t("produceAndService.customizedService")}}</h3>
                     </a>
                 </div>
             </div>
@@ -75,7 +75,7 @@
             <div class="core-content">
                 <div class="title-wrapper">
                     <h3 class="title">PRODUCT</h3>
-                    <span class="subtitle">产品</span>
+                    <span class="subtitle">{{$t("produceAndService.product")}}}</span>
                 </div>
                 <div class="core-items-wrapper">
                     <a class="core-item core-item4" href="https://telecomm.io/" target="_blank">
@@ -83,10 +83,10 @@
                         <div class="core-item-txt">
                             <h4 class="core-item-title">teleComm</h4>
                             <div class="core-item-content-wrapper">
-                                <p class="core-item-content">即时通讯</p>
-                                <p class="core-item-content">数字加密</p>
-                                <p class="core-item-content">安全自由</p>
-                                <p class="core-item-content">完整平台</p>
+                                <p class="core-item-content">{{$t("produceAndService.teleComm.introduceOne")}}</p>
+                                <p class="core-item-content">{{$t("produceAndService.teleComm.introduceTwo")}}</p>
+                                <p class="core-item-content">{{$t("produceAndService.teleComm.introduceThree")}}</p>
+                                <p class="core-item-content">{{$t("produceAndService.teleComm.introduceFour")}}</p>
                             </div>
                         </div>
                     </a>
@@ -95,10 +95,10 @@
                         <div class="core-item-txt">
                             <h4 class="core-item-title">RPA</h4>
                             <div class="core-item-content-wrapper">
-                                <p class="core-item-content">自动化软件工具</p>
-                                <p class="core-item-content">支持UI自动化优化、Excel活动优化</p>
-                                <p class="core-item-content">节省企业办公成本</p>
-                                <p class="core-item-content">增强工作效率</p>
+                                <p class="core-item-content">{{$t("produceAndService.RPA.introduceOne")}}</p>
+                                <p class="core-item-content">{{$t("produceAndService.RPA.introduceTwo")}}</p>
+                                <p class="core-item-content">{{$t("produceAndService.RPA.introduceThree")}}</p>
+                                <p class="core-item-content">{{$t("produceAndService.RPA.introduceFour")}}</p>
                             </div>
                         </div>
                     </a>
@@ -107,7 +107,7 @@
                         <div class="core-item-txt">
                             <h4 class="core-item-title">iOSP</h4>
                             <div class="core-item-content-wrapper">
-                                <p class="core-item-content">用于各类（特别是大型跨区域经营）企业信息管理系统及区块链系统的开发及应用服务</p>
+                                <p class="core-item-content">{{$t("produceAndService.iOSP.introduceOne")}}</p>
                                 <!--                                <p class="core-item-content">实时查看在线节点数量</p>-->
                                 <!--                                <p class="core-item-content">在线解析交易数据</p>-->
                                 <!--                                <p class="core-item-content">广播交易</p>-->
@@ -117,11 +117,11 @@
                     <a class="core-item core-item4" href="https://ipex.turbochain.ai/" target="_blank">
                         <img src="../assets/ipexExange_logo.png" alt>
                         <div class="core-item-txt">
-                            <h4 class="core-item-title">交易所</h4>
+                            <h4 class="core-item-title">{{$t("produceAndService.exchange.exchange")}}</h4>
                             <div class="core-item-content-wrapper">
-                                <p class="core-item-content">全方位金融风控系统和防盗系统</p>
-                                <p class="core-item-content">充值提现快速到账交易一键成交</p>
-                                <p class="core-item-content">多个数字币种7X24小时交易</p>
+                                <p class="core-item-content">{{$t("produceAndService.exchange.introduceOne")}}</p>
+                                <p class="core-item-content">{{$t("produceAndService.exchange.introduceTwo")}}</p>
+                                <p class="core-item-content">{{$t("produceAndService.exchange.introduceThree")}}</p>
                             </div>
                         </div>
                     </a>

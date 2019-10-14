@@ -143,14 +143,18 @@
     }
 </script>
 
-<style scoped lang="scss">
-    @import url(./../assets/css/solution.css);
+<style src="./../assets/css/solution.css" scoped>
   .introduce {
-      display: flex;
-      height: auto;
-      min-height: 100vh;
-      background: url("./../assets/images/Solution_bg.jpg") no-repeat center;
-      position: relative;
-      background-size: cover;
-  }
-</style>
+  display: flex;
+  height: auto;
+  min-height: 100vh;
+  background: url("./../assets/images/Solution_bg.jpg") no-repeat center;
+  position: relative;
+  background-size: cover;
+}
+  </style>
+
+<!--<style scoped lang="scss">
+    @import url(./../assets/css/solution.css);
+
+</style>-->

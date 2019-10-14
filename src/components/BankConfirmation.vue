@@ -144,8 +144,7 @@
     }
 </script>
 
-<style scoped lang="scss">
-    @import url(./../assets/css/solution.css);
+<style src="./../assets/css/solution.css" scoped>
     .introduce {
         display: flex;
         height: auto;

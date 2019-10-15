@@ -161,12 +161,13 @@
 
                 .content {
                     color: #ffffff;
+                    margin-bottom: 4vh;
                 }
             }
 
             .content {
                 width: 19rem;
-                height: 9.8rem;
+              /*  height: 9.8rem;*/
                 font-size: 1rem;
                 line-height: 1.5rem;
                 margin-top: 2.4rem;
@@ -252,7 +253,7 @@
 
         .content {
             width: 19rem;
-            height: 9.8rem;
+          /*  height: 9.8rem;*/
             font-size: 1rem;
             line-height: 1.5rem;
             margin-top: 2.4rem;
@@ -315,7 +316,7 @@
             }
 
             .detail-item-content {
-                height: 9.6rem;
+              /*  height: 9.6rem;*/
                 font-family: PingFangSC-Light;
                 color: #bebfc0;
                 font-size: 0.94rem;
@@ -478,6 +479,7 @@
 
     .detail-item {
         width: 33%;
+        margin-bottom: 6vh;
     }
 
     .example {
@@ -604,6 +606,8 @@
         }
         .service .brief .summary{
               padding: 0;
+            margin: 0 4vw;
+            margin-bottom: 10vh;
           }
         .service .brief .content{
             width: 100%;

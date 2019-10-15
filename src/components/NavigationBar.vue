@@ -15,9 +15,10 @@
                         <li>
                             <Dropdown style="z-index: 9999;position: relative" class="other">
                                 <a v-bind:class="{ nav_active1 : 21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}"
-                                   href="javascript:void(0)">{{$t("header.solution")}} &nbsp;<img class="icon-arrow"
-                                                                                                  src="../assets/arrow_down.png">
-                                    <!--<Icon type="ios-arrow-down"></Icon>--></a>
+                                   href="javascript:void(0)">{{$t("header.solution")}} &nbsp;
+                                    <img class="icon-arrow" src="../assets/arrow_down.png">
+                                    <!--<Icon type="ios-arrow-down"></Icon>-->
+                                </a>
                                 <DropdownMenu class="menu_list02" slot="list">
                                     <DropdownItem>
                                         <router-link class="nav_list" to="/solution/supplyChainFinance">
@@ -123,8 +124,10 @@
 <!--                        </a>-->
                      <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">
                             {{languageValue}}
-                            <Icon type="arrow-down-b"></Icon>
-                        </a>
+                         <!--   <Icon type="arrow-down-b"></Icon>-->
+                         <img class="arrow_blue" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
+                              src="@/assets/arrow_down_blue.png">
+                     </a>
                         <DropdownMenu slot="list" id="change_language_theme">
                             <DropdownItem v-if="languageValue=='简体中文'" name="en">English</DropdownItem>
                             <DropdownItem v-else name="cn">简体中文</DropdownItem>
@@ -230,7 +233,7 @@
 
 <script>
 
-    import 'iview/dist/styles/iview.css'
+   /* import 'iview/dist/styles/iview.css'*/
     export default {
         name: "NavigationBar",
         provide() {
@@ -254,6 +257,7 @@
         },
         computed: {
             languageValue: function() {
+
                 let curlang = this.$store.getters.lang;
                 if (curlang == "English") this.$i18n.locale = "en";
                 return curlang;
@@ -308,6 +312,7 @@
                 }
             },
             changeLanguage(name) {
+
                 if (name == "en") {
                     this.reload();
                     this.$store.commit("setlang", "English");
@@ -368,9 +373,12 @@
         }
     }
 </script>
-
+<!--<style src="./../assets/css/iview.css" scoped>
+</style>-->
 <style scoped lang="scss">
-
+.arrow_blue{
+    margin-left:6px;
+}
     .phone {
         width: 150px;
         margin-top:10px;
@@ -424,7 +432,7 @@
     }
     .menu_list02{
         float: none;
-        width: 10vw;
+      /*  width: 10vw;*/
         position: absolute;
         margin-left: -5vw;
         top: 0px;
@@ -451,7 +459,10 @@
         color: white;
     }
     .chengeL{
-        background-color: #000;
+        color: #8C8D8C;
+    }
+    .chengeL:hover{
+        color: #ffffff;
     }
     .icon-arrow{
         transition: all 0.2s ease-in-out;
@@ -504,9 +515,6 @@
         padding: 0 5vw;
         top: 0;
         z-index: 9999;
-        /* .head{
-           width: 90vw;
-         }*/
     }
 
     .head_img {
@@ -528,6 +536,7 @@
 
     .nav_list {
         left: 64px;
+
     }
 
     .nav_list li {
@@ -536,7 +545,6 @@
         color: #8C8D8C;
         font-size:14px;
         padding: 0vw 1.5625vw;
-        /*padding: 0px 20px;*/
         height: 62px;
         line-height: 62px;
         transition: 0.5s;
@@ -547,31 +555,41 @@
     .nav_list a:hover {
         color: #ffffff;
     }
-  /*  .nav_list li:hover {
-        color: #ffffff;
-    }*/
+
 
     .header-right {
         float: right;
         height: 64px;
         line-height: 64px;
-     /*   padding: 0em 2em;*/
-   /*     background-color: rgb(0, 0, 0);*/
+
     }
 
     .lang {
         line-height: 64px;
-        background-color: #000000;
+        padding: 0 1.5vw;
     }
 
     .lang li {
         border-bottom-color: transparent;
+        display: block;
         color: rgb(140, 141, 140);
-
-        padding: 0em 2em;
+        background-color: #000000;
+        padding: 0em 1em;
+        height: 48px;
+        line-height: 48px;
+        width: 5rem;
+        text-align: center;
         border-radius: 8px;
         margin-bottom: 0.5em;
         font-size: 0.8em;
+        cursor:pointer;
+        transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s;
+    }
+    .lang li:hover{
+        color: #ffffff;
     }
     @media screen and (max-width: 1280px) and (min-width: 768px){
         .nav_list li {

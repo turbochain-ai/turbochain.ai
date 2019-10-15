@@ -100,13 +100,14 @@
         background: url(./../assets/images/cover.jpg) center no-repeat;
     }
     .main_txt{
-        width:100vw;
+        width:75vw;
         margin: 0 auto;
         text-align: center;
         margin-top: 6rem;
-        .title{
+        margin-bottom: 6rem;
+      /*  .title{
             width: 100vw;
-        }
+        }*/
     }
     .main_middle {
         padding-top: 70px;

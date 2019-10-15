@@ -355,7 +355,7 @@ Vue.use(banner)
         cursor: pointer;
         border-radius: 4px;
         width: 30%;
-        height: 400px;
+        height: 50vh;
         margin: 10px;
         color: #ffffff;
         /* text-align: right;*/

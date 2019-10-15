@@ -105,7 +105,7 @@
 
 .introduce_box .right p {
     font-size: 20px;
-    text-align: justify;
+   /* text-align: justify;*/
 }
 
 .introduce_box .right:before {

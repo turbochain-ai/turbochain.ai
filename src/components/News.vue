@@ -9,20 +9,20 @@
             <a class="news-item" href="http://springislandlove.openserver.cn/" target="_blank">
                 <img class="news-img-item" src="../assets/new_item_01.jpg">
                 <div class="right-cont-con">
-                    <h3 class="right-title">首部基于区块链的大型网络剧《泉岛之恋》先导片发布</h3>
-                    <p class="right-date">2019-06-06</p>
-                    <p class="right-summary">首部基于区块链的大型网络剧，追踪济青两地年轻人创新、创业、情感历程，全面展现新旧动能转换下充满激情与梦想的新山东。</p>
+                    <h3 class="right-title">{{$t("news.itemOne.title")}}</h3>
+                    <p class="right-date">{{$t("news.itemOne.date")}}</p>
+                    <p class="right-summary">{{$t("news.itemOne.summary")}}</p>
                 </div>
-                <span class="right-link" >查看详情>></span>
+                <span class="right-link" >{{$t("news.more")}}</span>
             </a>
             <a class="news-item" href="http://ipex.openserver.cn/" target="_blank">
                 <img class="news-img-item" src="../assets/new_item_02.jpg">
                 <div class="right-cont-con">
-                    <h3 class="right-title">星际数字加密资产交易平台试运营</h3>
-                    <p class="right-date">2019-06-06</p>
-                    <p class="right-summary">turbochain团队打造的星际数字加密资产交易平台已全面试运营。目前支持多个交易币对进行币币交易、法币交易，可满足用户多种交易需求。</p>
+                    <h3 class="right-title">{{$t("news.itemTwo.title")}}</h3>
+                    <p class="right-date">{{$t("news.itemTwo.date")}}</p>
+                    <p class="right-summary">{{$t("news.itemTwo.summary")}}</p>
                 </div>
-                <span class="right-link" >查看详情>></span>
+                <span class="right-link" >{{$t("news.more")}}</span>
             </a>
         </div>
     </div>

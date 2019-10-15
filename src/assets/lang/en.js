@@ -280,5 +280,18 @@ module.exports = {
       introduceTwo: 'Recharge cash withdrawal quick arrival account one-click transaction',
       introduceThree: '7X24 hour trading in multiple digital currencies',
     },
-  }
+  },
+  news: {
+    more: 'details>>',
+    itemOne: {
+        title: 'The first large-scale network drama based on blockchain, "The Love of Spring Island" pilot film released',
+        date: '2019-06-06',
+        summary: 'The first large-scale network drama based on blockchain tracks the innovation, entrepreneurship and emotional journey of young people in Jiqing and Qinghai, and comprehensively demonstrates the new Shandong with passion and dreams under the transformation of old and new kinetic energy.',
+    },
+    itemTwo: {
+        title: 'StarCraft Digital Encryption Asset Trading Platform Trial Operation',
+        date: '2019-06-06',
+        summary: 'The interstellar digital crypto asset trading platform built by the turbochain team has been fully operational. At present, it supports multiple currency pairs for currency transactions and French currency transactions, which can meet various trading needs of users.',
+    }
+    }
 }

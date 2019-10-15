@@ -292,6 +292,23 @@ module.exports = {
         title: 'StarCraft Digital Encryption Asset Trading Platform Trial Operation',
         date: '2019-06-06',
         summary: 'The interstellar digital crypto asset trading platform built by the turbochain team has been fully operational. At present, it supports multiple currency pairs for currency transactions and French currency transactions, which can meet various trading needs of users.',
-    }
-    }
+    },
+    video: {
+      title: 'The first large-scale network drama leader based on blockchain released',
+      subtitle: 'Issuer: turbochain  2019-06-06 17:05:29',
+      textOne: 'In the past two years, blockchain technology has entered the public\'s field of vision with great enthusiasm, and the development momentum is rapid. All walks of life seek to combine with blockchain technology to generate huge commercial value. In 2019, as the first year of blockchain application, the focus of the blockchain industry is the landing of the blockchain and the application direction. In order to comply with the general trend, the film and television industry chain has also joined the era of blockchain application.',
+      textTwo: 'In recent years, China\'s film and television culture industry has developed rapidly. However, behind the prosperity, there are many problems that need to be solved, such as the quality of works, copyright infringement, and opacity of interest distribution. The emergence of blockchain technology makes it possible to solve these problems.',
+      textThree: 'Since the establishment of turbochain, it has been committed to the application of blockchain video applications. Blockchain film and television is a cooperative application platform developed by the turbochain team based on the blockchain as the underlying global film and television industry chain. Blockchain film and television combines blockchain and film and television chain, and utilizes the characteristics of blockchain transaction transparency, decentralization, and transaction tampering to support openness of expenditure, openness of profit, openness of dividends, decentralization of circulation, Decentralization of assets, everyone can participate, change the traditional financing methods, can solve the funding problems of the producers.',
+      textFour: 'After the unremitting efforts and active preparations of all parties, the first large-scale network drama "Love of the Spring Island" based on the blockchain finally met with you.',
+      textFive: '"The Love of Spring Island" as the first large-scale network drama based on blockchain, by tracking the innovation, entrepreneurship and emotional journey of young people in the two places, reflecting the struggle of contemporary youth, showing the beautiful life of contemporary youth, showing the new and old kinetic energy Transforming the new Shandong with passion and dreams.',
+    },
+    exchange: {
+      title: 'StarCraft Digital Encryption Asset Trading Platform Trial Operation',
+      subtitle: 'Issuer: turbochain  2019-06-06 14:08:26',
+      textOne: 'After the operation of no security vulnerabilities and solid technology accumulation, the StarCraft Digital Encryption Asset Trading Platform launched a new trading platform based on blockchain in June 2019, aiming to bring together high-quality blockchain assets around the world to provide trusted users around the world. Digital asset investment opportunities also provide solid support for the application of high-quality blockchain projects.',
+      textTwo: 'The interstellar digital encryption asset trading platform currently supports various current mainstream digital currency transactions such as USDT, ETH, and BTC. It can realize basic exchange functions, wallet transfer and roll-out functions, and so on. After that, the asset trading pairs that have been screened for review will be opened.',
+      textThree: 'The full-interface fast recharge, cash withdrawal, currency replenishment and coin-receiving functions of the inter-satellite digital encryption asset trading platform provide customers with the most convenient means of transferring funds. In-depth operation of safe and reliable price limit and market price trading mode, a variety of trading modes freely combined to fully cover the needs of users, using exclusive advanced algorithms to automatically complete the transaction. The platform\'s proprietary accounting mechanism monitors all users\' funds and multi-dimensional proprietary reports to ensure that the funds are accurate.',
+      textFour: 'StarCraft Digital Encryption Asset Trading Platform\'s proprietary powerful log management provides comprehensive control of system status to ensure system stability and security. The unique free and flexible system configuration and dynamic management of the front-end website bring great convenience to the use of the platform. The platform can trade existing virtual digital currencies already on the market, or use the platform to customize the virtual digital currency of a variety of different algorithms.',
+    },
+  }
 }

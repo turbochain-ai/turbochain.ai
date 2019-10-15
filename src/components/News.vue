@@ -15,7 +15,7 @@
                 </div>
                 <span class="right-link" >{{$t("news.more")}}</span>
             </router-link>
-            <a class="news-item" href="http://ipex.openserver.cn/" target="_blank">
+            <router-link class="news-item" to="/news/exchangeNews" target="_blank">
                 <img class="news-img-item" src="../assets/new_item_02.jpg">
                 <div class="right-cont-con">
                     <h3 class="right-title">{{$t("news.itemTwo.title")}}</h3>
@@ -23,7 +23,7 @@
                     <p class="right-summary">{{$t("news.itemTwo.summary")}}</p>
                 </div>
                 <span class="right-link" >{{$t("news.more")}}</span>
-            </a>
+            </router-link>
         </div>
     </div>
 </template>

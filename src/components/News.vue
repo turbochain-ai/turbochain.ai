@@ -6,7 +6,7 @@
             <p class="title">NEWS</p>
         </div>
         <div class="news-items">
-            <a class="news-item" href="http://springislandlove.openserver.cn/" target="_blank">
+            <router-link class="news-item" to="/news/videoNews" target="_blank">
                 <img class="news-img-item" src="../assets/new_item_01.jpg">
                 <div class="right-cont-con">
                     <h3 class="right-title">{{$t("news.itemOne.title")}}</h3>
@@ -14,7 +14,7 @@
                     <p class="right-summary">{{$t("news.itemOne.summary")}}</p>
                 </div>
                 <span class="right-link" >{{$t("news.more")}}</span>
-            </a>
+            </router-link>
             <a class="news-item" href="http://ipex.openserver.cn/" target="_blank">
                 <img class="news-img-item" src="../assets/new_item_02.jpg">
                 <div class="right-cont-con">

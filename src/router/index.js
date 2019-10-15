@@ -12,6 +12,7 @@ import BlockchainEducation from "../components/BlockchainEducation";
 import BlockchainLogistics from "../components/BlockchainLogistics";
 import BlockchainVideo from "../components/BlockchainVideo";
 import NavigationBar from "../components/NavigationBar";
+import VideoNews from "../news/VideoNews";
 
 Vue.use(Router)
 
@@ -76,5 +77,10 @@ export default [
     path: '/navigationBar',
     name: 'NavigationBar',
     component: NavigationBar
+  },
+  {
+    path: '/news/videoNews',
+    name: 'VideoNews',
+    component: VideoNews
   },
 ];

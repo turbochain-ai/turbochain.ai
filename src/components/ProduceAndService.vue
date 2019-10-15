@@ -75,7 +75,7 @@
             <div class="core-content">
                 <div class="title-wrapper">
                     <h3 class="title">PRODUCT</h3>
-                    <span class="subtitle">{{$t("produceAndService.product")}}}</span>
+                    <span class="subtitle">{{$t("produceAndService.product")}}</span>
                 </div>
                 <div class="core-items-wrapper">
                     <a class="core-item core-item4" href="https://telecomm.io/" target="_blank">
@@ -351,8 +351,8 @@
         margin: 0 auto;
         text-align: center;
         margin-top: 4rem;
-
         .core-item {
+            width: 25%;
             background-repeat: no-repeat;
             background-size: cover;
             margin: 0 auto;

@@ -290,7 +290,7 @@ module.exports = {
     },
     itemTwo: {
         title: 'StarCraft Digital Encryption Asset Trading Platform Trial Operation',
-        date: '2019-06-06',
+        date: '2019-09-30',
         summary: 'The interstellar digital crypto asset trading platform built by the turbochain team has been fully operational. At present, it supports multiple currency pairs for currency transactions and French currency transactions, which can meet various trading needs of users.',
     },
     video: {
@@ -304,7 +304,7 @@ module.exports = {
     },
     exchange: {
       title: 'StarCraft Digital Encryption Asset Trading Platform Trial Operation',
-      subtitle: 'Issuer: turbochain  2019-06-06 14:08:26',
+      subtitle: 'Issuer: turbochain  2019-09-30 14:08:26',
       textOne: 'After the operation of no security vulnerabilities and solid technology accumulation, the StarCraft Digital Encryption Asset Trading Platform launched a new trading platform based on blockchain in June 2019, aiming to bring together high-quality blockchain assets around the world to provide trusted users around the world. Digital asset investment opportunities also provide solid support for the application of high-quality blockchain projects.',
       textTwo: 'The interstellar digital encryption asset trading platform currently supports various current mainstream digital currency transactions such as USDT, ETH, and BTC. It can realize basic exchange functions, wallet transfer and roll-out functions, and so on. After that, the asset trading pairs that have been screened for review will be opened.',
       textThree: 'The full-interface fast recharge, cash withdrawal, currency replenishment and coin-receiving functions of the inter-satellite digital encryption asset trading platform provide customers with the most convenient means of transferring funds. In-depth operation of safe and reliable price limit and market price trading mode, a variety of trading modes freely combined to fully cover the needs of users, using exclusive advanced algorithms to automatically complete the transaction. The platform\'s proprietary accounting mechanism monitors all users\' funds and multi-dimensional proprietary reports to ensure that the funds are accurate.',

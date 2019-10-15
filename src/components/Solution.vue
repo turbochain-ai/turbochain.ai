@@ -48,7 +48,7 @@
     <div class="summarize">
       <div class="title-box">
         <div class="title">TURBOCHAIN</div>
-        <div class="subtitle">{{$t("solution.finance.programOverview")}}</div>
+        <div class="subtitle">{{$t("solution.programOverview")}}</div>
       </div>
       <ul class="list">
         <li class="item">

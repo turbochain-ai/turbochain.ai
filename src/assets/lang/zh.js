@@ -10,6 +10,11 @@ module.exports = {
   },
   solution: {
     financeTitle: '供应链金融解决方案',
+    financeName: '供应链金融',
+    bankName: '银行询证',
+    educationName: '区块链教育',
+    logisticsName: '区块链物流',
+    videoName: '区块链影视',
     finance: {
       content0ne: '供应链金融基于区块链为底层的金融资产服务平台。',
       contentTwo: '将区块链和供应链兼容相结合，利用区块链不可篡改，多方共识账本的特性，将企业赊销行为产生的应收账款转化为可流转、可拆分、可融资的债权凭证（通证）。',

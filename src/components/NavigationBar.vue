@@ -22,31 +22,31 @@
                                     <DropdownItem>
                                         <router-link class="nav_list" to="/solution/supplyChainFinance">
                                             <a v-bind:class="{nav_active1 : 21==menuindex, nav_active2: 21!=menuindex}"
-                                               @click="changeValue(21)">供应链金融</a>
+                                               @click="changeValue(21)">{{$t("solution.financeName")}}</a>
                                         </router-link>
                                     </DropdownItem>
                                     <DropdownItem>
                                         <router-link class="nav_list" to="/solution/bankConfirmation">
                                             <a v-bind:class="{nav_active1 : 22==menuindex, nav_active2: 22!=menuindex}"
-                                               @click="changeValue(22)">银行询证</a>
+                                               @click="changeValue(22)">{{$t("solution.bankName")}}</a>
                                         </router-link>
                                     </DropdownItem>
                                     <DropdownItem>
                                         <router-link class="nav_list" to="/solution/blockchainEducation">
                                             <a v-bind:class="{nav_active1 : 23==menuindex, nav_active2: 23!=menuindex}"
-                                               @click="changeValue(23)">区块链教育</a>
+                                               @click="changeValue(23)">{{$t("solution.educationName")}}</a>
                                         </router-link>
                                     </DropdownItem>
                                     <DropdownItem>
                                         <router-link class="nav_list" to="/solution/blockchainLogistics">
                                             <a v-bind:class="{nav_active1 : 24==menuindex, nav_active2: 24!=menuindex}"
-                                               @click="changeValue(24)">区块链物流</a>
+                                               @click="changeValue(24)">{{$t("solution.logisticsName")}}</a>
                                         </router-link>
                                     </DropdownItem>
                                     <DropdownItem>
                                         <router-link class="nav_list" to="/solution/blockchainVideo">
                                             <a v-bind:class="{nav_active1 : 25==menuindex, nav_active2: 25!=menuindex}"
-                                               @click="changeValue(25)">区块链影视</a>
+                                               @click="changeValue(25)">{{$t("solution.videoName")}}</a>
                                         </router-link>
                                     </DropdownItem>
                                 </DropdownMenu>
@@ -73,7 +73,7 @@
                                         </DropdownItem>
                                         <DropdownItem>
                                             <a v-bind:class="{nav_active1 : 34==menuindex, nav_active2: 34!=menuindex}"
-                                               @click="changeValue(34)">交易所</a>
+                                               @click="changeValue(34)">{{$t("produceAndService.exchange.exchange")}}</a>
                                         </DropdownItem>
                                         <DropdownItem>
                                             <a v-bind:class="{nav_active1 : 35==menuindex, nav_active2: 35!=menuindex}"
@@ -81,11 +81,11 @@
                                         </DropdownItem>
                                         <DropdownItem>
                                             <a v-bind:class="{nav_active1 : 36==menuindex, nav_active2: 36!=menuindex}"
-                                               @click="changeValue(36)">企业数据浏览器</a>
+                                               @click="changeValue(36)">{{$t("produceAndService.enterpriseDataBrowser")}}</a>
                                         </DropdownItem>
                                         <DropdownItem>
                                             <a v-bind:class="{nav_active1 : 37==menuindex, nav_active2: 37!=menuindex}"
-                                               @click="changeValue(37)">影视拍摄</a>
+                                               @click="changeValue(37)">{{$t("produceAndService.filmAndTelevisionShooting")}}</a>
                                         </DropdownItem>
                                     </DropdownMenu>
                                 </Dropdown>
@@ -105,7 +105,7 @@
                         <!--<router-link to="/joinUs">
                             <li v-bind:class="{ nav_active: 6 == menuindex }"  @click="changeValue(6)" >{{$t("header.joinUs")}}</li>
                         </router-link>-->
-                        <li v-bind:class="{ nav_active: 6 == menuindex }">加入我们</li>
+                        <li v-bind:class="{ nav_active: 6 == menuindex }">{{$t("header.joinUs")}}</li>
                         <router-link to="/blockChain">
                             <li v-bind:class="{ nav_active: 7 == menuindex }" @click="changeValue(7)">
                                 {{$t("header.blockChain")}}
@@ -149,23 +149,23 @@
                     <div v-bind:style="{display: isShowSolutionChildMenu}">
                         <router-link class="nav_list" to="/solution/supplyChainFinance">
                             <a v-bind:class="{nav_active1 : 21==menuindex, nav_active2: 21!=menuindex}"
-                               @click="changeValue(21)">供应链金融</a>
+                               @click="changeValue(21)">{{$t("solution.financeName")}}</a>
                         </router-link>
                         <router-link class="nav_list" to="/solution/bankConfirmation">
                             <a v-bind:class="{nav_active1 : 22==menuindex, nav_active2: 22!=menuindex}"
-                               @click="changeValue(22)">银行询证</a>
+                               @click="changeValue(22)">{{$t("solution.bankName")}}</a>
                         </router-link>
                         <router-link class="nav_list" to="/solution/blockchainEducation">
                             <a v-bind:class="{nav_active1 : 23==menuindex, nav_active2: 23!=menuindex}"
-                               @click="changeValue(23)">区块链教育</a>
+                               @click="changeValue(23)">{{$t("solution.educationName")}}</a>
                         </router-link>
                         <router-link class="nav_list" to="/solution/blockchainLogistics">
                             <a v-bind:class="{nav_active1 : 24==menuindex, nav_active2: 24!=menuindex}"
-                               @click="changeValue(24)">区块链物流</a>
+                               @click="changeValue(24)">{{$t("solution.logisticsName")}}</a>
                         </router-link>
                         <router-link class="nav_list" to="/solution/blockchainVideo">
                             <a v-bind:class="{nav_active1 : 25==menuindex, nav_active2: 25!=menuindex}"
-                               @click="changeValue(25)">区块链影视</a>
+                               @click="changeValue(25)">{{$t("solution.videoName")}}</a>
                         </router-link>
                     </div>
                 </a>
@@ -190,7 +190,7 @@
                         </router-link>
                         <router-link class="nav_list" to="/produceAndService">
                             <a v-bind:class="{nav_active1 : 34==menuindex, nav_active2: 34!=menuindex}"
-                               @click="changeValue(34)">交易所</a>
+                               @click="changeValue(34)">{{$t("produceAndService.exchange.exchange")}}</a>
                         </router-link>
                         <router-link class="nav_list" to="/produceAndService">
                             <a v-bind:class="{nav_active1 : 35==menuindex, nav_active2: 35!=menuindex}"
@@ -198,11 +198,11 @@
                         </router-link>
                         <router-link class="nav_list" to="/produceAndService">
                             <a v-bind:class="{nav_active1 : 36==menuindex, nav_active2: 36!=menuindex}"
-                               @click="changeValue(36)">企业数据浏览器</a>
+                               @click="changeValue(36)">{{$t("produceAndService.enterpriseDataBrowser")}}</a>
                         </router-link>
                         <router-link class="nav_list" to="/produceAndService">
                             <a v-bind:class="{nav_active1 : 37==menuindex, nav_active2: 37!=menuindex}"
-                               @click="changeValue(37)">影视拍摄</a>
+                               @click="changeValue(37)">{{$t("produceAndService.filmAndTelevisionShooting")}}</a>
                         </router-link>
                     </div>
                 </a>
@@ -213,7 +213,7 @@
                     <li v-bind:class="{ nav_active: 5 == menuindex }" @click="changeValue(5)">{{$t("header.aboutUs")}}
                     </li>
                 </router-link>
-                <a v-bind:class="{ nav_active: 6 == menuindex }">加入我们</a>
+                <a v-bind:class="{ nav_active: 6 == menuindex }">{{$t("header.joinUs")}}</a>
                 <!--  <router-link>
                       <li v-bind:class="{ nav_active: 6 == menuindex }"  @click="changeValue(6)" >{{$t("header.joinUs")}}</li>
                   </router-link>

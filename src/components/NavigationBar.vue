@@ -125,7 +125,7 @@
                      <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">
                             {{languageValue}}
                          <!--   <Icon type="arrow-down-b"></Icon>-->
-                         <img class="arrow_blue" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
+                         <img class="arrow_blue icon-arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
                               src="@/assets/arrow_down_blue.png">
                      </a>
                         <DropdownMenu slot="list" id="change_language_theme">
@@ -461,9 +461,23 @@
     .chengeL{
         color: #8C8D8C;
     }
+    .chengeL img{
+        transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+    }
     .chengeL:hover{
         color: #ffffff;
     }
+.chengeL:hover img{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+}
+
     .icon-arrow{
         transition: all 0.2s ease-in-out;
         -webkit-transition: all 0.2s ease-in-out;

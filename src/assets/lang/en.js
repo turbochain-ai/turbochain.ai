@@ -97,7 +97,7 @@ module.exports = {
       },
     logistics: {
       content0ne: 'TURBOCHAIN ​​will help millions of people participate in the global sharing economy by redefining global peer-to-peer logistics.',
-      contentTwo: 'We are using blockchain technology to create a decentralized network where users can create requests for local and cross-border delivery services.',
+      contentTwo: 'TURBOCHAIN ​​uses blockchain technology to create a decentralized network where users can create requests for local and cross-border delivery services.',
       contentThree: 'Users can also perform storage and delivery functions for requests on the network to earn additional revenue as a payment for the service.',
       more: 'see more',
       problemOne: 'low efficiency',
@@ -239,7 +239,7 @@ module.exports = {
         contentFour: 'TurboChain forms a complete enterprise blockchain application solution together with corporate finance, capital, sharing, supply chain, settlement and other systems.'
     },
   produceAndService: {
-    content: 'TurboChain is a one-stop blockchain BaaS service platform that provides a comprehensive range of blockchain services including blockchain browsers, blockchain wallets, supply chain finance, and asset custody systems. TurboChain allows blockchain technology to continue to add value to your brand and expand into new business models.',
+    content: 'TurboChain is a one-stop blockchain BaaS service platform that provides a comprehensive range of blockchain services including muleChain, film and television shooting, blockchain browser, blockchain wallet, supply chain finance, and asset custody system. TurboChain allows blockchain technology to continue to add value to your brand and expand into new business models.',
     titleOne: 'High expansion',
     contentOne: 'TurboChain provides a rich API interface and SDK development kit, making it easier for developers to develop blockchain applications.',
     titleTwo: 'High security',

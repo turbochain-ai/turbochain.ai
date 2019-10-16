@@ -97,7 +97,7 @@ module.exports = {
     },
     logistics: {
       content0ne: 'TURBOCHAIN将通过重新定义全球点对点物流来帮助数百万人参与全球共享经济。',
-      contentTwo: ' 我们正在使用区块链技术创建一个去中心化的网络，用户可以在其中创建对本地和跨境交付服务的请求。',
+      contentTwo: 'TURBOCHAIN使用区块链技术创建一个去中心化的网络，用户可以在其中创建对本地和跨境交付服务的请求。',
       contentThree: '用户还可以为网络上的请求执行存储和交付功能，从而获得额外收入作为提供服务的付款。',
       more: '查看更多',
       problemOne: '效率低',
@@ -243,7 +243,7 @@ module.exports = {
     contentFour: 'TurboChain与企业财务、资金、共享、供应链、结算等系统一起构成完整的企业区块链应用解决方案'
   },
   produceAndService: {
-    content: '泰链TurboChain是一站式区块链BaaS服务平台，提供包含区块链浏览器、区块链钱包、供应链金融、资产托管系统等一系列区块链综合服务。泰链TurboChain让区块链技术为您的品牌持续增值，拓展全新业务模式。',
+    content: '泰链TurboChain是一站式区块链BaaS服务平台，提供包含muleChain、影视拍摄、区块链浏览器、区块链钱包、供应链金融、资产托管系统等一系列区块链综合服务。泰链TurboChain让区块链技术为您的品牌持续增值，拓展全新业务模式。',
     titleOne: '高拓展',
     contentOne: 'TurboChain可提供丰富的API接口、SDK开发工具包，让开发者更便捷的开发区块链应用',
     titleTwo: '高安全',

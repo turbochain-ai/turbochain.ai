@@ -99,7 +99,7 @@ module.exports = {
       content0ne: 'TURBOCHAIN ​​will help millions of people participate in the global sharing economy by redefining global peer-to-peer logistics.',
       contentTwo: 'TURBOCHAIN ​​uses blockchain technology to create a decentralized network where users can create requests for local and cross-border delivery services.',
       contentThree: 'Users can also perform storage and delivery functions for requests on the network to earn additional revenue as a payment for the service.',
-      more: 'see more',
+      more: 'more',
       problemOne: 'low efficiency',
       problemIntroOne: 'Traditional point-to-point logistics, due to transportation costs, profits, etc., will be shipped by the whole vehicle, resulting in indefinite delivery time and long transportation time.',
       problemTwo: 'Cargo security cannot be guaranteed',
@@ -282,7 +282,7 @@ module.exports = {
     },
   },
   news: {
-    more: 'details>>',
+    more: 'more >>',
     itemOne: {
         title: 'The first large-scale network drama based on blockchain, "The Love of Spring Island" pilot film released',
         date: '2019-06-06',

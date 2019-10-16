@@ -117,7 +117,8 @@
             </nav>
             <div class="header-right">
                 <ul class="lang">
-                    <Dropdown @on-click="changeLanguage">
+<!--                    <Dropdown @on-click="changeLanguage">-->
+                    <Dropdown trigger="click" @on-click="changeLanguage">
 
 <!--                        <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">-->
 <!--                            简体中文-->
@@ -266,6 +267,9 @@
         created: function() {
             this.init();
         },
+        mounted () {
+            window.addEventListener('scroll', this.scrollToTop)
+        },
         methods: {
             reload() {
                 this.isRouterAlive = false;
@@ -311,8 +315,10 @@
                     this.menuindex = 7;
                 }
             },
+            scrollToTop() {
+                let scrollTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+            },
             changeLanguage(name) {
-
                 if (name == "en") {
                     this.reload();
                     this.$store.commit("setlang", "English");
@@ -323,6 +329,14 @@
                     this.$store.commit("setlang", "简体中文");
                     this.$i18n.locale = "zh";
                 }
+                let top = document.documentElement.scrollTop || document.body.scrollTop;
+                // 实现滚动效果
+                const timeTop = setInterval(() => {
+                    document.body.scrollTop = document.documentElement.scrollTop = top -= 50;
+                    if (top <= 0) {
+                        clearInterval(timeTop);
+                    }
+                }, 10);
             },
             showMenu: function(event) {
                 this.rotate=!this.rotate;

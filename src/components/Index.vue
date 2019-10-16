@@ -269,6 +269,7 @@ Vue.use(banner)
 .main{
     position: relative;
     margin: 0 auto;
+    overflow: hidden;
 }
     .main01 {
         position: relative;
@@ -533,6 +534,9 @@ Vue.use(banner)
             .card-list {
                 width: 100%;
             }
+        }
+        video#bgvid{
+            width: 150vh;
         }
         .main01{
             .main01_right {

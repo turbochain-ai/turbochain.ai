@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <div class="head_img">
-            <a class="" href=""><img src="../assets/homepage_logo.png" style="height: 44px;"></a>
+            <a class="" href=""><img src="../assets/homepage_logo.png"></a>
         </div>
         <div class="header-web">
             <nav class="nav_left">
@@ -537,6 +537,7 @@
 
     .head_img img {
         padding-top: 8px;
+        height: 44px;
     }
 
     .nav {
@@ -575,6 +576,7 @@
         float: right;
         height: 64px;
         line-height: 64px;
+        z-index: 99999;
 
     }
 
@@ -643,6 +645,7 @@
         nav > .nav-item > .dropdown{
             padding-top: 20px;
         }
+
     }
     @media all and (max-width: 1000px) {
 
@@ -655,6 +658,10 @@
             z-index: 99998;
             padding: 0 15px 30px;
         }
+        .head_img img{
+               height: 32px;
+            padding-top: 14px;
+           }
 
     }
     @media all and (min-width: 768px) {

@@ -13,10 +13,11 @@ Vue.use(banner)
             </div>
         </div>
         <div class="main">
+            <video autoplay muted loop poster="../assets/earth.jpg" class="bgvid" id="bgvid">
+            <source src="../assets/earth.mp4" type="video/mp4">
+        </video>
             <div class="main01">
-                <video autoplay muted loop poster="../assets/earth.jpg" class="bgvid" id="bgvid">
-                    <source src="../assets/earth.mp4" type="video/mp4">
-                </video>
+
                 <div class="main01_right">
                     <div class="what-container">
                         <p class="title main-title">WHAT IS TURBOCHAIN</p>
@@ -258,14 +259,17 @@ Vue.use(banner)
         position: absolute;
         right: 0;
         bottom: 0;
-        height: 100%;
-        top: 5%;
-        width: auto;
+       /* height: 100%;*/
+        top: 3%;
+        width: 80vw;
         left: -15%;
         z-index: -100;
         background-size: cover;
     }
-
+.main{
+    position: relative;
+    margin: 0 auto;
+}
     .main01 {
         position: relative;
         overflow: hidden;

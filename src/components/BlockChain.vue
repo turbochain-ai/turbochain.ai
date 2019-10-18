@@ -9,9 +9,9 @@
               <div class="content">
                   <ul>
                       <li>{{$t("blockChain.contentOne")}}</li>
-                      <li>{{$t("blockChain.contentOne")}}</li>
-                      <li>{{$t("blockChain.contentOne")}}</li>
-                      <li>{{$t("blockChain.contentOne")}}</li>
+                      <li>{{$t("blockChain.contentTwo")}}</li>
+                      <li>{{$t("blockChain.contentThree")}}</li>
+                      <li>{{$t("blockChain.contentFour")}}</li>
                   </ul>
               </div>
           </div>

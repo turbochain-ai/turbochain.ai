@@ -277,15 +277,6 @@
                     this.isRouterAlive = true;
                 });
             },
-            changeValue(index){
-
-                this.rotate=!this.rotate;
-                console.log(this.rotate)
-                this.menuindex = index;
-                if (this.isShow == '') {
-                    this.isShow = 'none'
-                }
-            },
             init() {
                 this.$store.commit("initLang");
                 let url = this.$route.path;
@@ -338,6 +329,36 @@
                     }
                 }, 10);
             },
+
+            changeValue(index){
+                this.rotate=!this.rotate;
+                console.log(this.rotate)
+                this.menuindex = index;
+                if (this.isShow == '') {
+                    this.isShow = 'none'
+                }
+                if (31 == index || 32 == index || 33 == index || 34 == index ) {
+                    let position = 1950;
+                    // 实现滚动效果
+                    const timeTop = setInterval(() => {
+                        document.body.scrollTop = document.documentElement.scrollTop = position -= 50;
+                        if (position <= 1950) {
+                            clearInterval(timeTop);
+                        }
+                    }, 10);
+                }
+                if (35 == index || 36 == index || 37 == index) {
+                    let position = 1150;
+                    // 实现滚动效果
+                    const timeTop = setInterval(() => {
+                        document.body.scrollTop = document.documentElement.scrollTop = position -= 50;
+                        if (position <= 1150) {
+                            clearInterval(timeTop);
+                        }
+                    }, 10);
+                }
+            },
+
             showMenu: function(event) {
                 this.rotate=!this.rotate;
                 console.log(this.rotate)

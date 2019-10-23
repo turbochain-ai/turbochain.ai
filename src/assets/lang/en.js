@@ -227,8 +227,8 @@ module.exports = {
   },
   aboutUs: {
     aboutUs: '',
-    introduce: 'Launched in May 2019, the Thai Chain project is dedicated to creating a trusted, distributed business ecosystem that is transparent, collaborative, and cost-effective. Since its inception, Tai Chain has focused on the development of blockchain and artificial intelligence technology, and has now become one of the few blockchain platforms in the world that are used by well-known enterprises in various industries. By providing flexible and secure blockchain infrastructure, enterprise software solutions and development tools combined with hardware and software. The Thai Chain aims to complement each other with partners and developers, and to promote the application of blockchain technology to create a strong and sustainable business ecosystem.',
-    introduceOne: 'At present, Thai Chain has a blockchain professional team, more than half of which are professional blockchain application engineers. It has established branches and offices in many countries and regions, including Beijing, Shanghai, Shenzhen, Chengdu, Jinan, Wuhan, Xinjiang, China. , Singapore, Los Angeles, Japan, Tokyo, and Hong Kong, China. Thai Chain is also at the forefront in the research and development of blockchain technology. It is actively engaged in technical research cooperation on a global scale, and has reached blockchain technology research cooperation with many top academic institutions in the world.'
+    introduce: 'Established in 2019, TurboChain Intelligence focuses on the development of blockchain and artificial intelligence technology, and is committed to creating an enterprise-level blockchain platform that is transparent, collaborative, efficient, and value-sharing, by providing a flexible and secure blockchain infrastructure. Vigorously promote the application of blockchain technology.',
+    introduceOne: 'At present, TurboChain has a professional team of blockchains, and has established branches and offices in many countries and regions, including Beijing, Shanghai, Shenzhen, Chengdu, Jinan, Wuhan, Xinjiang, Singapore, Los Angeles, Tokyo, Japan and Hong Kong, China. . TurboChain actively carries out technical research cooperation on a global scale, and has reached blockchain technology research cooperation relationship with many academic institutions.'
   },
     blockChain: {
         turboChain: 'TurboChain',
@@ -239,7 +239,7 @@ module.exports = {
         contentFour: 'TurboChain forms a complete enterprise blockchain application solution together with corporate finance, capital, sharing, supply chain, settlement and other systems.'
     },
   produceAndService: {
-    content: 'TurboChain is a one-stop blockchain BaaS service platform that provides a comprehensive range of blockchain services including muleChain, film and television shooting, blockchain browser, blockchain wallet, supply chain finance, and asset custody system. TurboChain allows blockchain technology to continue to add value to your brand and expand into new business models.',
+    content: 'TurboChain Smart provides one-stop blockchain products and services, including blockchain browser, blockchain wallet, supply chain finance, bank inquiry, blockchain logistics, blockchain education, blockchain film and television services, etc. , Telecomm, RPA, IOSP, exchanges and other products. Continue to add value to your brand through blockchain technology and expand your new business model.',
     titleOne: 'High expansion',
     contentOne: 'TurboChain provides a rich API interface and SDK development kit, making it easier for developers to develop blockchain applications.',
     titleTwo: 'High security',

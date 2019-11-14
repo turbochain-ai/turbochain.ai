@@ -13,8 +13,8 @@ Vue.use(banner)
             </div>
         </div>
         <div class="main">
-            <video autoplay muted loop poster="../assets/earth.jpg" class="bgvid" id="bgvid">
-            <source src="../assets/earth.mp4" type="video/mp4">
+            <video autoplay muted loop poster="http://media.openserver.cn/turbochain/assets/earth.jpg" class="bgvid" id="bgvid">
+            <source src="http://media.openserver.cn/turbochain/assets/earth.mp4" type="video/mp4">
         </video>
             <div class="main01">
 
@@ -195,19 +195,15 @@ Vue.use(banner)
                 },
                 swiperList: [{
                     id: "0001",
-                    imgUrl: "/assets/banner_turbochain01.png"
+                    imgUrl: "http://media.openserver.cn/turbochain/assets/banner_turbochain01.png"
+               /*     http://media.openserver.cn/image/banner*/
                 }, {
                     id: "0002",
-                    imgUrl: "/assets/banner_turbochain02.png"
+                    imgUrl: "http://media.openserver.cn/turbochain/assets/banner_turbochain02.png"
                 }],
                 timer: null, //定时器
                 mark: 0, //比对图片索引的变量
-                imgArray: [//图片路径
-                    require('../assets/banner_turbochain01.png'),
-                    require('../assets/banner_turbochain01.png'),
-                    require('../assets/banner_turbochain01.png'),
-                    require('../assets/banner_turbochain01.png')
-                ],
+
                 swiperOption: {
                     pagination: '.swiper-pagination',
                     loop: true,
@@ -252,7 +248,7 @@ Vue.use(banner)
     }
 
     .bgvid {
-        background: url("./../assets/earth.mp4") no-repeat center;
+        background: url("http://media.openserver.cn/turbochain/assets/earth.mp4") no-repeat center;
     }
 
     video#bgvid {
@@ -288,14 +284,14 @@ Vue.use(banner)
         }
 
         .img01 {
-            background: url("./../assets/banner_turbochain01.png") no-repeat center;
+            background: url("http://media.openserver.cn/turbochain/assets/banner_turbochain01.png") no-repeat center;
             background-repeat: no-repeat;
             background-position: 50%;
             background-size: cover;
         }
 
         .img02 {
-            background: url("./../assets/banner_turbochain02.png") no-repeat center;
+            background: url("http://media.openserver.cn/turbochain/assets/banner_turbochain02.png") no-repeat center;
             background-repeat: no-repeat;
             background-position: 50%;
             background-size: cover;
@@ -396,40 +392,40 @@ Vue.use(banner)
     }
 
     .card01 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../assets/card01.jpg");
-        /* background: url("./../assets/card01.png") no-repeat center;*/
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card01.jpg");
+        /* background: url("http://media.openserver.cn/turbochain/assets/card01.png") no-repeat center;*/
     }
 
     .card02 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../assets/card02.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card02.jpg");
     }
 
     .card03 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../assets/card03.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card03.jpg");
     }
 
     .card04 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../assets/card04.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card04.jpg");
     }
 
     .card05 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../assets/card05.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card05.jpg");
     }
 
     .card06 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../assets/card06.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card06.jpg");
     }
 
     .card07 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../assets/card07.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card07.jpg");
     }
 
     .card08 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../assets/card08.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card08.jpg");
     }
 
     .card09 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./../assets/card09.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card09.jpg");
     }
 
     .card-title {

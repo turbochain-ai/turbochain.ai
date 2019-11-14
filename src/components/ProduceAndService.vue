@@ -44,28 +44,28 @@
                 </div>
                 <div class="core-items-wrapper">
                     <a class="core-item3 core-item item01" href="https://mulechain.com/" target="_blank">
-                        <img src="../assets/service_mulechain.png" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/service_mulechain.png" alt>
                         <h3 class="core-item-title">mulechain</h3>
                     </a>
                     <a class="core-item3 core-item item02">
-                        <img src="../assets/service_qysj.jpg" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/service_qysj.jpg" alt>
                         <h3 class="core-item-title">{{$t("produceAndService.enterpriseDataBrowser")}}</h3>
                     </a>
                     <a class="core-item3 core-item item03" href="http://springislandlove.openserver.cn/"
                        target="_blank">
-                        <img src="../assets/service_qdzl.jpg" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/service_qdzl.jpg" alt>
                         <h3 class="core-item-title">{{$t("produceAndService.filmAndTelevisionShooting")}}</h3>
                     </a>
                     <a class="core-item3 core-item item04" target="_blank">
-                        <img src="../assets/core_pic1.png" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/core_pic1.png" alt>
                         <h3 class="core-item-title">{{$t("produceAndService.blockChainBrowser")}}</h3>
                     </a>
                     <a class="core-item3 core-item item05">
-                        <img src="../assets/core_pic2.png" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/core_pic2.png" alt>
                         <h3 class="core-item-title">{{$t("produceAndService.blockChainWallet")}}</h3>
                     </a>
                     <a class="core-item3 core-item item06" target="">
-                        <img src="../assets/core_pic3.png" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/core_pic3.png" alt>
                         <h3 class="core-item-title">{{$t("produceAndService.customizedService")}}</h3>
                     </a>
                 </div>
@@ -79,7 +79,7 @@
                 </div>
                 <div class="core-items-wrapper">
                     <a class="core-item core-item4" href="https://telecomm.io/" target="_blank">
-                        <img src="../assets/telecomm_logo.png" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/telecomm_logo.png" alt>
                         <div class="core-item-txt">
                             <h4 class="core-item-title">teleComm</h4>
                             <div class="core-item-content-wrapper">
@@ -91,7 +91,7 @@
                         </div>
                     </a>
                     <a class="core-item core-item4" href="http://rpa.openserver.cn/" target="_blank">
-                        <img src="../assets/rpa_logo.png" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/rpa_logo.png" alt>
                         <div class="core-item-txt">
                             <h4 class="core-item-title">RPA</h4>
                             <div class="core-item-content-wrapper">
@@ -103,7 +103,7 @@
                         </div>
                     </a>
                     <a class="core-item core-item4" target="_blank">
-                        <img src="../assets/core_pic1.png" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/core_pic1.png" alt>
                         <div class="core-item-txt">
                             <h4 class="core-item-title">iOSP</h4>
                             <div class="core-item-content-wrapper">
@@ -115,7 +115,7 @@
                         </div>
                     </a>
                     <a class="core-item core-item4" href="https://ipex.turbochain.ai/" target="_blank">
-                        <img src="../assets/ipexExange_logo.png" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/ipexExange_logo.png" alt>
                         <div class="core-item-txt">
                             <h4 class="core-item-title">{{$t("produceAndService.exchange.exchange")}}</h4>
                             <div class="core-item-content-wrapper">
@@ -247,7 +247,7 @@
     .brief {
         padding: 10vw 0vw;
         /*background-position: center 6.2vw;*/
-        background: url(../assets/brief_bg.jpg) no-repeat;
+        background: url("http://media.openserver.cn/turbochain/assets/brief_bg.jpg") no-repeat;
         background-color: #10131a;
         background-position: center;
 
@@ -333,7 +333,7 @@
         border-radius: 8px;
         background-size: 44.7vw 44.8vw;
         background-color: #fff;
-        background: url("./../assets/brief_pic01.png") no-repeat;
+        background: url("http://media.openserver.cn/turbochain/assets/brief_pic01.png") no-repeat;
         /*     background-image: linear-gradient(to top, rgba(255,255,255,1), rgba(255,255,255,1)),url(./../assets/brief_pic01.png);*/
         background-position: right -1px top;
     }
@@ -362,27 +362,27 @@
         }
 
         .item01 {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./../assets/service_01_bg.jpg");
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://media.openserver.cn/turbochain/assets/service_01_bg.jpg");
         }
 
         .item02 {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./../assets/service_02_bg.jpg");
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://media.openserver.cn/turbochain/assets/service_02_bg.jpg");
         }
 
         .item03 {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./../assets/service_03_bg.jpg");
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://media.openserver.cn/turbochain/assets/service_03_bg.jpg");
         }
 
         .item04 {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./../assets/service_04_bg.jpg");
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://media.openserver.cn/turbochain/assets/service_04_bg.jpg");
         }
 
         .item05 {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./../assets/service_05_bg.jpg");
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://media.openserver.cn/turbochain/assets/service_05_bg.jpg");
         }
 
         .item06 {
-            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("./../assets/service_06_bg.jpg");
+            background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://media.openserver.cn/turbochain/assets/service_06_bg.jpg");
         }
 
         .core-item-title {
@@ -600,7 +600,7 @@
             display: block;
         }
         .brief{
-            background: url("../assets/brief_pic01.png");
+            background: url("http://media.openserver.cn/turbochain/assets/brief_pic01.png");
             background-position: right;
             background-size: cover;
         }

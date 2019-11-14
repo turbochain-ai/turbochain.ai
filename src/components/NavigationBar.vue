@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <div class="head_img">
-            <a class="" href=""><img src="../assets/homepage_logo.png"></a>
+            <a class="" href=""><img src="http://media.openserver.cn/turbochain/assets/homepage_logo.png"></a>
         </div>
         <div class="header-web">
             <nav class="nav_left">
@@ -127,7 +127,7 @@
                             {{languageValue}}
                          <!--   <Icon type="arrow-down-b"></Icon>-->
                          <img class="arrow_blue icon-arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
-                              src="@/assets/arrow_down_blue.png">
+                              src="http://media.openserver.cn/turbochain/assets/arrow_down_blue.png">
                      </a>
                         <DropdownMenu slot="list" id="change_language_theme">
                             <DropdownItem v-if="languageValue=='简体中文'" name="en">English</DropdownItem>
@@ -149,7 +149,7 @@
                    v-bind:class="{ nav_active1 : 21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}">
                     {{$t("header.solution")}} &nbsp;
                     <img class="arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
-                         src="@/assets/arrow_down.png"> <!--<Icon type="ios-arrow-down"></Icon>-->
+                         src="http://media.openserver.cn/turbochain/assets/arrow_down.png"> <!--<Icon type="ios-arrow-down"></Icon>-->
                     <div v-bind:style="{display: isShowSolutionChildMenu}">
                         <router-link class="nav_list" to="/solution/supplyChainFinance">
                             <a v-bind:class="{nav_active1 : 21==menuindex, nav_active2: 21!=menuindex}"
@@ -178,7 +178,7 @@
                     {{$t("header.service")}}&nbsp;
                     <img class="arrow"
                          :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
-                         src="@/assets/arrow_down.png">
+                         src="http://media.openserver.cn/turbochain/assets/arrow_down.png">
                     <div v-bind:style="{display: isShowProduceChildMenu}"><!-- :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"-->
                         <router-link class="nav_list" to="/produceAndService">
                             <a v-bind:class="{nav_active1 : 31==menuindex, nav_active2: 31!=menuindex}"

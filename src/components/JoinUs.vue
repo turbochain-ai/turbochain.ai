@@ -6,8 +6,8 @@
                     <h3 class="main-title">LET'S TURBOCHAIN!</h3>
                     <span class="main-subtitle">加入我们</span>
                 </div>
-                <img src="../assets/let_bg.png" class="let-bg">
-                <img src="../assets/let_img_circle.png" class="let_img_circle">
+                <img src="http://media.openserver.cn/turbochain/assets/let_bg.png" class="let-bg">
+                <img src="http://media.openserver.cn/turbochain/assets/let_img_circle.png" class="let_img_circle">
             </div>
         </div>
         <!--        <div class="why">-->
@@ -670,7 +670,7 @@
                     width: 31.202vw;
                     height: 31.25vw;
                     position: relative;
-                    background: url(../assets/job_item_bg.png) no-repeat;
+                    background: url("http://media.openserver.cn/turbochain/assets/job_item_bg.png") no-repeat;
                     background-position: 0 0;
                     background-size: contain;
                     img {
@@ -687,7 +687,7 @@
                         top: 13.9vw;
                         left: 15.53vw;
                         display: block;
-                        background: url(../assets/turbochain_logo.png) no-repeat;
+                        background: url("http://media.openserver.cn/turbochain/assets/turbochain_logo.png") no-repeat;
                         background-position: 20px;
                         background-size: 90px 12px;
                         background-color: #2b3758;
@@ -731,7 +731,7 @@
                                 display: inline-block;
                                 width: 25px;
                                 height: 25px;
-                                background: url(../assets/job_icon_head.png) no-repeat;
+                                background: url("http://media.openserver.cn/turbochain/assets/job_icon_head.png") no-repeat;
                                 background-position: 50%;
                                 background-size: contain;
                             }

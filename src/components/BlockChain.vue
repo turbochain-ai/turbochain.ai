@@ -63,7 +63,7 @@
 </template>
 
 <script>
-    import cover from "../assets/images/cover.jpg";
+   /* import cover from "../assets/images/cover.jpg";
     import section_bg from "../assets/images/section-bg.jpg";
     export default {
         name: "BlockChain",
@@ -77,7 +77,7 @@
                 }
             }
         }
-    }
+    }*/
 </script>
 
 <style scoped lang="scss">
@@ -97,7 +97,7 @@
         padding-top: 64px;
         overflow: hidden;
         /*background-size: 110%;*/
-        background: url(./../assets/images/cover.jpg) center no-repeat;
+        background: url(http://media.openserver.cn/turbochain/assets/images/cover.jpg) center no-repeat;
     }
     .main_txt{
         width:75vw;

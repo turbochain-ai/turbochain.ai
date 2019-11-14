@@ -13,21 +13,19 @@
       </div>
     </div>
     <div class="location">
-      <img src="../assets/location_bg.png">
+      <img src="http://media.openserver.cn/turbochain/assets/location_bg.png">
      </div>
   </div>
 </template>
 
 <script>
-  import banner_web from "../assets/images/banner_web.jpg";
-
   export default {
     name: "AboutUs",
     data() {
       return {
         bgimage: {
           height: "600px",
-          backgroundImage: "url(" + banner_web + ")",
+          backgroundImage: "url(http://media.openserver.cn/turbochain/assets/images/banner_web.jpg)",
         },
       }
     }
@@ -71,7 +69,7 @@
     margin: 0 auto;*/
 display: flex;
     justify-content: center;
-/*    background:url("../assets/location_bg.png");*/
+/*    background:url("http://media.openserver.cn/turbochain/assets/location_bg.png");*/
     img{
       margin: 0 auto;
       width: 70%;

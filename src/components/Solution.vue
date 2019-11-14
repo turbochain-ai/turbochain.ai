@@ -3,7 +3,7 @@
  <div class="introduce">
       <div class="introduce_box">
         <div class="left">
-            <img  class="Rotation rotation_style"  src="../assets/solution_title_bg.png">
+            <img  class="Rotation rotation_style"  src="http://media.openserver.cn/turbochain/assets/solution_title_bg.png">
             <div class="title">SOLUTION</div>
             <div class="subtitle">{{$t("solution.financeTitle")}}</div>
         </div>
@@ -27,19 +27,19 @@
       </div>
       <div class="content">
         <div class="item">
-          <img src="../assets/demand_pic1.png" alt="" class="img">
+          <img src="http://media.openserver.cn/turbochain/assets/demand_pic1.png" alt="" class="img">
         <!--  <div class="content_text">   </div>-->
           <p class="subtitle">{{$t("solution.finance.problemOne")}}</p>
           <p class="text">{{$t("solution.finance.problemIntroOne")}}</p>
 
         </div>
         <div class="item">
-          <img src="../assets/demand_pic2.png" alt="" class="img">
+          <img src="http://media.openserver.cn/turbochain/assets/demand_pic2.png" alt="" class="img">
           <p class="subtitle">{{$t("solution.finance.problemTwo")}}</p>
           <p class="text">{{$t("solution.finance.problemIntroTwo")}}</p>
         </div>
         <div class="item">
-          <img src="../assets/demand_pic3.png" alt="" class="img">
+          <img src="http://media.openserver.cn/turbochain/assets/demand_pic3.png" alt="" class="img">
           <p class="subtitle">{{$t("solution.finance.problemThree")}}</p>
           <p class="text">{{$t("solution.finance.problemIntroThree")}}</p>
         </div>
@@ -52,15 +52,15 @@
       </div>
       <ul class="list">
         <li class="item">
-          <img src="../assets/advantage_icon_a.png">
+          <img src="http://media.openserver.cn/turbochain/assets/advantage_icon_a.png">
           <p class="message">{{$t("solution.finance.overviewOne")}}</p>
         </li>
         <li class="item">
-          <img src="../assets/advantage_icon_b.png">
+          <img src="http://media.openserver.cn/turbochain/assets/advantage_icon_b.png">
           <p class="message">{{$t("solution.finance.overviewTwo")}}</p>
         </li>
         <li class="item">
-          <img src="../assets/advantage_icon_c.png">
+          <img src="http://media.openserver.cn/turbochain/assets/advantage_icon_c.png">
           <p class="message">{{$t("solution.finance.overviewThree")}}</p>
         </li>
       </ul>
@@ -73,21 +73,21 @@
       <div class="content ">
         <div class="item">
           <div class="subtitle">
-            <img src="../assets/sample_icon.png">
+            <img src="http://media.openserver.cn/turbochain/assets/sample_icon.png">
             <p>{{$t("solution.finance.advantageOne")}}</p>
           </div>
           <p class="text">{{$t("solution.finance.advantageIntroOne")}}</p>
         </div>
         <div class="item border_lr">
           <div class="subtitle">
-          <img src="../assets/sample_icon.png">
+          <img src="http://media.openserver.cn/turbochain/assets/sample_icon.png">
           <p>{{$t("solution.finance.advantageTwo")}}</p>
         </div>
           <p class="text">{{$t("solution.finance.advantageIntroTwo")}}</p>
         </div>
         <div class="item">
           <div class="subtitle">
-            <img src="../assets/sample_icon.png">
+            <img src="http://media.openserver.cn/turbochain/assets/sample_icon.png">
             <p>{{$t("solution.finance.advantageThree")}}</p>
           </div>
           <p class="text">{{$t("solution.finance.advantageIntroThree")}}</p>
@@ -151,7 +151,7 @@
   display: flex;
   height: auto;
   min-height: 100vh;
-  background: url("./../assets/images/Solution_bg.jpg") no-repeat center;
+  background: url("http://media.openserver.cn/turbochain/assets/images/Solution_bg.jpg") no-repeat center;
   position: relative;
   background-size: cover;
     }

@@ -10,7 +10,7 @@
             </div>
             <div class="text">
                 <p class="content-text img_center">
-                <img src="../assets/new_item_02.jpg">
+                <img src="http://media.openserver.cn/turbochain/assets/new_item_02.jpg">
             </p>
                 <p class="content-text">
                     {{$t("news.exchange.textOne")}}
@@ -55,7 +55,7 @@
     .banner {
         background-color: #191d28;
         height: 40vh;
-        background: url("../assets/banner-news.jpg");
+        background: url("http://media.openserver.cn/turbochain/assets/banner-news.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;

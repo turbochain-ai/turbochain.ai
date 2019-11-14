@@ -7,7 +7,7 @@
         </div>
         <div class="news-items">
             <router-link class="news-item" to="/news/exchangeNews">
-            <img class="news-img-item" src="../assets/new_item_02.jpg">
+            <img class="news-img-item" src="http://media.openserver.cn/turbochain/assets/new_item_02.jpg">
             <div class="right-cont-con">
                 <h3 class="right-title">{{$t("news.itemTwo.title")}}</h3>
                 <p class="right-date">{{$t("news.itemTwo.date")}}</p>
@@ -16,7 +16,7 @@
             <span class="right-link" >{{$t("news.more")}}</span>
         </router-link>
             <router-link class="news-item" to="/news/videoNews">
-                <img class="news-img-item" src="../assets/new_item_01.jpg">
+                <img class="news-img-item" src="http://media.openserver.cn/turbochain/assets/new_item_01.jpg">
                 <div class="right-cont-con">
                     <h3 class="right-title">{{$t("news.itemOne.title")}}</h3>
                     <p class="right-date">{{$t("news.itemOne.date")}}</p>
@@ -43,7 +43,7 @@
     .banner {
         background-color: #191d28;
         height: 40vh;
-        background: url("../assets/banner-news.jpg");
+        background: url("http://media.openserver.cn/turbochain/assets/banner-news.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;

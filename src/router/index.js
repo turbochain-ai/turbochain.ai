@@ -14,7 +14,7 @@ import BlockchainVideo from "../components/BlockchainVideo";
 import NavigationBar from "../components/NavigationBar";
 import VideoNews from "../news/VideoNews";
 import ExchangeNews from "../news/ExchangeNews";
-
+import Financing from "../news/Financing";
 Vue.use(Router)
 
 export default [
@@ -89,4 +89,9 @@ export default [
     name: 'ExchangeNews',
     component: ExchangeNews
   },
+  {
+    path: '/news/Financing',
+    name: 'Financing',
+    component: Financing
+  }
 ];

@@ -6,15 +6,24 @@
             <p class="title">NEWS</p>
         </div>
         <div class="news-items">
+            <router-link class="news-item" to="/news/Financing">
+                <img class="news-img-item" src="http://media.openserver.cn/turbochain/assets/Financing_logo.jpg">
+                <div class="right-cont-con">
+                    <h3 class="right-title">{{$t("news.itemThree.title")}}</h3>
+                    <p class="right-date">{{$t("news.itemThree.date")}}</p>
+                    <p class="right-summary">{{$t("news.itemThree.summary")}}</p>
+                </div>
+                <span class="right-link">{{$t("news.more")}}</span>
+            </router-link>
             <router-link class="news-item" to="/news/exchangeNews">
-            <img class="news-img-item" src="http://media.openserver.cn/turbochain/assets/new_item_02.jpg">
-            <div class="right-cont-con">
-                <h3 class="right-title">{{$t("news.itemTwo.title")}}</h3>
-                <p class="right-date">{{$t("news.itemTwo.date")}}</p>
-                <p class="right-summary">{{$t("news.itemTwo.summary")}}</p>
-            </div>
-            <span class="right-link" >{{$t("news.more")}}</span>
-        </router-link>
+                <img class="news-img-item" src="http://media.openserver.cn/turbochain/assets/new_item_02.jpg">
+                <div class="right-cont-con">
+                    <h3 class="right-title">{{$t("news.itemTwo.title")}}</h3>
+                    <p class="right-date">{{$t("news.itemTwo.date")}}</p>
+                    <p class="right-summary">{{$t("news.itemTwo.summary")}}</p>
+                </div>
+                <span class="right-link">{{$t("news.more")}}</span>
+            </router-link>
             <router-link class="news-item" to="/news/videoNews">
                 <img class="news-img-item" src="http://media.openserver.cn/turbochain/assets/new_item_01.jpg">
                 <div class="right-cont-con">
@@ -22,9 +31,8 @@
                     <p class="right-date">{{$t("news.itemOne.date")}}</p>
                     <p class="right-summary">{{$t("news.itemOne.summary")}}</p>
                 </div>
-                <span class="right-link" >{{$t("news.more")}}</span>
+                <span class="right-link">{{$t("news.more")}}</span>
             </router-link>
-
         </div>
     </div>
 </template>
@@ -49,7 +57,7 @@
         background-position: left;
 
         .title {
-            width:1200px;
+            width:85%;
             padding-top: 10vh;
             font-family: 'Oswald_font';
             font-size: 80px;
@@ -59,7 +67,6 @@
 
     .news-items {
         text-align: center;
-
         display: inline-block;
         /*  padding: 0 140px;*/
         position: relative;

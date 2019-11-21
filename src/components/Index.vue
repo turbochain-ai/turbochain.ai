@@ -382,7 +382,7 @@ Vue.use(banner)
     }
 
     .card-list:hover .card-content {
-        background-color: rgba(8, 186, 249, 0.8);
+        background-color: rgba(0, 100, 165, 0.8);
 
     }
 
@@ -392,40 +392,40 @@ Vue.use(banner)
     }
 
     .card01 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card01.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card01.jpg");
         /* background: url("http://media.openserver.cn/turbochain/assets/card01.png") no-repeat center;*/
     }
 
     .card02 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card02.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card02.jpg");
     }
 
     .card03 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card03.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card03.jpg");
     }
 
     .card04 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card04.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card04.jpg");
     }
 
     .card05 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card05.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card05.jpg");
     }
 
     .card06 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card06.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card06.jpg");
     }
 
     .card07 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card07.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card07.jpg");
     }
 
     .card08 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card08.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card08.jpg");
     }
 
     .card09 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("http://media.openserver.cn/turbochain/assets/homepage_card09.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card09.jpg");
     }
 
     .card-title {

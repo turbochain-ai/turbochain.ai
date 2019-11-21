@@ -293,6 +293,20 @@ module.exports = {
         date: '2019-09-30',
         summary: 'The interstellar digital crypto asset trading platform built by the turbochain team has been fully operational. At present, it supports multiple currency pairs for currency transactions and French currency transactions, which can meet various trading needs of users.',
     },
+  itemThree: {
+    title: 'TurboChain Intelligence Completes $5 Million Angel Wheel Financing, PetroChina Kunlun Trust Leads',
+    date: '2019-11-21',
+    summary: 'Blockchain startup TurboChain.ai completed a $5 million angel round of financing in November 2019. This round of financing was led by PetroChina Kunlun Trust.',
+  },
+    Financing: {
+      title: 'TurboChain Intelligence Completes $5 Million Angel Wheel Financing, PetroChina Kunlun Trust Leads',
+      subtitle: 'Issuer: turbochain  2019-11-21 18:31:57',
+      textOne: 'Blockchain startup TurboChain.ai completed a $5 million angel round of financing in November 2019. This round of financing was led by PetroChina Kunlun Trust.',
+      textTwo: 'Established in May 2019, TurboChain Intelligence was founded by “Shandong University Pulian Software Artificial Intelligence and Blockchain Joint Lab”, focusing on technologies such as artificial intelligence, big data, Internet of Things, and blockchain. Create an open and open source enterprise application service platform to provide open, fair, transparent and credible Internet information services for regulatory agencies, audit institutions and the public.',
+      textThree: 'With the advantage of Shandong University in cryptography, high-performance computing, artificial intelligence, network technology, etc., relying on Pulian software for more than 20 years in many large-scale central enterprises informatization construction and government regulatory departments, financial institutions, the world\'s top management consulting companies With the deep accumulation of cooperation experience, the chain letter intelligence chain, enterprise credit chain, financial file chain, message service chain, bill chain and copyright chain developed by the companys self-controllable technology have broad application scenarios.',
+      textFour: 'This round of financing will be used to promote the implementation of the banks letter and chain and the corporate credit chain in two specific projects of partners and customers. With the implementation experience of these two projects, the Thai Chain Intelligent Plan will build a stronger team and land more projects with the support of funds, and start the next round of financing according to the needs of the later business development.',
+      textFive: '',
+    },
     video: {
       title: 'The first large-scale network drama leader based on blockchain released',
       subtitle: 'Issuer: turbochain  2019-06-06 17:05:29',

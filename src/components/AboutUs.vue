@@ -60,7 +60,7 @@
       text-align: justify;
       width: 100%;
       margin-top: 8vw;
-      color: #e3e3e3;
+      color: #f5f5f5;
       line-height: 27px
     }
   }

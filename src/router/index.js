@@ -9,12 +9,30 @@ import News from "../components/News";
 import JoinUs from "../components/JoinUs";
 import BankConfirmation from "../components/BankConfirmation";
 import BlockchainEducation from "../components/BlockchainEducation";
+import creditchain from "../components/creditchain";
 import BlockchainLogistics from "../components/BlockchainLogistics";
 import BlockchainVideo from "../components/BlockchainVideo";
 import NavigationBar from "../components/NavigationBar";
 import VideoNews from "../news/VideoNews";
 import ExchangeNews from "../news/ExchangeNews";
 import Financing from "../news/Financing";
+
+/*const Index = () => import('../components/Index');
+const Solution = () => import('../components/Solution');
+const ProduceAndService = () => import('../components/ProduceAndService');
+const AboutUs = () => import('../components/AboutUs');
+const BlockChain = () => import('../components/BlockChain');
+const News = () => import('../components/News');
+const JoinUs = () => import('../components/JoinUs');
+const BankConfirmation = () => import('../components/BankConfirmation');
+const BlockchainEducation = () => import('../components/BlockchainEducation');
+const BlockchainLogistics = () => import('../components/BlockchainLogistics');
+const BlockchainVideo = () => import('../components/BlockchainVideo');
+const NavigationBar = () => import('../components/NavigationBar');
+const VideoNews = () => import('../news/VideoNews');
+const ExchangeNews = () => import('../news/ExchangeNews');
+const Financing = () => import('../news/Financing');*/
+
 Vue.use(Router)
 
 export default [
@@ -73,6 +91,11 @@ export default [
     path: '/solution/blockchainVideo',
     name: 'BlockchainVideo',
     component: BlockchainVideo
+  },
+  {
+    path: '/solution/creditchain',
+    name: 'creditchain',
+    component: creditchain
   },
   {
     path: '/navigationBar',

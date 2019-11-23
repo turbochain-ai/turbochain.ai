@@ -1,0 +1,756 @@
+@-webkit-keyframes rotation {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+.btn_login{
+    display: block;
+    text-align: center;
+    background: url(http://media.openserver.cn/turbochain/assets/btn_bg.png) no-repeat 50%;
+    line-height: 56px;
+    position: absolute;
+    bottom: -10vh;
+    right: 2vw;
+    color: #fff;
+    width: 197px;
+    height: 56px;
+    cursor: pointer;
+}
+.solution{
+    background-color: #003366;
+    color: white;
+    margin: 0 auto;
+    padding: 0px;
+    margin-top: 0px;
+    width: 100%;
+
+}
+.title_bottomimg{
+    position: absolute;
+    bottom: -12vh;
+    width: 100%;
+}
+.title_topimg{
+    position: absolute;
+    width: 100%;
+    top: 64px;
+}
+.turbochain_introduction{
+     padding: 48px 0;
+     background: url(http://media.openserver.cn/turbochain/assets/images/Solution_bg.jpg) no-repeat 50%;
+     position: relative;
+     background-size: cover;
+ }
+.turbochain_introduction .right{
+    width: 85vw;
+    margin: 0 auto;
+    padding: 4vh 0;
+}
+.Rotation {
+    -webkit-transform: rotate(360deg);
+    animation: rotation 24s linear infinite;
+    -moz-animation: rotation 24s linear infinite;
+    -webkit-animation: rotation 24s linear infinite;
+    -o-animation: rotation 24s linear infinite;
+}
+.rotation_style{
+    position: absolute;
+    width: 110%;
+    margin-top: -30%;
+    margin-left: -5%;
+}
+
+
+.introduce{
+    position: relative;
+    padding-top: 32px;
+}
+.introduce_box {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 12vh;
+    z-index: 999;
+  /*  background: url("http://media.openserver.cn/image/creditchainIMG/top_bg.png") no-repeat top;
+    background-size: 150%;*/
+}
+
+.introduce_box .more {
+    position: absolute;
+    bottom: 10vh;
+    right: 2vw;
+    color: #ffffff;
+    display: block;
+    width: 197px;
+    height: 56px;
+    line-height: 56px;
+}
+
+.introduce_box .more span {
+    display: block;
+    text-align: center;
+}
+
+.introduce_box .more span:after {
+    content: "";
+    display: inline-block;
+    margin-left: 12px;
+    width: 7px;
+    height: 11px;
+    background: url("http://media.openserver.cn/image/creditchainIMG/arrow_right.png") no-repeat center;
+}
+
+.introduce_box .left {
+    width: 50%;
+    position: absolute;
+/*    ! *
+    top: 30vh;
+    left: 10vh;
+    *! */
+    height: 60%;
+   /* ! *
+    background: url("./../../assets/solution_title_bg.png") no-repeat center;
+    *! */
+    background-size: 500px;
+    padding-top: 36vh;
+}
+
+/*.introduce_box .left .title {
+    font-size: 80px;
+    font-family: 'Oswald_font';
+}*/
+.right p{
+    text-align: justify;
+}
+.introduce_box .left .subtitle {
+    font-size: 30px;
+    color: #00ffff;
+    text-align: center;
+    padding-top: 2vh;
+    width: 80%;
+}
+
+.introduce_box .right {
+    width: 410px;
+    position: absolute;
+    right: 0;
+    top: 25vh;
+    padding: 1vh;
+    margin: 0 auto;
+ /*   ! *
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    *!*/
+}
+.right_title01{
+    display: inline-block;
+}
+.title_more{
+    float: right;
+    font-size: 14px;
+    color: #fcaf0b;
+}
+.right .title{
+    display: inline-block;
+}
+.right_title{
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 6px
+}
+.right_content{  font-size: 16px;
+    line-height: 24px;
+   /* margin-bottom: 24px;*/
+}
+.DevelopmentPath{
+    width: 85vw;
+    margin: 0 auto;
+}
+.DevelopmentPath .content{
+    border-left: 1px solid #ffffff;
+    padding: 1vh 0vw 1vh 5vw;
+    font-size: 0.9rem;
+    line-height: 24px;
+    margin-left: 12px;
+}
+.DevelopmentPath .date{
+    color: #ffffff;
+    font-weight: bold;
+    height: 24px;
+    line-height: 24px;
+}
+
+.DevelopmentPath .content .city{
+    color: #fcaf0b;
+}
+.DevelopmentPath .content .details{
+    color: #ccc;
+}
+.DevelopmentPath .content .point{
+    font-weight: bold;
+    color: #fcaf0b;
+}
+/*.DevelopmentPath .left{
+    width: 10vw;
+}
+.DevelopmentPath .right{
+    width: 75vw;
+}*/
+
+/*.introduce_box .right:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    top: -12px;
+    left: 1vh;
+    width: 43px;
+    height: 4px;
+    background-color: #58baf9;
+}*/
+
+.introduce_box .title_bg {
+    position: absolute;
+}
+
+.image_list{
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000000;
+    padding: 2vh 0;
+
+}
+.image_list img{
+    width: 85vw;
+    padding: 4vh 0;
+    margin: 0 auto;
+    display: block;
+}
+.demand{
+    background-color: #ffffff;
+}
+.demand .content{
+    background-color: #eeeeee;
+    display: block;
+}
+.border_b{
+    border-bottom: 2px solid #108ee9;
+}
+.advantage_title{
+    color: #ffaa00;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1vh 0;
+    display: inline-block;
+}
+.advantage_txt{
+    color: #333333;
+    font-size: 0.9rem;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+.title-box{
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    width: 85vw;
+    margin: 0 auto;
+}
+.menu_title{
+    width: 85vw;
+    font-size: 1.1rem;
+    color: #3f3f3f;
+    font-weight: bold;
+
+    padding: 2vh 0;
+    padding-top: 3vh;
+}
+.summarize, .advantage, .demand, .contrast {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    /*margin-top: 15vh;*/
+}
+.progress{
+    width: 100%;
+    background-color: #191d28;
+}
+
+.progress .title-box .advantage_title, .progress .title-box .advantage_txt{
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: 100;
+}
+.progress .title-box ul{
+    border-top: 1px solid rgba(255,255,255,0.5);
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+}
+.progress .title-box ul li{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+.progress_data{
+    height: 32px;
+    line-height: 32px;
+}
+.progress_data .data{
+    color: #fcaf0b;
+    font-weight: bold;
+}
+.progress_data .unit{
+    font-size: 0.8rem;
+ }
+.bag1 {
+    margin: 0 auto;
+    margin-top: 15vh;
+    padding-bottom: 6vh;
+   /* ! *
+    background: url("./../../assets/banner_carbon.191829f.png") no-repeat left;
+    *! */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url("http://media.openserver.cn/image/creditchainIMG/advantage_bg.png");
+    background-position: center;
+    border-radius: 1vh;
+}
+.title {
+    font-size: 2rem;
+    font-family: 'Oswald_font';
+    font-weight: bold;
+    color: #00ffff;
+    text-align: center;
+    margin: 0 auto;
+}
+.title-box .title {
+    font-size: 1.3rem;
+    font-family: 'Oswald_font';
+    font-weight: bold;
+    color: #108ee9;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2vh;
+}
+.subtitle {
+    font-size: 0.9rem;
+    /*width: 85vw;*/
+    margin: 0 auto;
+    padding: 0px;
+    color: #333333;
+    padding-bottom: 3vh;
+    text-align: justify;
+}
+.title-box img{
+    width: 85vw;
+    margin: 0 auto;
+    display: block;
+}
+.solution_title{
+    font-size: 1rem;
+    font-family: 'Oswald_font';
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 auto;
+    padding: 2vh;
+}
+.img{
+    border-radius: 0.3rem;
+    box-shadow: 0px 0px 5px  rgba(0,0,0,0.15);
+}
+.Serial_txt li{
+    width: 85vw;
+    display: flex;
+    padding-bottom: 2vh;
+}
+.Serial_txt li span{
+    width: 4vw;
+    min-width: 4vw;
+    height: 4vw;
+    margin-top: 2px;
+    color: #fcaf0b;
+    font-weight: bold;
+    border: 1px solid #fcaf0b;
+    display: block;
+    text-align: center;
+    margin-right: 2vw;
+ }
+.solution_alliance{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://media.openserver.cn/image/creditchainIMG/advantage_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.solution_subtitle{
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+.submenu{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #108ee9;
+    width: 85vw;
+    padding-top: 3vh;
+}
+.card-container{
+    width: 85vw;
+    margin: 0 auto;
+}
+.card{
+    width: 100%;
+    padding: 1vh 0;
+}
+.card_list{
+    margin: 0 auto;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+}
+.card-title{
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    padding-bottom: 1vh;
+}
+.card-content{
+    padding-top: 1vh;
+}
+.card-content p{
+    text-align: justify;
+    font-size: 0.9rem;
+}
+.content_title{
+    color: #ffaa00;
+    font-weight: bold;
+}
+.card_list01{
+    background-image: linear-gradient(to top, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url("http://media.openserver.cn/image/creditchainIMG/cardBG01.jpg");
+}
+.card_list02{
+    background-image: linear-gradient(to top, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url("http://media.openserver.cn/image/creditchainIMG/cardBG02.jpg");
+}
+.card_list03{
+    background-image: linear-gradient(to top, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url("http://media.openserver.cn/image/creditchainIMG/cardBG03.jpg");
+}
+.subtitle span{
+
+}
+.member_list{
+    color: #333333;
+    width: 85vw;
+    display: block;
+    margin: 0 auto;
+    padding: 8px 0px;
+}
+.member_list ul li{
+    line-height: 40px;
+    display: block;
+    height: 40px;
+    padding: 4px 0px;
+    width: 100%;
+    position: relative;
+}
+.member_list ul li img{
+    height: 36px;
+    width: 36px;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 1px;
+    position: absolute;
+    border: 1px solid #eee;
+ }
+.member_list ul li span{
+    display: block;
+    margin: 0 auto;
+    padding-left: 48px;
+    position: absolute;
+  }
+.advantage .content .subtitle img {
+    width: 3vh;
+    float: left;
+}
+
+.advantage .content .subtitle p {
+    text-align: left;
+    padding-left: 4vh;
+    font-size: 1.2rem;
+}
+
+.advantage .content .border_lr {
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.advantage .title-box {
+    padding-top: 6vh;
+}
+
+.content {
+    display: flex;
+}
+
+.content .subtitle {
+    font-size: 1rem;
+    margin-top: 1vh;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 2vh;
+}
+
+.content .item {
+    width: 85vw;
+    margin: 0 auto;
+}
+
+.content .item img {
+    width: 100%;
+}
+
+.content .item .content_text {
+    background-color: #423a3a;
+    padding-bottom: 2vh;
+    padding: 2vh;
+}
+
+.list {
+    display: flex;
+}
+
+.list .item {
+    width: 28%;
+    display: inline-block;
+    padding: 2.5vh;
+    background-color: #143049;
+    border-radius: 1vh;
+}
+.list .item img {
+    height: 35vh;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+}
+
+.list .item .message {
+    margin-top: 2vh;
+}
+
+.contrast {
+    line-height: 8vh;
+    background-color: #143049;
+    border-radius: 1vh;
+    margin-bottom: 15vh;
+}
+
+.contrast table {
+    width: 100%;
+    padding: 1vh 4vh;
+}
+
+.contrast table th {
+    width: 30%;
+}
+
+.contrast table .border_tb {
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+}
+
+.contrast table td {
+    padding: 2vh 0;
+    line-height: 4vh;
+}
+
+.contrast table p {
+    padding-left: 32px;
+}
+
+
+
+.table_list{
+    color: #333333;
+    width: 85vw;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 3vh;
+    /*background-color: #ffffff;
+    border-radius: 0.3rem;*/
+}
+.table_list td{
+    width: 50%;
+    line-height: 32px;
+    border: 1px solid #eeeeee;
+    background-color: #ffffff;
+}
+
+@media screen and (min-width: 900px) {
+
+    .introduce{
+    display: flex;
+    height: auto;
+    min-height: 100vh;
+    background: url(http://media.openserver.cn/image/creditchainIMG/bg_creditchain.png) no-repeat 50%;
+    position: relative;
+    background-size: cover;
+}
+    .title_bottomimg, .title_topimg{
+        display: none;
+    }
+        .rotation_style {
+            position: absolute;
+            margin-top: -40%;
+           /* width: 60vw;
+            margin: 0 auto;
+            margin-left: 12.5vw;*/
+        }
+    .introduce_box .right{
+        top: 30vh;
+    }
+    .image_list img{
+        width: 1000px;
+    }
+    .subtitle{
+        width: 1000px;
+        font-size: 16px;
+    }
+    .title-box{
+        position: relative;
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .title-box img{
+        width: 1000px;
+
+        /*right: 0px;*/
+    }
+    .title-box .submenu, .title-box .submenu, .card-container, .menu_title, .Serial_txt li, .table_list, .DevelopmentPath, .turbochain_introduction .right, .content .item{
+        width: 1000px;
+    }
+    .card-container{
+        padding-bottom: 5vh;
+    }
+    .Serial_txt li span{
+        height: 24px;
+        width: 24px;
+        min-width: 24px;
+        line-height: 24px;
+        margin-right: 24px;
+    }
+    .solution_title{
+        padding: 32px 0px;
+        font-size: 1.2rem;
+    }
+    .Serial_txt{
+        padding-bottom: 24px;
+    }
+    .solution_subtitle{
+        margin: 0;
+    }
+    .member_list{
+        width: 1000px;
+      }
+    .member_list ul li{
+        width: 48%;
+        display: inline-block;
+        line-height: 20px;
+        font-size: 14px;
+        vertical-align: middle;
+    }
+    .member_list ul li img{
+       /* position: absolute;
+        margin: 0 auto;
+        float: left;*/
+    }
+    .table_list tr{
+        width: 48%;
+    }
+.turbochain_introduction{
+    padding: 48px 0;
+    background: url(http://media.openserver.cn/turbochain/assets/images/Solution_bg.jpg) no-repeat 50%;
+position: relative;
+background-size: cover;
+}
+    .right_title{
+        padding-bottom: 24px;
+    }
+    .right_content{
+        line-height: 28px;
+    }
+
+}
+@media screen and (max-width: 900px) {
+/*    .rotation_style {
+        position: absolute;
+        width: 60vw;
+        margin: 0 auto;
+        margin-top: -30%;
+        margin-left: 12.5vw;
+
+    }
+
+    .title_bottomimg, .title_topimg{
+        display: none;
+    }*/
+
+    .btn_login{
+        display: none;
+    }
+    .summarize .list {
+        display: block;
+    }
+
+    .summarize .list .item {
+        width: 80vw;
+        padding: 0 2.5vw;
+        margin-bottom: 4vh;
+    }
+
+    .summarize .list .item .message {
+        width: 90%;
+        margin-bottom: 4vh;
+    }
+
+    .advantage .content .border_lr {
+        border: none;
+    }
+
+    .content {
+        margin: 0 auto;
+        display: block;
+
+    }
+
+    .content .item {
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+
+    .introduce .introduce_box {
+        width: auto;
+    }
+
+    .introduce .introduce_box .left {
+        width: 85vw;
+        position: relative;
+        margin: 0 auto;
+        padding-top: 20vh;
+        height: auto;
+
+    }
+
+  /*  .introduce .introduce_box .left .title {
+        text-align: left;
+    }
+
+    .introduce .introduce_box .left .subtitle {
+        text-align: left;
+    }
+*/
+    .introduce .right {
+        width: 85vw;
+        top: 12vh;
+        position: relative;
+        padding-bottom: 3vh;
+    }
+}

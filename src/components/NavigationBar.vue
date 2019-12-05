@@ -14,7 +14,7 @@
                         </router-link>
                         <li>
                             <Dropdown style="z-index: 9999;position: relative" class="other">
-                                <a v-bind:class="{ nav_active1 : 20 == menuindex ||21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 20 != menuindex &&21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}"
+                                <a v-bind:class="{ nav_active1 : menuindex.toString().startsWith(2), nav_active2: !menuindex.toString().startsWith(2)}"
                                    href="javascript:void(0)">{{$t("header.solution")}} &nbsp;
                                     <img class="icon-arrow" src="../assets/arrow_down.png">
                                 </a>
@@ -31,7 +31,7 @@
                         <li>
                             <router-link to="/produceAndService">
                                 <Dropdown style="z-index: 9999;position: relative" class="other">
-                                    <a v-bind:class="{ nav_active1 : 31 == menuindex || 32 == menuindex || 33 == menuindex || 34 == menuindex || 35 == menuindex || 36 == menuindex || 37 == menuindex, nav_active2: 31 != menuindex && 32 != menuindex && 33 != menuindex && 34 != menuindex && 35 != menuindex && 36 != menuindex && 37 != menuindex}"
+                                    <a v-bind:class="{ nav_active1 : menuindex.toString().startsWith(3), nav_active2: !menuindex.toString().startsWith(3)}"
                                        href="javascript:void(0)">{{$t("header.service")}}&nbsp;<img class="icon-arrow"
                                                                                                     src="../assets/arrow_down.png"></a>
                                     <DropdownMenu class="menu_list02" slot="list">
@@ -90,7 +90,7 @@
                     <li v-bind:class="{ nav_active: 1 == menuindex }" @click="changeValue(1)">{{$t("header.home")}}</li>
                 </router-link>
                 <a class="nac_list02" @click="showSolutionChildMenu"
-                   v-bind:class="{ nav_active1 : 20 == menuindex || 21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 20 != menuindex && 21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}">
+                   v-bind:class="{ nav_active1 : menuindex.toString().startsWith(2), nav_active2: !menuindex.toString().startsWith(2)}">
                     {{$t("header.solution")}} &nbsp;
                     <img class="arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
                          src="http://media.openserver.cn/turbochain/assets/arrow_down.png">
@@ -102,7 +102,7 @@
                     </div>
                 </a>
                 <a class="nac_list02" @click="showProduceChildMenu"
-                   v-bind:class="{ nav_active1 : 31 == menuindex || 32 == menuindex || 33 == menuindex || 34 == menuindex || 35 == menuindex || 36 == menuindex || 37 == menuindex, nav_active2: 31 != menuindex && 32 != menuindex && 33 != menuindex && 34 != menuindex && 35 != menuindex && 36 != menuindex && 37 != menuindex}">
+                   v-bind:class="{ nav_active1 : menuindex.toString().startsWith(3), nav_active2: !menuindex.toString().startsWith(3)}">
                     {{$t("header.service")}}&nbsp;
                     <img class="arrow" :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
                          src="http://media.openserver.cn/turbochain/assets/arrow_down.png">

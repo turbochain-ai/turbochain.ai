@@ -10,6 +10,7 @@ module.exports = {
   },
   solution: {
     financeTitle: 'Supply chain finance solutions',
+    creditchainName: 'Enterprise credit chain',
     financeName: 'Supply chain finance',
     bankName: 'Bank inquiry',
     educationName: 'Blockchain education',
@@ -454,6 +455,10 @@ module.exports = {
         contentFour: 'TurboChain forms a complete enterprise blockchain application solution together with corporate finance, capital, sharing, supply chain, settlement and other systems.'
     },
   produceAndService: {
+    teleCommName: 'teleComm',
+    RPAName: 'RPA',
+    iOSPName: 'iOSP',
+    mulechainName: 'mulechain',
     content: 'TurboChain Smart provides one-stop blockchain products and services, including blockchain browser, blockchain wallet, supply chain finance, bank inquiry, blockchain logistics, blockchain education, blockchain film and television services, etc. , Telecomm, RPA, IOSP, exchanges and other products. Continue to add value to your brand through blockchain technology and expand your new business model.',
     titleOne: 'High expansion',
     contentOne: 'TurboChain provides a rich API interface and SDK development kit, making it easier for developers to develop blockchain applications.',

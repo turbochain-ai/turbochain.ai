@@ -23,16 +23,24 @@
     name: "AboutUs",
     data() {
       return {
-        bgimage: {
+       /* bgimage: {
           height: "600px",
           backgroundImage: "url(http://media.openserver.cn/turbochain/assets/images/banner_web.jpg)",
-        },
+
+        },*/
       }
     }
   }
 </script>
 
 <style scoped lang="scss">
+  .main_page{
+    padding: 15vh 0;
+    background-repeat: no-repeat;
+    background-color: #1c1e2d;
+   /* height: 600px;*/
+    background-image: url(http://media.openserver.cn/turbochain/assets/images/banner_web.jpg);
+  }
   .location{
     background-color:#191d28;
   }
@@ -73,6 +81,7 @@ display: flex;
     img{
       margin: 0 auto;
       width: 70%;
+      padding: 5vh 0;
     }
   }
   @font-face {
@@ -100,6 +109,11 @@ display: flex;
       .content{
         margin-top: 100px;
       }
+    }
+  }
+  @media screen and (max-width: 900px) {
+    .location img {
+      width: 100%;
     }
   }
 </style>

@@ -103,14 +103,11 @@
                         </div>
                     </a>
                     <a class="core-item core-item4" target="_blank">
-                        <img src="http://media.openserver.cn/turbochain/assets/core_pic1.png" alt>
+                        <img src="http://media.openserver.cn/turbochain/assets/iOSP.png" alt>
                         <div class="core-item-txt">
                             <h4 class="core-item-title">iOSP</h4>
                             <div class="core-item-content-wrapper">
                                 <p class="core-item-content">{{$t("produceAndService.iOSP.introduceOne")}}</p>
-                                <!--                                <p class="core-item-content">实时查看在线节点数量</p>-->
-                                <!--                                <p class="core-item-content">在线解析交易数据</p>-->
-                                <!--                                <p class="core-item-content">广播交易</p>-->
                             </div>
                         </div>
                     </a>

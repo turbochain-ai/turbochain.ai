@@ -20,6 +20,12 @@
                                     <!--<Icon type="ios-arrow-down"></Icon>-->
                                 </a>
                                 <DropdownMenu class="menu_list02" slot="list">
+                                  <!--  <DropdownItem>
+                                        <router-link class="nav_list" to="/solution/creditchain">
+                                            <a v-bind:class="{nav_active1 : 20==menuindex, nav_active2: 20!=menuindex}"
+                                               @click="changeValue(20)">{{$t("solution.creditchainName")}}</a>
+                                        </router-link>
+                                    </DropdownItem> -->
                                     <DropdownItem>
                                     <router-link class="nav_list" to="/solution/creditchain">
                                         <a v-bind:class="{nav_active1 : 20==menuindex, nav_active2: 20!=menuindex}"
@@ -123,18 +129,19 @@
             </nav>
             <div class="header-right">
                 <ul class="lang">
-<!--                    <Dropdown @on-click="changeLanguage">-->
+                    <!--                    <Dropdown @on-click="changeLanguage">-->
                     <Dropdown trigger="click" @on-click="changeLanguage">
 
-<!--                        <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">-->
-<!--                            简体中文-->
-<!--                        </a>-->
-                     <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">
+                        <!--                        <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">-->
+                        <!--                            简体中文-->
+                        <!--                        </a>-->
+                        <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">
                             {{languageValue}}
-                         <!--   <Icon type="arrow-down-b"></Icon>-->
-                         <img class="arrow_blue icon-arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
-                              src="http://media.openserver.cn/turbochain/assets/arrow_down_blue.png">
-                     </a>
+                            <!--   <Icon type="arrow-down-b"></Icon>-->
+                            <img class="arrow_blue icon-arrow"
+                                 :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
+                                 src="http://media.openserver.cn/turbochain/assets/arrow_down_blue.png">
+                        </a>
                         <DropdownMenu slot="list" id="change_language_theme">
                             <DropdownItem v-if="languageValue=='简体中文'" name="en">English</DropdownItem>
                             <DropdownItem v-else name="cn">简体中文</DropdownItem>
@@ -155,7 +162,8 @@
                    v-bind:class="{ nav_active1 : 20 == menuindex || 21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 20 != menuindex && 21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}">
                     {{$t("header.solution")}} &nbsp;
                     <img class="arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
-                         src="http://media.openserver.cn/turbochain/assets/arrow_down.png"> <!--<Icon type="ios-arrow-down"></Icon>-->
+                         src="http://media.openserver.cn/turbochain/assets/arrow_down.png">
+                    <!--<Icon type="ios-arrow-down"></Icon>-->
                     <div v-bind:style="{display: isShowSolutionChildMenu}">
                         <router-link class="nav_list" to="/solution/creditchain">
                             <a v-bind:class="{nav_active1 : 20==menuindex, nav_active2: 20!=menuindex}"
@@ -189,7 +197,8 @@
                     <img class="arrow"
                          :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
                          src="http://media.openserver.cn/turbochain/assets/arrow_down.png">
-                    <div v-bind:style="{display: isShowProduceChildMenu}"><!-- :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"-->
+                    <div v-bind:style="{display: isShowProduceChildMenu}">
+                        <!-- :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"-->
                         <router-link class="nav_list" to="/produceAndService">
                             <a v-bind:class="{nav_active1 : 31==menuindex, nav_active2: 31!=menuindex}"
                                @click="changeValue(31)">teleComm</a>
@@ -244,7 +253,7 @@
 
 <script>
 
-   /* import 'iview/dist/styles/iview.css'*/
+    /* import 'iview/dist/styles/iview.css'*/
     export default {
         name: "NavigationBar",
         provide() {
@@ -255,29 +264,29 @@
         data() {
             return {
                 isRouterAlive: true,
-                menuindex:1,
+                menuindex: 1,
                 isShow: 'none',
 
                 isShowSolutionChildMenu: 'none',
                 isShowProduceChildMenu: 'none',
 
                 isShowTwoMenu: 'none',
-                rotate:false
+                rotate: false
 
             }
         },
         computed: {
-            languageValue: function() {
+            languageValue: function () {
 
                 let curlang = this.$store.getters.lang;
                 if (curlang == "English") this.$i18n.locale = "en";
                 return curlang;
             },
         },
-        created: function() {
+        created: function () {
             this.init();
         },
-        mounted () {
+        mounted() {
             window.addEventListener('scroll', this.scrollToTop)
         },
         methods: {
@@ -293,7 +302,7 @@
                 if (url.indexOf("index") != -1) {
                     this.menuindex = 1;
                 } else if (url.indexOf("solution") != -1) {
-                           if (url.indexOf("creditChain") != -1) {
+                    if (url.indexOf("creditChain") != -1) {
                         this.menuindex = 20;
                     } else if (url.indexOf("supplyChainFinance") != -1) {
                         this.menuindex = 21;
@@ -303,7 +312,7 @@
                         this.menuindex = 23;
                     } else if (url.indexOf("blockchainLogistics") != -1) {
                         this.menuindex = 24;
-                    } else if (url.indexOf("blockchainVideo") != -1){
+                    } else if (url.indexOf("blockchainVideo") != -1) {
                         this.menuindex = 25;
                     }
                 } else if (url.indexOf("produceAndService") != -1) {
@@ -342,14 +351,14 @@
                 }, 10);
             },
 
-            changeValue(index){
-                this.rotate=!this.rotate;
+            changeValue(index) {
+                this.rotate = !this.rotate;
                 console.log(this.rotate)
                 this.menuindex = index;
                 if (this.isShow == '') {
                     this.isShow = 'none'
                 }
-                if (31 == index || 32 == index || 33 == index || 34 == index ) {
+                if (31 == index || 32 == index || 33 == index || 34 == index) {
                     let position = 1950;
                     // 实现滚动效果
                     const timeTop = setInterval(() => {
@@ -371,8 +380,8 @@
                 }
             },
 
-            showMenu: function(event) {
-                this.rotate=!this.rotate;
+            showMenu: function (event) {
+                this.rotate = !this.rotate;
                 console.log(this.rotate)
 
                 let el1 = event.currentTarget;
@@ -390,9 +399,9 @@
                 }
             },
             showSolutionChildMenu() {
-                this.rotate_arrow=!this.rotate_arrow;
+                this.rotate_arrow = !this.rotate_arrow;
                 console.log(this.rotate_arrow);
-                console.log('this.isShowSolutionChildMenu: ',this.isShowSolutionChildMenu);
+                console.log('this.isShowSolutionChildMenu: ', this.isShowSolutionChildMenu);
                 if (this.isShow == '') {
                     if (this.isShowSolutionChildMenu == '') {
                         this.isShowSolutionChildMenu = 'none'
@@ -404,9 +413,9 @@
                 }
             },
             showProduceChildMenu() {
-                this.rotate_arrow02=!this.rotate_arrow02;
+                this.rotate_arrow02 = !this.rotate_arrow02;
                 console.log(this.rotate_arrow02)
-                console.log('this.isShowProduceChildMenu: ',this.isShowProduceChildMenu);
+                console.log('this.isShowProduceChildMenu: ', this.isShowProduceChildMenu);
                 if (this.isShow == '') {
                     if (this.isShowProduceChildMenu == '') {
                         this.isShowProduceChildMenu = 'none'
@@ -423,63 +432,72 @@
 <!--<style src="./../assets/css/iview.css" scoped>
 </style>-->
 <style scoped lang="scss">
-.arrow_blue{
-    margin-left:6px;
-}
-    .phone {
-        width: 150px;
-        margin-top:10px;
-        margin-left:20px;
+    .arrow_blue {
+        margin-left: 6px;
     }
 
-    .aa{
+    .phone {
+        width: 150px;
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+
+    .aa {
         transition: all 0.5s;
     }
-    .go{
-        transform:rotate(-90deg);
+
+    .go {
+        transform: rotate(-90deg);
         transition: all 0.5s;
     }
-    .arrow{
+
+    .arrow {
         display: inline-block;
         float: right;
         margin-top: 3vh;
         margin-right: 4vw;
     }
-    .arrow_up{
+
+    .arrow_up {
         transition: all 0.5s;
 
     }
-    .arrow_down{
-        transform:rotate(-180deg);
+
+    .arrow_down {
+        transform: rotate(-180deg);
         transition: all 0.5s;
 
     }
-    .nac_list02{
+
+    .nac_list02 {
         display: inline-block;
         width: 100%;
     }
-.nav_phone{
-    display: none;
-    position: absolute;
-    width: 90vw;
-    background-color: #000;
-    height: 100vh;
-    margin: 0 auto;
-    margin-left: -5vw;
-    margin-top: 64px;
-    line-height: 8vh;
-    padding: 5vw;
-    a{
-        color: #ffffff;
-    }
-}
 
-    .nav-btn{
+    .nav_phone {
+        display: none;
+        position: absolute;
+        width: 90vw;
+        background-color: #000;
+        height: 100vh;
+        margin: 0 auto;
+        margin-left: -5vw;
+        margin-top: 64px;
+        line-height: 8vh;
+        padding: 5vw;
+
+        a {
+            color: #ffffff;
+        }
+    }
+
+    .nav-btn {
         display: none;
     }
-    .menu_list02{
+
+    .menu_list02 {
         float: none;
-      /*  width: 10vw;*/
+        /*  width: 10vw;*/
         position: absolute;
         margin-left: -5vw;
         top: 0px;
@@ -488,8 +506,9 @@
         -moz-transition: 0.5s;
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
-        background-color: rgba(0,0,0,0.9);
-        .nav_list{
+        background-color: rgba(0, 0, 0, 0.9);
+
+        .nav_list {
             color: #ffffff;
             display: block;
             /*
@@ -498,39 +517,46 @@
                 line-height: 4vh;*/
         }
     }
+
     .nav_list .nav_active {
         border-bottom: 2px solid #fff;
         color: #ffffff;
     }
+
     .nav_list .nav_active1 {
         color: white;
     }
-    .chengeL{
+
+    .chengeL {
         color: #8C8D8C;
     }
-    .chengeL img{
+
+    .chengeL img {
         transition: all 0.2s ease-in-out;
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
     }
-    .chengeL:hover{
+
+    .chengeL:hover {
         color: #ffffff;
     }
-.chengeL:hover img{
-    transform: rotate(180deg);
-    -webkit-transform: rotate(180deg);
-    -moz-transform: rotate(180deg);
-    -o-transform: rotate(180deg);
-    -ms-transform: rotate(180deg);
-}
 
-    .icon-arrow{
+    .chengeL:hover img {
+        transform: rotate(180deg);
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        -o-transform: rotate(180deg);
+        -ms-transform: rotate(180deg);
+    }
+
+    .icon-arrow {
         transition: all 0.2s ease-in-out;
         -webkit-transition: all 0.2s ease-in-out;
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
     }
+
     .other:hover .icon-arrow {
         transform: rotate(180deg);
         -webkit-transform: rotate(180deg);
@@ -538,10 +564,12 @@
         -o-transform: rotate(180deg);
         -ms-transform: rotate(180deg);
     }
+
     .nav_list .nav_active2 {
         color: #8C8D8C;
         display: block;
     }
+
     a {
         text-decoration: none;
     }
@@ -561,9 +589,11 @@
         background-color: #000;
         display: block;
     }
-    .ivu-dropdown-item{
+
+    .ivu-dropdown-item {
         width: 10vw;
     }
+
     .header {
         width: 100vw;
         height: 64px;
@@ -605,7 +635,7 @@
         background-color: #000000;
         display: inline-block;
         color: #8C8D8C;
-        font-size:14px;
+        font-size: 14px;
         padding: 0vw 1.5625vw;
         height: 62px;
         line-height: 62px;
@@ -614,6 +644,7 @@
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
     }
+
     .nav_list a:hover {
         color: #ffffff;
     }
@@ -645,55 +676,61 @@
         border-radius: 8px;
         margin-bottom: 0.5em;
         font-size: 0.8em;
-        cursor:pointer;
+        cursor: pointer;
         transition: 0.5s;
         -moz-transition: 0.5s;
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
     }
-    .lang li:hover{
+
+    .lang li:hover {
         color: #ffffff;
     }
-    @media screen and (max-width: 1280px) and (min-width: 768px){
+
+    @media screen and (max-width: 1280px) and (min-width: 768px) {
         .nav_list li {
-            font-size:1vw;
+            font-size: 1vw;
         }
 
     }
+
     @media screen and (min-width: 1100px) {
-        .nav_left{
+        .nav_left {
             display: inline-block;
         }
     }
+
     @media screen and (max-width: 1100px) {
-       .nav_left{
-              display: none;
-          }
-        .nav_phone{
+        .nav_left {
+            display: none;
+        }
+        .nav_phone {
             display: block;
         }
         .nav-btn {
-              display: inline-block;
-              position: fixed;
-              top: 15px;
-              right: 15px;
-              z-index: 99999;
-              padding: 5px 5px 3px;
-              cursor: pointer;
-          }
-        .header-right{
+            display: inline-block;
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            z-index: 99999;
+            padding: 5px 5px 3px;
+            cursor: pointer;
+        }
+        .header-right {
             position: fixed;
             right: 48px;
             margin-right: 4vw;
             text-align: right;
         }
     }
+
     @media all and (min-width: 900px) {
-        nav > .nav-item > .dropdown{
+        nav > .nav-item > .dropdown {
             padding-top: 20px;
         }
 
     }
+
     @media all and (max-width: 1000px) {
 
         nav {
@@ -705,12 +742,13 @@
             z-index: 99998;
             padding: 0 15px 30px;
         }
-        .head_img img{
-               height: 32px;
+        .head_img img {
+            height: 32px;
             padding-top: 14px;
-           }
+        }
 
     }
+
     @media all and (min-width: 768px) {
         nav > .nav-item > .dropdown {
             padding-top: 20px;

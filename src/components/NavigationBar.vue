@@ -157,10 +157,10 @@
                     {path: "/solution/blockchainVideo", num: 25, name: "solution.videoName"},
 
 
-                    {path: "/solution/billchain", num: 26, name: "solution.billchainName"},
+              /*      {path: "/solution/billchain", num: 26, name: "solution.billchainName"},
                     {path: "/solution/crchain", num: 27, name: "solution.crchainName"},
                     {path: "/solution/Gis", num: 28, name: "solution.GisName"},
-                    {path: "/solution/fachain", num: 29, name: "solution.fachainName"}
+                    {path: "/solution/fachain", num: 29, name: "solution.fachainName"}*/
                 ],
                 productList: [
                     {num: 31, name: "produceAndService.teleCommName"},

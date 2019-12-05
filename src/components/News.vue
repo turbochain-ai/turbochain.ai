@@ -6,6 +6,15 @@
             <p class="title">NEWS</p>
         </div>
         <div class="news-items">
+            <router-link class="news-item" to="/news/Sansec">
+            <img class="news-img-item" src="http://media.openserver.cn/turbochain/assets/news_Sansec_logo.jpg">
+            <div class="right-cont-con">
+                <h3 class="right-title">{{$t("news.itemFour.title")}}</h3>
+                <p class="right-date">{{$t("news.itemFour.date")}}</p>
+                <p class="right-summary">{{$t("news.itemFour.summary")}}</p>
+            </div>
+            <span class="right-link">{{$t("news.more")}}</span>
+        </router-link>
             <router-link class="news-item" to="/news/Financing">
                 <img class="news-img-item" src="http://media.openserver.cn/turbochain/assets/Financing_logo.jpg">
                 <div class="right-cont-con">

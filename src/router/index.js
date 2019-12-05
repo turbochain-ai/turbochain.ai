@@ -23,6 +23,7 @@ import NavigationBar from "../components/NavigationBar";
 import VideoNews from "../news/VideoNews";
 import ExchangeNews from "../news/ExchangeNews";
 import Financing from "../news/Financing";
+import Sansec from "../news/Sansec";
 
 Vue.use(Router)
 
@@ -125,6 +126,11 @@ export default [
     path: '/navigationBar',
     name: 'NavigationBar',
     component: NavigationBar
+  },
+  {
+    path: '/news/Sansec',
+    name: 'Sansec',
+    component: Sansec
   },
   {
     path: '/news/videoNews',

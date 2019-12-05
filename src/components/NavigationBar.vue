@@ -17,43 +17,12 @@
                                 <a v-bind:class="{ nav_active1 : 20 == menuindex ||21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 20 != menuindex &&21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}"
                                    href="javascript:void(0)">{{$t("header.solution")}} &nbsp;
                                     <img class="icon-arrow" src="../assets/arrow_down.png">
-                                    <!--<Icon type="ios-arrow-down"></Icon>-->
                                 </a>
                                 <DropdownMenu class="menu_list02" slot="list">
-                                    <DropdownItem>
-                                    <router-link class="nav_list" to="/solution/creditchain">
-                                        <a v-bind:class="{nav_active1 : 20==menuindex, nav_active2: 20!=menuindex}"
-                                           @click="changeValue(20)">{{$t("solution.creditchainName")}}</a>
-                                    </router-link>
-                                </DropdownItem>
-                                    <DropdownItem>
-                                        <router-link class="nav_list" to="/solution/supplyChainFinance">
-                                            <a v-bind:class="{nav_active1 : 21==menuindex, nav_active2: 21!=menuindex}"
-                                               @click="changeValue(21)">{{$t("solution.financeName")}}</a>
-                                        </router-link>
-                                    </DropdownItem>
-                                    <DropdownItem>
-                                        <router-link class="nav_list" to="/solution/bankConfirmation">
-                                            <a v-bind:class="{nav_active1 : 22==menuindex, nav_active2: 22!=menuindex}"
-                                               @click="changeValue(22)">{{$t("solution.bankName")}}</a>
-                                        </router-link>
-                                    </DropdownItem>
-                                    <DropdownItem>
-                                        <router-link class="nav_list" to="/solution/blockchainEducation">
-                                            <a v-bind:class="{nav_active1 : 23==menuindex, nav_active2: 23!=menuindex}"
-                                               @click="changeValue(23)">{{$t("solution.educationName")}}</a>
-                                        </router-link>
-                                    </DropdownItem>
-                                    <DropdownItem>
-                                        <router-link class="nav_list" to="/solution/blockchainLogistics">
-                                            <a v-bind:class="{nav_active1 : 24==menuindex, nav_active2: 24!=menuindex}"
-                                               @click="changeValue(24)">{{$t("solution.logisticsName")}}</a>
-                                        </router-link>
-                                    </DropdownItem>
-                                    <DropdownItem>
-                                        <router-link class="nav_list" to="/solution/blockchainVideo">
-                                            <a v-bind:class="{nav_active1 : 25==menuindex, nav_active2: 25!=menuindex}"
-                                               @click="changeValue(25)">{{$t("solution.videoName")}}</a>
+                                    <DropdownItem v-for="item in list" v-bind:key="item.num">
+                                        <router-link class="nav_list" v-bind:to="item.path" >
+                                            <a v-bind:class="{nav_active1 : item.num ==menuindex, nav_active2: item.num !=menuindex}"
+                                               @click="changeValue(item.num)">{{$t(item.name)}}</a>
                                         </router-link>
                                     </DropdownItem>
                                 </DropdownMenu>
@@ -66,33 +35,9 @@
                                        href="javascript:void(0)">{{$t("header.service")}}&nbsp;<img class="icon-arrow"
                                                                                                     src="../assets/arrow_down.png"></a>
                                     <DropdownMenu class="menu_list02" slot="list">
-                                        <DropdownItem>
-                                            <a v-bind:class="{nav_active1 : 31==menuindex, nav_active2: 31!=menuindex}"
-                                               @click="changeValue(31)">teleComm</a>
-                                        </DropdownItem>
-                                        <DropdownItem>
-                                            <a v-bind:class="{nav_active1 : 32==menuindex, nav_active2: 32!=menuindex}"
-                                               @click="changeValue(32)">RPA</a>
-                                        </DropdownItem>
-                                        <DropdownItem>
-                                            <a v-bind:class="{nav_active1 : 33==menuindex, nav_active2: 33!=menuindex}"
-                                               @click="changeValue(33)">iOSP</a>
-                                        </DropdownItem>
-                                        <DropdownItem>
-                                            <a v-bind:class="{nav_active1 : 34==menuindex, nav_active2: 34!=menuindex}"
-                                               @click="changeValue(34)">{{$t("produceAndService.exchange.exchange")}}</a>
-                                        </DropdownItem>
-                                        <DropdownItem>
-                                            <a v-bind:class="{nav_active1 : 35==menuindex, nav_active2: 35!=menuindex}"
-                                               @click="changeValue(35)">mulechain</a>
-                                        </DropdownItem>
-                                        <DropdownItem>
-                                            <a v-bind:class="{nav_active1 : 36==menuindex, nav_active2: 36!=menuindex}"
-                                               @click="changeValue(36)">{{$t("produceAndService.enterpriseDataBrowser")}}</a>
-                                        </DropdownItem>
-                                        <DropdownItem>
-                                            <a v-bind:class="{nav_active1 : 37==menuindex, nav_active2: 37!=menuindex}"
-                                               @click="changeValue(37)">{{$t("produceAndService.filmAndTelevisionShooting")}}</a>
+                                        <DropdownItem v-for="item in productList" v-bind:key="item.num">
+                                            <a v-bind:class="{nav_active1 : item.num == menuindex, nav_active2: item.num != menuindex}"
+                                               @click="changeValue(item.num)">{{$t(item.name)}}</a>
                                         </DropdownItem>
                                     </DropdownMenu>
                                 </Dropdown>
@@ -123,15 +68,9 @@
             </nav>
             <div class="header-right">
                 <ul class="lang">
-<!--                    <Dropdown @on-click="changeLanguage">-->
                     <Dropdown trigger="click" @on-click="changeLanguage">
-
-<!--                        <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">-->
-<!--                            简体中文-->
-<!--                        </a>-->
                      <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">
                             {{languageValue}}
-                         <!--   <Icon type="arrow-down-b"></Icon>-->
                          <img class="arrow_blue icon-arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
                               src="http://media.openserver.cn/turbochain/assets/arrow_down_blue.png">
                      </a>
@@ -147,7 +86,6 @@
              class="nav-btn" @click="showMenu">
         <div v-bind:style="{ display: isShow }" class="nav_phone">
             <ul>
-                <!--<img class="icon-arrow" src="../assets/arrow_down.png" @click="showMenu">-->
                 <router-link to="/index">
                     <li v-bind:class="{ nav_active: 1 == menuindex }" @click="changeValue(1)">{{$t("header.home")}}</li>
                 </router-link>
@@ -155,31 +93,11 @@
                    v-bind:class="{ nav_active1 : 20 == menuindex || 21 == menuindex || 22 == menuindex || 23 == menuindex || 24 == menuindex || 25 == menuindex, nav_active2: 20 != menuindex && 21 != menuindex && 22 != menuindex && 23 != menuindex && 24 != menuindex && 25 != menuindex}">
                     {{$t("header.solution")}} &nbsp;
                     <img class="arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
-                         src="http://media.openserver.cn/turbochain/assets/arrow_down.png"> <!--<Icon type="ios-arrow-down"></Icon>-->
+                         src="http://media.openserver.cn/turbochain/assets/arrow_down.png">
                     <div v-bind:style="{display: isShowSolutionChildMenu}">
-                        <router-link class="nav_list" to="/solution/creditchain">
-                            <a v-bind:class="{nav_active1 : 20==menuindex, nav_active2: 20!=menuindex}"
-                               @click="changeValue(20)">{{$t("solution.creditchainName")}}</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/solution/supplyChainFinance">
-                            <a v-bind:class="{nav_active1 : 21==menuindex, nav_active2: 21!=menuindex}"
-                               @click="changeValue(21)">{{$t("solution.financeName")}}</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/solution/bankConfirmation">
-                            <a v-bind:class="{nav_active1 : 22==menuindex, nav_active2: 22!=menuindex}"
-                               @click="changeValue(22)">{{$t("solution.bankName")}}</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/solution/blockchainEducation">
-                            <a v-bind:class="{nav_active1 : 23==menuindex, nav_active2: 23!=menuindex}"
-                               @click="changeValue(23)">{{$t("solution.educationName")}}</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/solution/blockchainLogistics">
-                            <a v-bind:class="{nav_active1 : 24==menuindex, nav_active2: 24!=menuindex}"
-                               @click="changeValue(24)">{{$t("solution.logisticsName")}}</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/solution/blockchainVideo">
-                            <a v-bind:class="{nav_active1 : 25==menuindex, nav_active2: 25!=menuindex}"
-                               @click="changeValue(25)">{{$t("solution.videoName")}}</a>
+                        <router-link class="nav_list" v-for="item in list" v-bind:key="item.num" v-bind:to="item.path">
+                            <a v-bind:class="{nav_active1 : item.num == menuindex, nav_active2: item.num != menuindex}"
+                               @click="changeValue(item.num)">{{$t(item.name)}}</a>
                         </router-link>
                     </div>
                 </a>
@@ -190,33 +108,9 @@
                          :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
                          src="http://media.openserver.cn/turbochain/assets/arrow_down.png">
                     <div v-bind:style="{display: isShowProduceChildMenu}"><!-- :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"-->
-                        <router-link class="nav_list" to="/produceAndService">
-                            <a v-bind:class="{nav_active1 : 31==menuindex, nav_active2: 31!=menuindex}"
-                               @click="changeValue(31)">teleComm</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/produceAndService">
-                            <a v-bind:class="{nav_active1 : 32==menuindex, nav_active2: 32!=menuindex}"
-                               @click="changeValue(32)">RPA</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/produceAndService">
-                            <a v-bind:class="{nav_active1 : 33==menuindex, nav_active2: 33!=menuindex}"
-                               @click="changeValue(33)">iOSP</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/produceAndService">
-                            <a v-bind:class="{nav_active1 : 34==menuindex, nav_active2: 34!=menuindex}"
-                               @click="changeValue(34)">{{$t("produceAndService.exchange.exchange")}}</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/produceAndService">
-                            <a v-bind:class="{nav_active1 : 35==menuindex, nav_active2: 35!=menuindex}"
-                               @click="changeValue(35)">mulechain</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/produceAndService">
-                            <a v-bind:class="{nav_active1 : 36==menuindex, nav_active2: 36!=menuindex}"
-                               @click="changeValue(36)">{{$t("produceAndService.enterpriseDataBrowser")}}</a>
-                        </router-link>
-                        <router-link class="nav_list" to="/produceAndService">
-                            <a v-bind:class="{nav_active1 : 37==menuindex, nav_active2: 37!=menuindex}"
-                               @click="changeValue(37)">{{$t("produceAndService.filmAndTelevisionShooting")}}</a>
+                        <router-link class="nav_list" v-for="item in productList" v-bind:key="item.num" to="/produceAndService">
+                            <a v-bind:class="{nav_active1 : item.num == menuindex, nav_active2: item.num != menuindex}"
+                               @click="changeValue(item.num)">{{$t(item.name)}}</a>
                         </router-link>
                     </div>
                 </a>
@@ -228,10 +122,6 @@
                     </li>
                 </router-link>
                 <a v-bind:class="{ nav_active: 6 == menuindex }">{{$t("header.joinUs")}}</a>
-                <!--  <router-link>
-                      <li v-bind:class="{ nav_active: 6 == menuindex }"  @click="changeValue(6)" >{{$t("header.joinUs")}}</li>
-                  </router-link>
-  -->
                 <router-link to="/blockChain">
                     <li v-bind:class="{ nav_active: 7 == menuindex }" @click="changeValue(7)">
                         {{$t("header.blockChain")}}
@@ -257,10 +147,25 @@
                 isRouterAlive: true,
                 menuindex:1,
                 isShow: 'none',
-
                 isShowSolutionChildMenu: 'none',
                 isShowProduceChildMenu: 'none',
-
+                list: [
+                    {path: "/solution/creditchain", num: 20, name: "solution.creditchainName"},
+                    {path: "/solution/supplyChainFinance", num: 21, name: "solution.financeName"},
+                    {path: "/solution/bankConfirmation", num: 22, name: "solution.bankName"},
+                    {path: "/solution/blockchainEducation", num: 23, name: "solution.educationName"},
+                    {path: "/solution/blockchainLogistics", num: 24, name: "solution.logisticsName"},
+                    {path: "/solution/blockchainVideo", num: 25, name: "solution.videoName"}
+                ],
+                productList: [
+                    {num: 31, name: "produceAndService.teleCommName"},
+                    {num: 32, name: "produceAndService.RPAName"},
+                    {num: 33, name: "produceAndService.iOSPName"},
+                    {num: 34, name: "produceAndService.exchange.exchange"},
+                    {num: 35, name: "produceAndService.mulechainName"},
+                    {num: 36, name: "produceAndService.enterpriseDataBrowser"},
+                    {num: 37, name: "produceAndService.filmAndTelevisionShooting"}
+                ],
                 isShowTwoMenu: 'none',
                 rotate:false
 
@@ -268,7 +173,6 @@
         },
         computed: {
             languageValue: function() {
-
                 let curlang = this.$store.getters.lang;
                 if (curlang == "English") this.$i18n.locale = "en";
                 return curlang;

@@ -239,6 +239,10 @@ module.exports = {
     contentFour: 'TurboChain与企业财务、资金、共享、供应链、结算等系统一起构成完整的企业区块链应用解决方案'
   },
   produceAndService: {
+    teleCommName: 'teleComm',
+    RPAName: 'RPA',
+    iOSPName: 'iOSP',
+    mulechainName: 'mulechain',
     content: '泰链智能提供一站式区块链产品与服务，包含区块链浏览器、区块链钱包、供应链金融、银行询证、区块链物流、区块链教育、区块链影视等服务，Telecomm、RPA、IOSP、交易所等产品。通过区块链技术为您的品牌持续增值，拓展全新业务模式。',
     titleOne: '高拓展',
     contentOne: 'TurboChain可提供丰富的API接口、SDK开发工具包，让开发者更便捷的开发区块链应用',

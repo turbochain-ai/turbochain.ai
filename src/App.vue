@@ -60,9 +60,10 @@
         </div>
 
       </div>
-      <p class="footer2">
-        2019 TurboChain AI Tech Co., Ltd. © ALL RIGHTS RESERVED
-      </p>
+      <div class="footer2">
+        <p>2019 TurboChain AI Tech Co., Ltd. © ALL RIGHTS RESERVED</p>
+        <p>鲁ICP备19063046号</p>
+      </div>
     </div>
   </div>
 </template>
@@ -203,6 +204,9 @@
     line-height: 1.5em;
     text-align: center;
   }
+.footer2 p{
+  display: inline-block;
+}
   .footer-item_00{
     display: none;
 
@@ -236,6 +240,9 @@
         margin-top: 8vh;
     margin-bottom: 8vh;
       }
+  .footer2 p{
+    display: block;
+  }
 
 }
 @font-face {

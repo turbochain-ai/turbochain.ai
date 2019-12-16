@@ -445,7 +445,7 @@
     padding: 8px 0px;
 }
 .member_list ul li{
-    line-height: 40px;
+  /*  line-height: 40px;*/
     display: block;
     height: 40px;
     padding: 4px 0px;
@@ -654,7 +654,7 @@
     .member_list ul li{
         width: 48%;
         display: inline-block;
-        line-height: 20px;
+        line-height: 40px;
         font-size: 14px;
         vertical-align: middle;
     }

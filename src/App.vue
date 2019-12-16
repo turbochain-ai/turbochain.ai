@@ -13,49 +13,47 @@
             <img src="./assets/homepage_logo.png">
           </div>
           <div class="footer-item footer-item_01">
-            <p class="title">Contact Us</p>
+
+            <p class="title">{{$t("footer.ContactUs")}}</p>
             <ul class="list">
-              <li class="item"><a href="mailto:bd@turbochain.ai" class="email">Business
-                Development: bd@turbochain.ai</a></li>
-              <li class="item"><a href="mailto:hr@turbochain.ai" class="email">Recruitment:
-                hr@turbochain.ai</a></li>
-              <li class="item"><a href="mailto:veresearch@turbochain.ai" class="email">Research
-                and Development: veresearch@turbochain.ai</a></li>
-              <li class="item"><a href="mailto:press@turbochain.ai" class="email">Media:
-                press@turbochain.ai</a></li>
-              <li class="item"><a href="mailto:info@turbochain.ai" class="email">Others:
-                info@turbochain.ai</a></li>
+              <li class="item"><a href="mailto:bd@turbochain.ai" class="email">{{$t("footer.bd")}} bd@turbochain.ai</a></li>
+              <li class="item"><a href="mailto:hr@turbochain.ai" class="email">{{$t("footer.hr")}} hr@turbochain.ai</a></li>
+              <!--<li class="item"><a href="mailto:veresearch@turbochain.ai" class="email">Research
+                and Development: veresearch@turbochain.ai</a></li>-->
+              <li class="item"><a href="mailto:press@turbochain.ai" class="email">{{$t("footer.Media")}} press@turbochain.ai</a></li>
+              <li class="item"><a href="mailto:info@turbochain.ai" class="email">{{$t("footer.others")}} info@turbochain.ai</a></li>
             </ul>
           </div>
           <div class="footer-item footer-item_02">
-            <p class="title">Follow Us</p>
-            <ul class="icons">
-              <li class="item">
-                <a target="_blank" href="#" class="link">
-                  <img src="./assets/footer_wechat.png">
-                </a>
-              </li>
-              <li class="item">
-                <a target="_blank" href="#" class="link">
-                  <img src="./assets/facebook.png">
-                </a>
-              </li>
-              <li class="item">
-                <a target="_blank" href="#" class="link">
-                  <img src="./assets/footer_twitter.png">
-                </a>
-              </li>
-              <li class="item">
-                <a target="_blank" href="#" class="link">
-                  <img src="./assets/footer_Instagram.png">
-                </a>s
-              </li>
-              <li class="item">
-                <a target="_blank" href="#" class="link">
-                  <img src="./assets/footer_linkedin.png">
-                </a>
-              </li>
-            </ul>
+            <p class="title">{{$t("footer.FU")}}</p>
+            <img class="qrcode" src="./assets/images/qrcode.jpg">
+            <!--<ul class="icons">
+             <li class="item">
+               <a target="_blank" class="link">
+                 <img src="./assets/footer_wechat.png">
+               </a>
+             </li>
+            <li class="item">
+              <a target="_blank" class="link">
+                <img src="./assets/facebook.png">
+              </a>
+            </li>
+             <li class="item">
+               <a target="_blank" class="link">
+                 <img src="./assets/footer_twitter.png">
+               </a>
+             </li>
+             <li class="item">
+               <a target="_blank" class="link">
+                 <img src="./assets/footer_Instagram.png">
+               </a>s
+             </li>
+             <li class="item">
+               <a target="_blank" class="link">
+                 <img src="./assets/footer_linkedin.png">
+               </a>
+             </li>
+            </ul>-->
           </div>
         </div>
 
@@ -213,6 +211,10 @@
   }
   .footer-item_02{
     margin-left: 20vw;
+  }
+  .qrcode{
+    width: 112px;
+    height: 112px;
   }
 @media screen and (max-width: 1280px) and (min-width: 768px){
   .nav_list li {

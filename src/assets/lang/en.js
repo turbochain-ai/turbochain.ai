@@ -446,6 +446,14 @@ module.exports = {
     introduce: 'Established in 2019, TurboChain Intelligence focuses on the development of blockchain and artificial intelligence technology, and is committed to creating an enterprise-level blockchain platform that is transparent, collaborative, efficient, and value-sharing, by providing a flexible and secure blockchain infrastructure. Vigorously promote the application of blockchain technology.',
     introduceOne: 'At present, TurboChain has a professional team of blockchains, and has established branches and offices in many countries and regions, including Beijing, Shanghai, Shenzhen, Chengdu, Jinan, Wuhan, Xinjiang, Singapore, Los Angeles, Tokyo, Japan and Hong Kong, China. . TurboChain actively carries out technical research cooperation on a global scale, and has reached blockchain technology research cooperation relationship with many academic institutions.'
   },
+  footer: {
+    ContactUs: 'Contact Us',
+    bd:'Business Development:',
+    hr:'Recruitment:',
+    Media:'Media:',
+    others:'Others:',
+    FU:'Follow us on WeChat',
+  },
     blockChain: {
         turboChain: 'TurboChain',
         title: 'The basic platform for value Internet infrastructure enterprises to be on the chain and the people are on the chain',

@@ -260,6 +260,7 @@
 .contrast table td {
     padding: 2vh 0;
     line-height: 4vh;
+    vertical-align: top;
 }
 
 .contrast table p {
@@ -267,22 +268,29 @@
 }
 
 .list_01 {
-    background: url("http://media.openserver.cn/turbochain/assets/list_01.png") no-repeat left;
+    background: url("http://media.openserver.cn/turbochain/assets/list_01.png") no-repeat center left;
+    background-size: 20px;
 }
 
 .list_11 {
-    background: url("http://media.openserver.cn/turbochain/assets/list_11.png") no-repeat left;
+    background: url("http://media.openserver.cn/turbochain/assets/list_11.png") no-repeat center left;
+    background-size: 20px;
 }
 
 .list_02, .list_12 {
-    background: url("http://media.openserver.cn/turbochain/assets/correct.png") no-repeat left;
+    background: url("http://media.openserver.cn/turbochain/assets/correct.png") no-repeat top left;
+    background-size: 20px;
+    background-position-y: 0.7vh;
 }
 
 .list_03, .list_13 {
-    background: url("http://media.openserver.cn/turbochain/assets/wrong.png") no-repeat left;
+    background: url("http://media.openserver.cn/turbochain/assets/wrong.png") no-repeat top left;
+    background-size: 16px;
+    background-position-y: 0.7vh;
 }
-
-
+.m_contrast {
+    display: none;
+}
 @media screen and (max-width: 900px) {
     .rotation_style {
         width: 60%;
@@ -350,4 +358,52 @@
         top: 12vh;
         position: relative;
     }
+    .contrast {
+        display: none;
+    }
+    .m_contrast{
+        display: block;
+        width: 100%;
+       /* margin: 7.25vw;*/
+        background-color: #143049;
+      /*  border-radius: 1vh;*/
+    }
+    .m_contrast .contrast_list{
+         padding: 2vh 7.5vw;
+        font-size: 3.7vw;
+     }
+    .contrast_list .list_title{
+        padding-left: 28px;
+        line-height: 56px;
+    }
+    .contrast_td{
+        padding-bottom: 12px;
+        border-bottom: 1px solid #000000;
+    }
+    .contrast_th{
+        width: 100%;
+        font-weight: bold;
+        padding-bottom: 12px;
+        border-bottom: 1px solid #000000;
+    }
+    .contrast_list_title{
+        font-weight: bold;
+    }
+    .contrast_th p,  .contrast_td p{
+        display: table-cell;
+        width: 42.5vw;
+        text-align: left;
+        line-height: 28px;
+        height: 28px;
+
+    }
+    .contrast_td .text_left{
+        padding-right: 12px;
+    }
+    .contrast_td p{
+        padding-left: 24px;
+        text-align: left;
+        line-height: 24px;
+    }
+
 }

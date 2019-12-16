@@ -94,6 +94,25 @@
                 </div>
             </div>
         </div>
+        <div class="m_contrast">
+            <div class="contrast_list">
+                <p class="contrast_list_title">TURBOCHAIN</p>
+                <div class="contrast_th">
+                    <p>{{$t("header.solution")}}</p>
+                    <p>{{$t("solution.bank.traditional")}}</p>
+                </div>
+                <p class="list_01 list_title">{{$t("solution.bank.correspondenceEfficiency")}}</p>
+                <div class="contrast_td">
+                    <p class="list_02 text_left">{{$t("solution.bank.correspondenceEfficiencyTurboChain")}}</p>
+                    <p class="list_03">{{$t("solution.bank.correspondenceEfficiencyTraditional")}}</p>
+                </div>
+                <p class="list_11 list_title">{{$t("solution.bank.correspondence")}}</p>
+                <div class="contrast_td">
+                    <p class="list_02 text_left">{{$t("solution.bank.correspondenceTurboChain")}}</p>
+                    <p class="list_03">{{$t("solution.bank.correspondenceTraditional")}}</p>
+                </div>
+            </div>
+        </div>
         <div class="contrast">
             <table>
                 <tbody>
@@ -109,25 +128,25 @@
                     </th>
                 </tr>
                 <tr>
-                    <td class="border_tb list_01">
-                        <p>{{$t("solution.bank.correspondenceEfficiency")}}</p>
+                    <td class="border_tb">
+                        <p class="list_01">{{$t("solution.bank.correspondenceEfficiency")}}</p>
                     </td>
-                    <td class="border_tb list_02">
-                        <p>{{$t("solution.bank.correspondenceEfficiencyTurboChain")}}</p>
+                    <td class="border_tb">
+                        <p class="list_02">{{$t("solution.bank.correspondenceEfficiencyTurboChain")}}</p>
                     </td>
-                    <td class="border_tb list_03">
-                        <p>{{$t("solution.bank.correspondenceEfficiencyTraditional")}}</p>
+                    <td class="border_tb">
+                        <p class="list_03">{{$t("solution.bank.correspondenceEfficiencyTraditional")}}</p>
                     </td>
                 </tr>
                 <tr>
-                    <td class="list_11">
-                        <p>{{$t("solution.bank.correspondence")}}</p>
+                    <td >
+                        <p class="list_11">{{$t("solution.bank.correspondence")}}</p>
                     </td>
-                    <td class="list_12">
-                        <p>{{$t("solution.bank.correspondenceTurboChain")}}</p>
+                    <td >
+                        <p class="list_12">{{$t("solution.bank.correspondenceTurboChain")}}</p>
                     </td>
-                    <td class="list_13">
-                        <p>{{$t("solution.bank.correspondenceTraditional")}}</p>
+                    <td>
+                        <p class="list_13">{{$t("solution.bank.correspondenceTraditional")}}</p>
                     </td>
                 </tr>
                 </tbody>

@@ -94,6 +94,25 @@
         </div>
       </div>
     </div>
+    <div class="m_contrast">
+      <div class="contrast_list">
+        <p class="contrast_list_title">TURBOCHAIN</p>
+        <div class="contrast_th">
+          <p>{{$t("header.solution")}}</p>
+          <p>{{$t("solution.education.traditional")}}</p>
+        </div>
+        <p class="list_01 list_title">{{$t("solution.finance.informationTransfer")}}</p>
+        <div class="contrast_td">
+          <p class="list_02 text_left">{{$t("solution.finance.informationTransferTurboChain")}}</p>
+          <p class="list_03">{{$t("solution.finance.informationTransferTraditional")}}</p>
+        </div>
+        <p class="list_11 list_title">{{$t("solution.finance.businessTrust")}}</p>
+        <div class="contrast_td">
+          <p class="list_02 text_left">{{$t("solution.finance.businessTrustTurboChain")}}</p>
+          <p class="list_03">{{$t("solution.finance.businessTrustTraditional")}}</p>
+        </div>
+      </div>
+    </div>
     <div class="contrast">
       <table>
         <tbody>
@@ -109,25 +128,25 @@
             </th>
           </tr>
           <tr>
-            <td class="border_tb list_01">
-              <p>{{$t("solution.finance.informationTransfer")}}</p>
+            <td class="border_tb">
+              <p class="list_01">{{$t("solution.finance.informationTransfer")}}</p>
             </td>
-            <td class="border_tb list_02">
-              <p>{{$t("solution.finance.informationTransferTurboChain")}}</p>
+            <td class="border_tb">
+              <p class="list_02">{{$t("solution.finance.informationTransferTurboChain")}}</p>
             </td>
-            <td class="border_tb list_03">
-              <p>{{$t("solution.finance.informationTransferTraditional")}}</p>
+            <td class="border_tb ">
+              <p class="list_03">{{$t("solution.finance.informationTransferTraditional")}}</p>
             </td>
           </tr>
           <tr>
-            <td class="list_11">
-              <p>{{$t("solution.finance.businessTrust")}}</p>
+            <td>
+              <p class="list_11">{{$t("solution.finance.businessTrust")}}</p>
             </td>
-            <td class="list_12">
-              <p>{{$t("solution.finance.businessTrustTurboChain")}}</p>
+            <td>
+              <p class="list_12">{{$t("solution.finance.businessTrustTurboChain")}}</p>
             </td>
-            <td class="list_13">
-              <p>{{$t("solution.finance.businessTrustTraditional")}}</p>
+            <td >
+              <p class="list_13">{{$t("solution.finance.businessTrustTraditional")}}</p>
             </td>
           </tr>
         </tbody>

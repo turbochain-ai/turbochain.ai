@@ -108,7 +108,7 @@
             </div>
             <div class="content">
                 <div class="title-box">
-                    <p class="title ">{{$t("solution.creditchain.ServicePlatform_title")}}智能财税云服务平台</p>
+                    <p class="title ">{{$t("solution.creditchain.ServicePlatform_title")}}</p>
                     <img src="http://media.openserver.cn/image/creditchainIMG/zncsyfwpt.png" alt="" class="img">
                     <p class="menu_title ">{{$t("solution.creditchain.ServicePlatform_subtitle01")}}</p>
                     <img src="http://media.openserver.cn/image/creditchainIMG/wmfwpt.png" alt="" class="img">

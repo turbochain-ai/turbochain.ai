@@ -88,6 +88,25 @@
                 </div>
             </div>
         </div>
+        <div class="m_contrast">
+            <div class="contrast_list">
+                <p class="contrast_list_title">TURBOCHAIN</p>
+                <div class="contrast_th">
+                    <p>{{$t("header.solution")}}</p>
+                    <p>{{$t("solution.video.traditional")}}</p>
+                </div>
+                <p class="list_01 list_title">{{$t("solution.video.participatingGroup")}}</p>
+                <div class="contrast_td">
+                    <p class="list_02 text_left">{{$t("solution.video.participatingGroupTurboChain")}}</p>
+                    <p class="list_03">{{$t("solution.video.participatingGroupTraditional")}}</p>
+                </div>
+                <p class="list_11 list_title">{{$t("solution.video.transactionInformationTransparency")}}</p>
+                <div class="contrast_td">
+                    <p class="list_02 text_left">{{$t("solution.video.transactionInformationTransparencyTurboChain")}}</p>
+                    <p class="list_03">{{$t("solution.video.transactionInformationTransparencyTraditional")}}</p>
+                </div>
+            </div>
+        </div>
         <div class="contrast">
             <table>
                 <tbody>
@@ -103,25 +122,25 @@
                     </th>
                 </tr>
                 <tr>
-                    <td class="border_tb list_01">
-                        <p>{{$t("solution.video.participatingGroup")}}</p>
+                    <td class="border_tb">
+                        <p class="list_01">{{$t("solution.video.participatingGroup")}}</p>
                     </td>
-                    <td class="border_tb list_02">
-                        <p>{{$t("solution.video.participatingGroupTurboChain")}}</p>
+                    <td class="border_tb ">
+                        <p class="list_02">{{$t("solution.video.participatingGroupTurboChain")}}</p>
                     </td>
-                    <td class="border_tb list_03">
-                        <p>{{$t("solution.video.participatingGroupTraditional")}}</p>
+                    <td class="border_tb ">
+                        <p class="list_03">{{$t("solution.video.participatingGroupTraditional")}}</p>
                     </td>
                 </tr>
                 <tr>
-                    <td class="list_11">
-                        <p>{{$t("solution.video.transactionInformationTransparency")}}</p>
+                    <td>
+                        <p class="list_11">{{$t("solution.video.transactionInformationTransparency")}}</p>
                     </td>
-                    <td class="list_12">
-                        <p>{{$t("solution.video.transactionInformationTransparencyTurboChain")}}</p>
+                    <td>
+                        <p class="list_12">{{$t("solution.video.transactionInformationTransparencyTurboChain")}}</p>
                     </td>
-                    <td class="list_13">
-                        <p>{{$t("solution.video.transactionInformationTransparencyTraditional")}}</p>
+                    <td>
+                        <p class="list_13">{{$t("solution.video.transactionInformationTransparencyTraditional")}}</p>
                     </td>
                 </tr>
                 </tbody>

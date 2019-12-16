@@ -90,6 +90,25 @@
             </div>
 
         </div>
+        <div class="m_contrast">
+            <div class="contrast_list">
+                <p class="contrast_list_title">TURBOCHAIN</p>
+                <div class="contrast_th">
+                    <p>{{$t("header.solution")}}</p>
+                    <p>{{$t("solution.education.traditional")}}</p>
+                </div>
+                <p class="list_01 list_title">{{$t("solution.education.copyrightProtection")}}</p>
+                <div class="contrast_td">
+                    <p class="list_02 text_left">{{$t("solution.education.copyrightProtectionTurboChain")}}</p>
+                    <p class="list_03">{{$t("solution.education.copyrightProtectionTraditional")}}</p>
+                </div>
+                <p class="list_11 list_title">{{$t("solution.education.academicCreditSystem")}}</p>
+                <div class="contrast_td">
+                    <p class="list_02 text_left">{{$t("solution.education.academicCreditSystemTurboChain")}}</p>
+                    <p class="list_03">{{$t("solution.education.academicCreditSystemTraditional")}}</p>
+                </div>
+            </div>
+        </div>
         <div class="contrast">
             <table>
                 <tbody>
@@ -105,25 +124,25 @@
                     </th>
                 </tr>
                 <tr>
-                    <td class="border_tb list_01">
-                        <p>{{$t("solution.education.copyrightProtection")}}</p>
+                    <td class="border_tb ">
+                        <p class="list_01">{{$t("solution.education.copyrightProtection")}}</p>
                     </td>
-                    <td class="border_tb list_02">
-                        <p>{{$t("solution.education.copyrightProtectionTurboChain")}}</p>
+                    <td class="border_tb">
+                        <p class="list_02">{{$t("solution.education.copyrightProtectionTurboChain")}}</p>
                     </td>
-                    <td class="border_tb list_03">
-                        <p>{{$t("solution.education.copyrightProtectionTraditional")}}</p>
+                    <td class="border_tb">
+                        <p class="list_03">{{$t("solution.education.copyrightProtectionTraditional")}}</p>
                     </td>
                 </tr>
                 <tr>
-                    <td class="list_11">
-                        <p>{{$t("solution.education.academicCreditSystem")}}</p>
+                    <td >
+                        <p class="list_11">{{$t("solution.education.academicCreditSystem")}}</p>
                     </td>
-                    <td class="list_12">
-                        <p>{{$t("solution.education.academicCreditSystemTurboChain")}}</p>
+                    <td>
+                        <p class="list_12">{{$t("solution.education.academicCreditSystemTurboChain")}}</p>
                     </td>
-                    <td class="list_13">
-                        <p>{{$t("solution.education.academicCreditSystemTraditional")}}</p>
+                    <td>
+                        <p class="list_13">{{$t("solution.education.academicCreditSystemTraditional")}}</p>
                     </td>
                 </tr>
                 </tbody>

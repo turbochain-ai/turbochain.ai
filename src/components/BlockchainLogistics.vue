@@ -89,6 +89,25 @@
                 </div>
             </div>
         </div>
+        <div class="m_contrast">
+            <div class="contrast_list">
+                <p class="contrast_list_title">TURBOCHAIN</p>
+                <div class="contrast_th">
+                    <p>{{$t("header.solution")}}</p>
+                    <p>{{$t("solution.logistics.traditional")}}</p>
+                </div>
+                <p class="list_01 list_title">{{$t("solution.logistics.timeliness")}}</p>
+                <div class="contrast_td">
+                    <p class="list_02 text_left">{{$t("solution.logistics.timelinessTurboChain")}}</p>
+                    <p class="list_03">{{$t("solution.logistics.timelinessTraditional")}}</p>
+                </div>
+                <p class="list_11 list_title">{{$t("solution.logistics.safety")}}</p>
+                <div class="contrast_td">
+                    <p class="list_02 text_left">{{$t("solution.logistics.safetyTurboChain")}}</p>
+                    <p class="list_03">{{$t("solution.logistics.safetyTraditional")}}</p>
+                </div>
+            </div>
+        </div>
         <div class="contrast">
             <table>
                 <tbody>
@@ -104,25 +123,25 @@
                     </th>
                 </tr>
                 <tr>
-                    <td class="border_tb list_01">
-                        <p>{{$t("solution.logistics.timeliness")}}</p>
+                    <td class="border_tb">
+                        <p class="list_01">{{$t("solution.logistics.timeliness")}}</p>
                     </td>
-                    <td class="border_tb list_02">
-                        <p>{{$t("solution.logistics.timelinessTurboChain")}}</p>
+                    <td class="border_tb">
+                        <p class="list_02">{{$t("solution.logistics.timelinessTurboChain")}}</p>
                     </td>
-                    <td class="border_tb list_03">
-                        <p>{{$t("solution.logistics.timelinessTraditional")}}</p>
+                    <td class="border_tb">
+                        <p class="list_03">{{$t("solution.logistics.timelinessTraditional")}}</p>
                     </td>
                 </tr>
                 <tr>
-                    <td class="list_11">
-                        <p>{{$t("solution.logistics.safety")}}</p>
+                    <td>
+                        <p class="list_11">{{$t("solution.logistics.safety")}}</p>
                     </td>
-                    <td class="list_12">
-                        <p>{{$t("solution.logistics.safetyTurboChain")}}</p>
+                    <td>
+                        <p class="list_12">{{$t("solution.logistics.safetyTurboChain")}}</p>
                     </td>
-                    <td class="list_13">
-                        <p>{{$t("solution.logistics.safetyTraditional")}}</p>
+                    <td>
+                        <p class="list_13">{{$t("solution.logistics.safetyTraditional")}}</p>
                     </td>
                 </tr>
                 </tbody>

@@ -29,7 +29,7 @@ const i18n = new VueI18n({
 });
 
 const router = new VueRouter({
-  mode: 'hash',
+  mode: 'history',
   scrollBehavior: (to, from, savePosition) => {
     // 如果savePosition存在，则直接滚动到相应位置
     if (savePosition) {

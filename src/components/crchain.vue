@@ -21,7 +21,7 @@
                      <!--   <a class="btn_login" to="/login">系统入口</a>-->
 
                     <router-link class="news-item" to="login">
-                     <!--   <img class="news-img-item" src="http://media.openserver.cn/turbochain/assets/Financing_logo.jpg">-->
+                     <!--   <img class="news-img-item" src="https://media.openserver.cn/turbochain/assets/Financing_logo.jpg">-->
                         <p class="btn_login">
                            系统入口
                         </p>

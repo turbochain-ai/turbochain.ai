@@ -97,7 +97,7 @@
         padding-top: 64px;
         overflow: hidden;
         /*background-size: 110%;*/
-        background: url(http://media.openserver.cn/turbochain/assets/images/cover.jpg) center no-repeat;
+        background: url(https://media.openserver.cn/turbochain/assets/images/cover.jpg) center no-repeat;
     }
     .main_txt{
         width:75vw;

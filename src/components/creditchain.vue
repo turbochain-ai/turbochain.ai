@@ -3,7 +3,7 @@
         <div class="introduce">
             <div class="introduce_box">
                 <div class="left">
-                    <img  class=" rotation_style"  src="http://media.openserver.cn/image/creditchainIMG/title_bg.png">
+                    <img  class=" rotation_style"  src="https://media.openserver.cn/image/creditchainIMG/title_bg.png">
                     <div class="title">{{$t("solution.creditchain.MianTitle")}}</div>
                     <div class="subtitle">{{$t("solution.creditchain.subTitle")}}</div>
                 </div>
@@ -13,39 +13,39 @@
                     <a class="btn_login" href="https://creditchain.openserver.cn/login/application.html">{{$t("solution.creditchain.SysEntry")}}</a>
                 </div>
             </div>
-            <img class="title_topimg" src="http://media.openserver.cn/image/creditchainIMG/top_bg.png">
-            <img class="title_bottomimg" src="http://media.openserver.cn/image/creditchainIMG/top_bottom_bg.png">
+            <img class="title_topimg" src="https://media.openserver.cn/image/creditchainIMG/top_bg.png">
+            <img class="title_bottomimg" src="https://media.openserver.cn/image/creditchainIMG/top_bottom_bg.png">
           <!--  <div class="title_bottomimg"></div>-->
         </div>
         <div class="image_list">
-            <img src="http://media.openserver.cn/image/creditchainIMG/img01.png">
-            <img src="http://media.openserver.cn/image/creditchainIMG/img02.png">
-            <img src="http://media.openserver.cn/image/creditchainIMG/img03.png">
+            <img src="https://media.openserver.cn/image/creditchainIMG/img01.png">
+            <img src="https://media.openserver.cn/image/creditchainIMG/img02.png">
+            <img src="https://media.openserver.cn/image/creditchainIMG/img03.png">
         </div>
         <div class="demand" >
             <div class="title-box">
                 <p class="title">{{$t("solution.creditchain.allianceName")}}</p>
                 <p class="subtitle">{{$t("solution.creditchain.allianceIntroduction")}}</p>
-                <img src="http://media.openserver.cn/image/creditchainIMG/redheader_file.png" alt="" class="img">
+                <img src="https://media.openserver.cn/image/creditchainIMG/redheader_file.png" alt="" class="img">
                 <p class="submenu">{{$t("solution.creditchain.allianceMemberTitle")}}</p>
                 <div class="member_list">
                    <ul>
-                       <li><img src="http://media.openserver.cn/image/creditchainIMG/member_pwc.png"><span>{{$t("solution.creditchain.allianceMember01")}}</span></li>
-                       <li><img src="http://media.openserver.cn/image/creditchainIMG/member_ztkj.png"><span>{{$t("solution.creditchain.allianceMember02")}}</span></li>
-                       <li><img src="http://media.openserver.cn/image/creditchainIMG/member_po.png"><span>{{$t("solution.creditchain.allianceMember03")}}</span></li>
-                       <li><img src="http://media.openserver.cn/image/creditchainIMG/member_hbsdb.png"><span>{{$t("solution.creditchain.allianceMember04")}}</span></li>
-                       <li><img src="http://media.openserver.cn/image/creditchainIMG/member_hbszkj.png"><span>{{$t("solution.creditchain.allianceMember05")}}</span></li>
-                       <li><img src="http://media.openserver.cn/image/creditchainIMG/member_zzhz.png"><span>{{$t("solution.creditchain.allianceMember06")}}</span></li>
-                       <li><img src="http://media.openserver.cn/image/creditchainIMG/member_wstq.png"><span>{{$t("solution.creditchain.allianceMember07")}}</span></li>
-                       <li><img src="http://media.openserver.cn/image/creditchainIMG/member_hjtg.png"><span>{{$t("solution.creditchain.allianceMember08")}}</span></li>
-                       <li><img src="http://media.openserver.cn/image/creditchainIMG/member_bjdc.png"><span>{{$t("solution.creditchain.allianceMember09")}}</span></li>
+                       <li><img src="https://media.openserver.cn/image/creditchainIMG/member_pwc.png"><span>{{$t("solution.creditchain.allianceMember01")}}</span></li>
+                       <li><img src="https://media.openserver.cn/image/creditchainIMG/member_ztkj.png"><span>{{$t("solution.creditchain.allianceMember02")}}</span></li>
+                       <li><img src="https://media.openserver.cn/image/creditchainIMG/member_po.png"><span>{{$t("solution.creditchain.allianceMember03")}}</span></li>
+                       <li><img src="https://media.openserver.cn/image/creditchainIMG/member_hbsdb.png"><span>{{$t("solution.creditchain.allianceMember04")}}</span></li>
+                       <li><img src="https://media.openserver.cn/image/creditchainIMG/member_hbszkj.png"><span>{{$t("solution.creditchain.allianceMember05")}}</span></li>
+                       <li><img src="https://media.openserver.cn/image/creditchainIMG/member_zzhz.png"><span>{{$t("solution.creditchain.allianceMember06")}}</span></li>
+                       <li><img src="https://media.openserver.cn/image/creditchainIMG/member_wstq.png"><span>{{$t("solution.creditchain.allianceMember07")}}</span></li>
+                       <li><img src="https://media.openserver.cn/image/creditchainIMG/member_hjtg.png"><span>{{$t("solution.creditchain.allianceMember08")}}</span></li>
+                       <li><img src="https://media.openserver.cn/image/creditchainIMG/member_bjdc.png"><span>{{$t("solution.creditchain.allianceMember09")}}</span></li>
                    </ul>
                 </div>
             </div>
             <div class="content">
                 <div class="title-box">
                     <p class="menu_title">{{$t("solution.creditchain.SMETitle")}}</p>
-                    <img src="http://media.openserver.cn/image/creditchainIMG/SME_Financing-dilemma.jpg" alt="" class="img">
+                    <img src="https://media.openserver.cn/image/creditchainIMG/SME_Financing-dilemma.jpg" alt="" class="img">
                 </div>
                 <div class="item">
                     <p class="menu_title">{{$t("solution.creditchain.SMEcontentTitle")}}</p>
@@ -109,9 +109,9 @@
             <div class="content">
                 <div class="title-box">
                     <p class="title ">{{$t("solution.creditchain.ServicePlatform_title")}}</p>
-                    <img src="http://media.openserver.cn/image/creditchainIMG/zncsyfwpt.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/image/creditchainIMG/zncsyfwpt.png" alt="" class="img">
                     <p class="menu_title ">{{$t("solution.creditchain.ServicePlatform_subtitle01")}}</p>
-                    <img src="http://media.openserver.cn/image/creditchainIMG/wmfwpt.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/image/creditchainIMG/wmfwpt.png" alt="" class="img">
                     <p class="menu_title ">
                         {{$t("solution.creditchain.ServicePlatform_subtitle02")}}
                     </p>
@@ -142,11 +142,11 @@
                         </tr>
                     </table>
                     <p class="menu_title ">{{$t("solution.creditchain.ServicePlatform_subtitle03")}}</p>
-                    <img src="http://media.openserver.cn/image/creditchainIMG/sjzxjjfa.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/image/creditchainIMG/sjzxjjfa.png" alt="" class="img">
                     <p class="menu_title ">{{$t("solution.creditchain.ServicePlatform_subtitle04")}}</p>
-                    <img src="http://media.openserver.cn/image/creditchainIMG/XBRL_jhbz.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/image/creditchainIMG/XBRL_jhbz.png" alt="" class="img">
                     <p class="menu_title">{{$t("solution.creditchain.ServicePlatform_subtitle05")}}</p>
-                    <img src="http://media.openserver.cn/image/creditchainIMG/XBRL_jcpt.gif" alt="" class="img">
+                    <img src="https://media.openserver.cn/image/creditchainIMG/XBRL_jcpt.gif" alt="" class="img">
                 </div>
             </div>
         </div>
@@ -279,7 +279,7 @@
         <div class="demand">
             <div class="title-box">
                 <p class="title ">{{$t("solution.creditchain.futurePlan")}}</p>
-                <img src="http://media.openserver.cn/image/creditchainIMG/map.png">
+                <img src="https://media.openserver.cn/image/creditchainIMG/map.png">
             </div>
         </div>
     </div>
@@ -296,7 +296,7 @@ export default {
         display: flex;
         height: auto;
         min-height: 100vh;
-        background: url("http://media.openserver.cn/image/creditchainIMG/top_bg.png") no-repeat top;
+        background: url("https://media.openserver.cn/image/creditchainIMG/top_bg.png") no-repeat top;
         position: relative;
         background-size: cover;
     }

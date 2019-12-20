@@ -1,7 +1,7 @@
 <template>
     <div class="header">
         <div class="head_img">
-            <a class="" href="https://www.turbochain.cn"><img src="http://media.openserver.cn/turbochain/assets/homepage_logo.png"></a>
+            <a class="" href="https://www.turbochain.cn"><img src="https://media.openserver.cn/turbochain/assets/homepage_logo.png"></a>
         </div>
         <div class="header-web">
             <nav class="nav_left">
@@ -72,7 +72,7 @@
                      <a href="javascript:void(0)" style="font-size:14px;margin-left: 6px;" class="chengeL">
                             {{languageValue}}
                          <img class="arrow_blue icon-arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
-                              src="http://media.openserver.cn/turbochain/assets/arrow_down_blue.png">
+                              src="https://media.openserver.cn/turbochain/assets/arrow_down_blue.png">
                      </a>
                         <DropdownMenu slot="list" id="change_language_theme">
                             <DropdownItem v-if="languageValue=='简体中文'" name="en">English</DropdownItem>
@@ -93,7 +93,7 @@
                    v-bind:class="{ nav_active1 : menuindex.toString().startsWith(2), nav_active2: !menuindex.toString().startsWith(2)}">
                     {{$t("header.solution")}} &nbsp;
                     <img class="arrow" :class="[rotate_arrow?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
-                         src="http://media.openserver.cn/turbochain/assets/arrow_down.png">
+                         src="https://media.openserver.cn/turbochain/assets/arrow_down.png">
                     <div v-bind:style="{display: isShowSolutionChildMenu}">
                         <router-link class="nav_list" v-for="item in list" v-bind:key="item.num" v-bind:to="item.path">
                             <a v-bind:class="{nav_active1 : item.num == menuindex, nav_active2: item.num != menuindex}"
@@ -105,7 +105,7 @@
                    v-bind:class="{ nav_active1 : menuindex.toString().startsWith(3), nav_active2: !menuindex.toString().startsWith(3)}">
                     {{$t("header.service")}}&nbsp;
                     <img class="arrow" :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"
-                         src="http://media.openserver.cn/turbochain/assets/arrow_down.png">
+                         src="https://media.openserver.cn/turbochain/assets/arrow_down.png">
                     <div v-bind:style="{display: isShowProduceChildMenu}"><!-- :class="[rotate_arrow02?'fa fa-arrow-down arrow_down':'fa fa-arrow-down arrow_up']"-->
                         <router-link class="nav_list" v-for="item in productList" v-bind:key="item.num" to="/produceAndService">
                             <a v-bind:class="{nav_active1 : item.num == menuindex, nav_active2: item.num != menuindex}"

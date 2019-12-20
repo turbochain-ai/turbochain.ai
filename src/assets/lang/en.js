@@ -453,6 +453,7 @@ module.exports = {
     Media:'Media:',
     others:'Others:',
     FU:'Follow us on WeChat',
+    address:'Mailing address: Digital Media Center, Qilu Software College, Shandong University',
   },
     blockChain: {
         turboChain: 'TurboChain',

@@ -3,7 +3,7 @@
         <div class="introduce">
             <div class="introduce_box">
                 <div class="left">
-                    <img  class="Rotation rotation_style"  src="http://media.openserver.cn/turbochain/assets/solution_title_bg.png">
+                    <img  class="Rotation rotation_style"  src="https://media.openserver.cn/turbochain/assets/solution_title_bg.png">
                     <div class="title">SOLUTION</div>
                     <div class="subtitle">{{$t("solution.educationTitle")}}</div>
                 </div>
@@ -24,17 +24,17 @@
             </div>
             <div class="content">
                 <div class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/BlockchainEducation_pic1.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/turbochain/assets/BlockchainEducation_pic1.png" alt="" class="img">
                     <p class="subtitle">{{$t("solution.education.problemOne")}}</p>
                     <p class="text">{{$t("solution.education.problemIntroOne")}}</p>
                 </div>
                 <div class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/BlockchainEducation_pic2.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/turbochain/assets/BlockchainEducation_pic2.png" alt="" class="img">
                     <p class="subtitle">{{$t("solution.education.problemTwo")}}</p>
                     <p class="text">{{$t("solution.education.problemIntroTwo")}}</p>
                 </div>
                 <div class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/BlockchainEducation_pic3.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/turbochain/assets/BlockchainEducation_pic3.png" alt="" class="img">
                     <p class="subtitle">{{$t("solution.education.problemThree")}}</p>
                     <p class="text">{{$t("solution.education.problemIntroThree")}}</p>
                 </div>
@@ -47,15 +47,15 @@
             </div>
             <ul class="list">
                 <li class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/solution_education_icon_01.png">
+                    <img src="https://media.openserver.cn/turbochain/assets/solution_education_icon_01.png">
                     <p class="message">{{$t("solution.education.overviewOne")}}</p>
                 </li>
                 <li class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/solution_education_icon_02.png">
+                    <img src="https://media.openserver.cn/turbochain/assets/solution_education_icon_02.png">
                     <p class="message">{{$t("solution.education.overviewTwo")}}</p>
                 </li>
                 <li class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/solution_education_icon_03.png">
+                    <img src="https://media.openserver.cn/turbochain/assets/solution_education_icon_03.png">
                     <p class="message">{{$t("solution.education.overviewThree")}}</p>
                 </li>
             </ul>
@@ -68,21 +68,21 @@
             <div class="content ">
                 <div class="item">
                     <div class="subtitle">
-                        <img src="http://media.openserver.cn/turbochain/assets/sample_icon.png">
+                        <img src="https://media.openserver.cn/turbochain/assets/sample_icon.png">
                         <p>{{$t("solution.education.advantageOne")}}</p>
                     </div>
                     <p class="text">{{$t("solution.education.advantageIntroOne")}}</p>
                 </div>
                 <div class="item border_lr">
                     <div class="subtitle">
-                        <img src="http://media.openserver.cn/turbochain/assets/sample_icon.png">
+                        <img src="https://media.openserver.cn/turbochain/assets/sample_icon.png">
                         <p>{{$t("solution.bank.advantageTwo")}}</p>
                     </div>
                     <p class="text">{{$t("solution.education.advantageIntroTwo")}}</p>
                 </div>
                 <div class="item">
                     <div class="subtitle">
-                        <img src="http://media.openserver.cn/turbochain/assets/sample_icon.png">
+                        <img src="https://media.openserver.cn/turbochain/assets/sample_icon.png">
                         <p>{{$t("solution.education.advantageThree")}}</p>
                     </div>
                     <p class="text">{{$t("solution.education.advantageIntroThree")}}</p>
@@ -166,7 +166,7 @@
         display: flex;
         height: auto;
         min-height: 100vh;
-        background: url("http://media.openserver.cn/turbochain/assets/images/Solution_bg3.jpg") no-repeat center;
+        background: url("https://media.openserver.cn/turbochain/assets/images/Solution_bg3.jpg") no-repeat center;
         position: relative;
         background-size: cover;
     }

@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="location">
-      <img src="http://media.openserver.cn/turbochain/assets/location_bg.png">
+      <img src="https://media.openserver.cn/turbochain/assets/location_bg.png">
      </div>
   </div>
 </template>
@@ -25,7 +25,7 @@
       return {
        /* bgimage: {
           height: "600px",
-          backgroundImage: "url(http://media.openserver.cn/turbochain/assets/images/banner_web.jpg)",
+          backgroundImage: "url(https://media.openserver.cn/turbochain/assets/images/banner_web.jpg)",
 
         },*/
       }
@@ -39,7 +39,7 @@
     background-repeat: no-repeat;
     background-color: #1c1e2d;
    /* height: 600px;*/
-    background-image: url(http://media.openserver.cn/turbochain/assets/images/banner_web.jpg);
+    background-image: url(https://media.openserver.cn/turbochain/assets/images/banner_web.jpg);
   }
   .location{
     background-color:#191d28;
@@ -77,7 +77,7 @@
     margin: 0 auto;*/
 display: flex;
     justify-content: center;
-/*    background:url("http://media.openserver.cn/turbochain/assets/location_bg.png");*/
+/*    background:url("https://media.openserver.cn/turbochain/assets/location_bg.png");*/
     img{
       margin: 0 auto;
       width: 70%;

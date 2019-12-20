@@ -13,8 +13,11 @@ Vue.use(banner)
             </div>
         </div>
         <div class="main">
-            <video autoplay muted loop poster="http://media.openserver.cn/turbochain/assets/earth.jpg" class="bgvid" id="bgvid">
-            <source src="http://media.openserver.cn/turbochain/assets/earth.mp4" type="video/mp4">
+            <video autoplay muted loop poster="https://media.openserver.cn/turbochain/assets/earth.jpg" class="bgvid" id="bgvid"  preload="metadata" playsinline="true"
+                   webkit-playsinline="true"  x-webkit-airplay="true" x5-video-orientation="portraint" x5-video-player-type="h5" x5-video-player-fullscreen="true">
+              <!-- playsinline="true" webkit-playsinline="true 解决ios自动播放全屏问题
+                x5-video-player-type="h5" x5-video-player-fullscreen="true" 解决安卓同层级播放-->
+            <source src="https://media.openserver.cn/turbochain/assets/earth.mp4" type="video/mp4">
         </video>
             <div class="main01">
 
@@ -182,8 +185,24 @@ Vue.use(banner)
 </template>
 
 <script>
-    import Caspanel from "iview/src/components/cascader/caspanel";
+    document.addEventListener(
+    'WeixinJSBridgeReady',
+    function() {
+        var video = document.getElementById("bgvid");
+        video.play();
+    },
+    false
+    );
+   /* ios微信下通过 WeixinJSBridgeReady 事件进行自动播放
+   安卓可以尝试监听touchstart事件，用户触摸屏幕后自动播放*/
+    document.addEventListener('touchstart', function(){
+        var video = document.getElementById("bgvid");
+        video.play();
+    }, false);
 
+
+
+    import Caspanel from "iview/src/components/cascader/caspanel";
     export default {
         name: "Index",
         components: {Caspanel},
@@ -195,11 +214,11 @@ Vue.use(banner)
                 },
                 swiperList: [{
                     id: "0001",
-                    imgUrl: "http://media.openserver.cn/turbochain/assets/banner_turbochain01.png"
-               /*     http://media.openserver.cn/image/banner*/
+                    imgUrl: "https://media.openserver.cn/turbochain/assets/banner_turbochain01.png"
+               /*     https://media.openserver.cn/image/banner*/
                 }, {
                     id: "0002",
-                    imgUrl: "http://media.openserver.cn/turbochain/assets/banner_turbochain02.png"
+                    imgUrl: "https://media.openserver.cn/turbochain/assets/banner_turbochain02.png"
                 }],
                 timer: null, //定时器
                 mark: 0, //比对图片索引的变量
@@ -248,7 +267,9 @@ Vue.use(banner)
     }
 
     .bgvid {
-        background: url("http://media.openserver.cn/turbochain/assets/earth.mp4") no-repeat center;
+        background: url("https://media.openserver.cn/turbochain/assets/earth.mp4") no-repeat center;
+
+
     }
 
     video#bgvid {
@@ -284,14 +305,14 @@ Vue.use(banner)
         }
 
         .img01 {
-            background: url("http://media.openserver.cn/turbochain/assets/banner_turbochain01.png") no-repeat center;
+            background: url("https://media.openserver.cn/turbochain/assets/banner_turbochain01.png") no-repeat center;
             background-repeat: no-repeat;
             background-position: 50%;
             background-size: cover;
         }
 
         .img02 {
-            background: url("http://media.openserver.cn/turbochain/assets/banner_turbochain02.png") no-repeat center;
+            background: url("https://media.openserver.cn/turbochain/assets/banner_turbochain02.png") no-repeat center;
             background-repeat: no-repeat;
             background-position: 50%;
             background-size: cover;
@@ -334,8 +355,8 @@ Vue.use(banner)
     }
 
     .card-container {
-        margin-bottom: 4rem;
-        margin-top: 60px;
+        margin-bottom: 4vh;
+        margin-top: 4vh;
     }
 
     .card-content {
@@ -392,40 +413,40 @@ Vue.use(banner)
     }
 
     .card01 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card01.jpg");
-        /* background: url("http://media.openserver.cn/turbochain/assets/card01.png") no-repeat center;*/
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.openserver.cn/turbochain/assets/homepage_card01.jpg");
+        /* background: url("https://media.openserver.cn/turbochain/assets/card01.png") no-repeat center;*/
     }
 
     .card02 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card02.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.openserver.cn/turbochain/assets/homepage_card02.jpg");
     }
 
     .card03 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card03.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.openserver.cn/turbochain/assets/homepage_card03.jpg");
     }
 
     .card04 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card04.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.openserver.cn/turbochain/assets/homepage_card04.jpg");
     }
 
     .card05 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card05.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.openserver.cn/turbochain/assets/homepage_card05.jpg");
     }
 
     .card06 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card06.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.openserver.cn/turbochain/assets/homepage_card06.jpg");
     }
 
     .card07 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card07.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.openserver.cn/turbochain/assets/homepage_card07.jpg");
     }
 
     .card08 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card08.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.openserver.cn/turbochain/assets/homepage_card08.jpg");
     }
 
     .card09 {
-        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("http://media.openserver.cn/turbochain/assets/homepage_card09.jpg");
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://media.openserver.cn/turbochain/assets/homepage_card09.jpg");
     }
 
     .card-title {
@@ -529,6 +550,8 @@ Vue.use(banner)
 
             .card-list {
                 width: 100%;
+                margin: 0 auto;
+                margin-bottom: 2vh;
             }
         }
         video#bgvid{

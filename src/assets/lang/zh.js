@@ -446,10 +446,11 @@ module.exports = {
   footer: {
     ContactUs: '联系我们',
     bd:'商务合作：',
-    hr:'Recruitment：',
-    Media:'媒体Media：',
+    hr:'人才招聘：',
+    Media:'媒体：',
     others:'其他：',
     FU:'微信关注我们',
+    address:'通讯地址：山东大学齐鲁软件学院数字媒体中心',
   },
   blockChain: {
     turboChain: '泰链区块链',

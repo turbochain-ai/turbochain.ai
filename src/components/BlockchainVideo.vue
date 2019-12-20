@@ -3,7 +3,7 @@
         <div class="introduce">
             <div class="introduce_box">
                 <div class="left">
-                        <img  class="Rotation rotation_style"  src="http://media.openserver.cn/turbochain/assets/solution_title_bg.png">
+                        <img  class="Rotation rotation_style"  src="https://media.openserver.cn/turbochain/assets/solution_title_bg.png">
                         <div class="title">SOLUTION</div>
                         <div class="subtitle">{{$t("solution.videoTitle")}}</div>
                 </div>
@@ -25,19 +25,19 @@
             </div>
             <div class="content">
                 <div class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/movie_pic_01.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/turbochain/assets/movie_pic_01.png" alt="" class="img">
                     <!--  <div class="content_text">   </div>-->
                     <p class="subtitle">{{$t("solution.video.problemOne")}}</p>
                     <p class="text">{{$t("solution.video.problemIntroOne")}}</p>
 
                 </div>
                 <div class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/movie_pic_02.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/turbochain/assets/movie_pic_02.png" alt="" class="img">
                     <p class="subtitle">{{$t("solution.video.problemTwo")}}</p>
                     <p class="text">{{$t("solution.video.problemIntroTwo")}}</p>
                 </div>
                 <div class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/movie_pic_03.png" alt="" class="img">
+                    <img src="https://media.openserver.cn/turbochain/assets/movie_pic_03.png" alt="" class="img">
                     <p class="subtitle">{{$t("solution.video.problemThree")}}</p>
                     <p class="text">{{$t("solution.video.problemIntroThree")}}</p>
                 </div>
@@ -50,11 +50,11 @@
             </div>
             <ul class="list">
                 <li class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/movie_icon_01.png">
+                    <img src="https://media.openserver.cn/turbochain/assets/movie_icon_01.png">
                     <p class="message">{{$t("solution.video.overviewOne")}}</p>
                 </li>
                 <li class="item">
-                    <img src="http://media.openserver.cn/turbochain/assets/movie_icon_02.png">
+                    <img src="https://media.openserver.cn/turbochain/assets/movie_icon_02.png">
                     <p class="message">{{$t("solution.video.overviewTwo")}}</p>
                 </li>
             </ul>
@@ -67,21 +67,21 @@
             <div class="content ">
                 <div class="item">
                     <div class="subtitle">
-                        <img src="http://media.openserver.cn/turbochain/assets/sample_icon.png">
+                        <img src="https://media.openserver.cn/turbochain/assets/sample_icon.png">
                         <p>{{$t("solution.video.advantageOne")}}</p>
                     </div>
                     <p class="text">{{$t("solution.video.advantageIntroOne")}}</p>
                 </div>
                 <div class="item border_lr">
                     <div class="subtitle">
-                        <img src="http://media.openserver.cn/turbochain/assets/sample_icon.png">
+                        <img src="https://media.openserver.cn/turbochain/assets/sample_icon.png">
                         <p>{{$t("solution.video.advantageTwo")}}</p>
                     </div>
                     <p class="text">{{$t("solution.video.advantageIntroTwo")}}</p>
                 </div>
                 <div class="item">
                     <div class="subtitle">
-                        <img src="http://media.openserver.cn/turbochain/assets/sample_icon.png">
+                        <img src="https://media.openserver.cn/turbochain/assets/sample_icon.png">
                         <p>{{$t("solution.video.advantageThree")}}</p>
                     </div>
                     <p class="text">{{$t("solution.video.advantageIntroThree")}}</p>
@@ -163,7 +163,7 @@
         display: flex;
         height: auto;
         min-height: 100vh;
-        background: url("http://media.openserver.cn/turbochain/assets/images/Solution_bg5.jpg") no-repeat center;
+        background: url("https://media.openserver.cn/turbochain/assets/images/Solution_bg5.jpg") no-repeat center;
         position: relative;
         background-size: cover;
     }

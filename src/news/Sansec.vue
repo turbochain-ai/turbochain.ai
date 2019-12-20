@@ -1,8 +1,8 @@
 <template>
     <div class="news">
         <div class="banner">
-            <!-- <img src="http://media.openserver.cn/turbochain/assets/banner-news.png" class="news-img">-->
-            <!--<img src="http://media.openserver.cn/turbochain/assets/new_title.png" class="news-pic">-->
+            <!-- <img src="https://media.openserver.cn/turbochain/assets/banner-news.png" class="news-img">-->
+            <!--<img src="https://media.openserver.cn/turbochain/assets/new_title.png" class="news-pic">-->
             <p class="title">NEWS</p>
         </div>
         <div class="content">
@@ -12,7 +12,7 @@
             </div>
             <div class="text">
                 <p class="content-text img_center">
-                <img src="http://media.openserver.cn/turbochain/assets/news_Sansec_logo.jpg">
+                <img src="https://media.openserver.cn/turbochain/assets/news_Sansec_logo.jpg">
             </p>
                 <p class="content-text">
                     {{$t("news.Sansec.textOne")}}
@@ -31,7 +31,7 @@
                     {{$t("news.Sansec.textFive")}}
                 </p>
                 <p class="content-text img_center">
-                    <img src="http://media.openserver.cn/turbochain/assets/Financing_bottom.jpg">
+                    <img src="https://media.openserver.cn/turbochain/assets/Financing_bottom.jpg">
                 </p>
             </div>
         </div>
@@ -63,7 +63,7 @@
     .banner {
         background-color: #191d28;
         height: 40vh;
-        background: url("http://media.openserver.cn/turbochain/assets/banner-news.jpg");
+        background: url("https://media.openserver.cn/turbochain/assets/banner-news.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: left;

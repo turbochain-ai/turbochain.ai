@@ -56,7 +56,7 @@
                         <!--<router-link to="/joinUs">
                             <li v-bind:class="{ nav_active: 6 == menuindex }"  @click="changeValue(6)" >{{$t("header.joinUs")}}</li>
                         </router-link>-->
-                        <li v-bind:class="{ nav_active: 6 == menuindex }">{{$t("header.joinUs")}}</li>
+                        <!--<li v-bind:class="{ nav_active: 6 == menuindex }">{{$t("header.joinUs")}}</li>-->
                         <router-link to="/blockChain">
                             <li v-bind:class="{ nav_active: 7 == menuindex }" @click="changeValue(7)">
                                 {{$t("header.blockChain")}}
@@ -120,7 +120,7 @@
                     <li v-bind:class="{ nav_active: 5 == menuindex }" @click="changeValue(5)">{{$t("header.aboutUs")}}
                     </li>
                 </router-link>
-                <a v-bind:class="{ nav_active: 6 == menuindex }">{{$t("header.joinUs")}}</a>
+                <!--<a v-bind:class="{ nav_active: 6 == menuindex }">{{$t("header.joinUs")}}</a>-->
                 <router-link to="/blockChain">
                     <li v-bind:class="{ nav_active: 7 == menuindex }" @click="changeValue(7)">
                         {{$t("header.blockChain")}}
@@ -219,9 +219,9 @@
                     this.menuindex = 4;
                 } else if (url.indexOf("aboutUs") != -1) {
                     this.menuindex = 5;
-                } else if (url.indexOf("joinUs") != -1) {
+                } /*else if (url.indexOf("joinUs") != -1) {
                     this.menuindex = 6;
-                } else if (url.indexOf("blockChain") != -1) {
+                }*/ else if (url.indexOf("blockChain") != -1) {
                     this.menuindex = 7;
                 }
             },

@@ -161,7 +161,7 @@
                     {path: "/solution/fachain", num: 29, name: "solution.fachainName"}*/
                 ],
                 productList: [
-                    {num: 31, name: "produceAndService.teleCommName"},
+                    {num: 31, name: "produceAndService.IPCommName"},
                     {num: 32, name: "produceAndService.RPAName"},
                     {num: 33, name: "produceAndService.iOSPName"},
                     {num: 34, name: "produceAndService.exchange.exchange"},

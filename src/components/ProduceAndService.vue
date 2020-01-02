@@ -53,11 +53,11 @@
                     </a>
                     <a class="core-item3 core-item item03" href="http://springislandlove.openserver.cn/"
                        target="_blank">
-                        <img src="https://media.openserver.cn/turbochain/assets/service_qdzl.jpg" alt>
+                        <img src="https://media.openserver.cn/turbochain/assets/service_qdzl.png" alt>
                         <h3 class="core-item-title">{{$t("produceAndService.filmAndTelevisionShooting")}}</h3>
                     </a>
                     <a class="core-item3 core-item item04" target="_blank">
-                        <img src="https://media.openserver.cn/turbochain/assets/core_pic1.png" alt>
+                        <img src="https://media.openserver.cn/turbochain/assets/service_ID2.png" alt>
                         <h3 class="core-item-title">{{$t("produceAndService.blockChainBrowser")}}</h3>
                     </a>
                     <a class="core-item3 core-item item05">
@@ -78,10 +78,10 @@
                     <span class="subtitle">{{$t("produceAndService.product")}}</span>
                 </div>
                 <div class="core-items-wrapper">
-                    <a class="core-item core-item4" href="https://telecomm.io/" target="_blank">
-                        <img src="https://media.openserver.cn/turbochain/assets/telecomm_logo.png" alt>
+                    <a class="core-item core-item4"  target="_blank"><!--href="https://telecomm.io/"-->
+                        <img src="https://media.openserver.cn/turbochain/assets/IPComm_logo.png" alt>
                         <div class="core-item-txt">
-                            <h4 class="core-item-title">teleComm</h4>
+                            <h4 class="core-item-title">IPComm</h4>
                             <div class="core-item-content-wrapper">
                                 <p class="core-item-content">{{$t("produceAndService.teleComm.introduceOne")}}</p>
                                 <p class="core-item-content">{{$t("produceAndService.teleComm.introduceTwo")}}</p>

@@ -458,6 +458,7 @@ module.exports = {
     blockChain: {
         turboChain: 'TurboChain',
         title: 'The basic platform for value Internet infrastructure enterprises to be on the chain and the people are on the chain',
+        SysEntry: 'Blockchain Browser',
         contentOne: 'TurboChain is an enterprise-level blockchain that supports the PoW/PBFT dual consensus mechanism.',
         contentTwo: 'PoW is suitable for low-speed low-frequency application scenarios, such as fund settlement scenarios, internal trading scenarios, related transaction scenarios, and supply chain scenarios. PBFT is suitable for high-speed high-frequency application scenarios such as IoT applications, instant messaging applications, and industrial interconnect applications.',
         contentThree: 'TurboChain combines IPFS interstellar storage and IPCom interstellar communications to build an enterprise blockchain application platform. IPFS Intersatellite Storage enables distributed storage of big data objects in enterprise applications; IPCom Interstellar Communications provides data communication services for people and devices, people and people, people and services, services and devices in enterprise applications.',

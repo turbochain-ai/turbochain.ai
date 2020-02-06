@@ -10,7 +10,7 @@
                 <div class="right">
                     <p class="right_title">{{$t("solution.creditchainName")}}</p>
                     <p class="right_content">{{$t("solution.creditchain.Discription")}}</p>
-                    <a class="btn_login" href="https://creditchain.openserver.cn/login/application.html">{{$t("solution.creditchain.SysEntry")}}</a>
+                    <a class="btn_login" target="_blank" href="https://creditchain.openserver.cn/login/application.html">{{$t("solution.creditchain.SysEntry")}}</a>
                 </div>
             </div>
             <img class="title_topimg" src="https://media.openserver.cn/image/creditchainIMG/top_bg.png">

@@ -9,7 +9,7 @@
 .btn_login{
     display: block;
     text-align: center;
-    background: url(http://media.openserver.cn/turbochain/assets/btn_bg.png) no-repeat 50%;
+    background: url("https://media.openserver.cn/turbochain/assets/btn_bg.png") no-repeat 50%;
     line-height: 56px;
     position: absolute;
     bottom: -10vh;
@@ -40,7 +40,7 @@
 }
 .turbochain_introduction{
      padding: 48px 0;
-     background: url(http://media.openserver.cn/turbochain/assets/images/Solution_bg.jpg) no-repeat 50%;
+     background: url("https://media.openserver.cn/turbochain/assets/images/Solution_bg.jpg") no-repeat 50%;
      position: relative;
      background-size: cover;
  }
@@ -74,7 +74,7 @@
     margin: 0 auto;
     margin-bottom: 12vh;
     z-index: 999;
-  /*  background: url("http://media.openserver.cn/image/creditchainIMG/top_bg.png") no-repeat top;
+  /*  background: url("https://media.openserver.cn/image/creditchainIMG/top_bg.png") no-repeat top;
     background-size: 150%;*/
 }
 
@@ -100,7 +100,7 @@
     margin-left: 12px;
     width: 7px;
     height: 11px;
-    background: url("http://media.openserver.cn/image/creditchainIMG/arrow_right.png") no-repeat center;
+    background: url("https://media.openserver.cn/image/creditchainIMG/arrow_right.png") no-repeat center;
 }
 
 .introduce_box .left {
@@ -309,7 +309,7 @@
    /* ! *
     background: url("./../../assets/banner_carbon.191829f.png") no-repeat left;
     *! */
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url("http://media.openserver.cn/image/creditchainIMG/advantage_bg.png");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)), url("https://media.openserver.cn/image/creditchainIMG/advantage_bg.png");
     background-position: center;
     border-radius: 1vh;
 }
@@ -375,7 +375,7 @@
     margin-right: 2vw;
  }
 .solution_alliance{
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("http://media.openserver.cn/image/creditchainIMG/advantage_bg.png");
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://media.openserver.cn/image/creditchainIMG/advantage_bg.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -426,13 +426,13 @@
     font-weight: bold;
 }
 .card_list01{
-    background-image: linear-gradient(to top, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url("http://media.openserver.cn/image/creditchainIMG/cardBG01.jpg");
+    background-image: linear-gradient(to top, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url("https://media.openserver.cn/image/creditchainIMG/cardBG01.jpg");
 }
 .card_list02{
-    background-image: linear-gradient(to top, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url("http://media.openserver.cn/image/creditchainIMG/cardBG02.jpg");
+    background-image: linear-gradient(to top, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url("https://media.openserver.cn/image/creditchainIMG/cardBG02.jpg");
 }
 .card_list03{
-    background-image: linear-gradient(to top, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url("http://media.openserver.cn/image/creditchainIMG/cardBG03.jpg");
+    background-image: linear-gradient(to top, rgba(0, 51, 102, 0.8), rgba(0, 51, 102, 0.8)), url("https://media.openserver.cn/image/creditchainIMG/cardBG03.jpg");
 }
 .subtitle span{
 
@@ -590,7 +590,7 @@
     display: flex;
     height: auto;
     min-height: 100vh;
-    background: url(http://media.openserver.cn/image/creditchainIMG/bg_creditchain.png) no-repeat 50%;
+    background: url(https://media.openserver.cn/image/creditchainIMG/bg_creditchain.png) no-repeat 50%;
     position: relative;
     background-size: cover;
 }
@@ -668,7 +668,7 @@
     }
 .turbochain_introduction{
     padding: 48px 0;
-    background: url(http://media.openserver.cn/turbochain/assets/images/Solution_bg.jpg) no-repeat 50%;
+    background: url(https://media.openserver.cn/turbochain/assets/images/Solution_bg.jpg) no-repeat 50%;
 position: relative;
 background-size: cover;
 }

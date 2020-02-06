@@ -455,6 +455,7 @@ module.exports = {
   blockChain: {
     turboChain: '泰链区块链',
     title: '价值互联网基础设施企业上链、人上链的基础平台',
+    SysEntry: '区块链浏览器',
     contentOne: 'TurboChain是支持PoW/PBFT双共识机制的企业级区块链',
     contentTwo: 'PoW适用于低速低频应用场景， 如：资金结算场景，内部交易场景，关联交易场景，供应链场景；PBFT适用于高速高频应用场景，如：物联网应用，即时通讯应用，工业互联应用等。',
     contentThree: 'TurboChain结合IPFS星际存储、IPCom星际通讯构建企业级区块链应用平台。IPFS星际存储实现企业级应用中大数据对象的分布式存储 ；IPCom星际通讯提供企业应用中人与设备、人与人、人与服务、服务与设备等数据通讯服务。',

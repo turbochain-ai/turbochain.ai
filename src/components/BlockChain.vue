@@ -6,6 +6,9 @@
                   <p style="font-size: 4rem;font-weight: bold;margin-bottom: 1rem">{{$t("blockChain.turboChain")}}</p>
                   <p style="font-size: 2rem;">{{$t("blockChain.title")}}</p>
               </div>
+              <div class="enter_btn">
+                  <a class="btn_login" href="https://openplanet.openserver.cn/index.htm">{{$t("blockChain.SysEntry")}}</a>
+              </div>
               <div class="content">
                   <ul>
                       <li>{{$t("blockChain.contentOne")}}</li>
@@ -81,10 +84,27 @@
 </script>
 
 <style scoped lang="scss">
+    .enter_btn{
+       width: 900px;
+        margin: 0 auto;
+        display: inline-block;
+        padding-top: 4vh;
+        .btn_login{
+            right: 2vw;
+            color: #fff;
+            display: inline-block;
+            width: 197px;
+            height: 56px;
+          /*  float: right;*/
+            line-height: 56px;
+            background: url(https://media.openserver.cn/turbochain/assets/btn_bg.png) no-repeat 50%;
+        }
+    }
+
     .content{
         width: 900px;
         margin: 0 auto;
-        margin-top: 4rem;
+        margin-top: 4vh;
     }
     .content ul li{
         text-align: left;
@@ -97,7 +117,8 @@
         padding-top: 64px;
         overflow: hidden;
         /*background-size: 110%;*/
-        background: url(https://media.openserver.cn/turbochain/assets/images/cover.jpg) center no-repeat;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)), url("https://media.openserver.cn/turbochain/assets/images/cover.jpg")  center no-repeat;
+     /*   background: url(https://media.openserver.cn/turbochain/assets/images/cover.jpg) center no-repeat;*/
     }
     .main_txt{
         width:75vw;
@@ -106,8 +127,8 @@
         margin-top: 6rem;
         margin-bottom: 6rem;
       /*  .title{
-            width: 100vw;
-        }*/
+                width: 900px;
+            }*/
     }
     .main_middle {
         padding-top: 70px;
@@ -121,6 +142,9 @@
             .title{
                 width: 100%;
             }
+        }
+        .enter_btn{
+            width: 85vw;
         }
         .content{
             width: 85vw;

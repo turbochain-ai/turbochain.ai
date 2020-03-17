@@ -24,6 +24,8 @@ import VideoNews from "../news/VideoNews";
 import ExchangeNews from "../news/ExchangeNews";
 import Financing from "../news/Financing";
 import Sansec from "../news/Sansec";
+import Export_E_Loan from "../news/Export_E_Loan";
+import PansoftOrcal_Financing from "../news/PansoftOrcal_Financing";
 
 Vue.use(Router)
 
@@ -146,5 +148,15 @@ export default [
     path: '/news/Financing',
     name: 'Financing',
     component: Financing
-  }
+  },
+  {
+    path: '/news/Export_E_Loan',
+    name: 'Export_E_Loan',
+    component: Export_E_Loan
+  },
+  {
+    path: '/news/PansoftOrcal_Financing',
+    name: 'PansoftOrcal_Financing',
+    component: PansoftOrcal_Financing
+  },
 ];

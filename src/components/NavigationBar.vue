@@ -29,11 +29,10 @@
                             </Dropdown>
                         </li>
                         <li>
-                            <router-link to="/produceAndService">
+<!--                            <router-link to="/produceAndService">-->
                                 <Dropdown style="z-index: 9999;position: relative" class="other">
                                     <a v-bind:class="{ nav_active1 : menuindex.toString().startsWith(3), nav_active2: !menuindex.toString().startsWith(3)}"
-                                       href="javascript:void(0)">{{$t("header.service")}}&nbsp;<img class="icon-arrow"
-                                                                                                    src="../assets/arrow_down.png"></a>
+                                       href="javascript:void(0)">{{$t("header.service")}}&nbsp;<img class="icon-arrow" src="../assets/arrow_down.png"></a>
                                     <DropdownMenu class="menu_list02" slot="list">
                                         <DropdownItem v-for="item in productList" v-bind:key="item.num">
                                             <a v-bind:class="{nav_active1 : item.num == menuindex, nav_active2: item.num != menuindex}"
@@ -41,7 +40,7 @@
                                         </DropdownItem>
                                     </DropdownMenu>
                                 </Dropdown>
-                            </router-link>
+<!--                            </router-link>-->
                         </li>
                         <router-link to="/news">
                             <li v-bind:class="{ nav_active: 4 == menuindex }" @click="changeValue(4)">
@@ -53,10 +52,6 @@
                                 {{$t("header.aboutUs")}}
                             </li>
                         </router-link>
-                        <!--<router-link to="/joinUs">
-                            <li v-bind:class="{ nav_active: 6 == menuindex }"  @click="changeValue(6)" >{{$t("header.joinUs")}}</li>
-                        </router-link>-->
-                        <!--<li v-bind:class="{ nav_active: 6 == menuindex }">{{$t("header.joinUs")}}</li>-->
                         <router-link to="/blockChain">
                             <li v-bind:class="{ nav_active: 7 == menuindex }" @click="changeValue(7)">
                                 {{$t("header.blockChain")}}
@@ -151,7 +146,6 @@
                 list: [
                     {path: "/solution/creditchain", num: 20, name: "solution.creditchainName"},
                     {path: "/solution/supplyChainFinance", num: 21, name: "solution.financeName"},
-                    {path: "/solution/bankConfirmation", num: 22, name: "solution.bankName"},
                     {path: "/solution/blockchainEducation", num: 23, name: "solution.educationName"},
                     {path: "/solution/blockchainLogistics", num: 24, name: "solution.logisticsName"},
                     {path: "/solution/blockchainVideo", num: 25, name: "solution.videoName"},
@@ -161,6 +155,7 @@
                     {path: "/solution/fachain", num: 29, name: "solution.fachainName"}*/
                 ],
                 productList: [
+                    {path: "/bankConfirmation", num: 30, name: "solution.bankName"},
                     {num: 31, name: "produceAndService.IPCommName"},
                     {num: 32, name: "produceAndService.RPAName"},
                     {num: 33, name: "produceAndService.iOSPName"},
@@ -215,6 +210,8 @@
                     }
                 } else if (url.indexOf("produceAndService") != -1) {
                     this.menuindex = 3;
+                } else if (url.indexOf("BankConfirmation") != -1) {
+                    this.menuindex = 30;
                 } else if (url.indexOf("news") != -1) {
                     this.menuindex = 4;
                 } else if (url.indexOf("aboutUs") != -1) {
@@ -256,7 +253,15 @@
                 if (this.isShow == '') {
                     this.isShow = 'none'
                 }
+                if (30 == index) {
+                    this.$router.push({  //核心语句
+                        path:'/BankConfirmation',   //跳转的路径
+                    })
+                }
                 if (31 == index || 32 == index || 33 == index || 34 == index) {
+                    this.$router.push({  //核心语句
+                        path:'/produceAndService',   //跳转的路径
+                    })
                     let position = 1950;
                     // 实现滚动效果
                     const timeTop = setInterval(() => {
@@ -267,6 +272,9 @@
                     }, 10);
                 }
                 if (35 == index || 36 == index || 37 == index) {
+                    this.$router.push({  //核心语句
+                        path:'/produceAndService',   //跳转的路径
+                    })
                     let position = 1150;
                     // 实现滚动效果
                     const timeTop = setInterval(() => {
@@ -466,6 +474,7 @@
     .nav_list .nav_active2 {
         color: #8C8D8C;
         display: block;
+        cursor: pointer;
     }
 
     a {
@@ -532,6 +541,7 @@
     .nav_list li {
         background-color: #000000;
         display: inline-block;
+
         color: #8C8D8C;
         font-size: 14px;
         padding: 0vw 1.5625vw;
@@ -541,6 +551,9 @@
         -moz-transition: 0.5s;
         -webkit-transition: 0.5s;
         -o-transition: 0.5s;
+        li{
+            cursor: pointer;
+        }
     }
 
     .nav_list a:hover {

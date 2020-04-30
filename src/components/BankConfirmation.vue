@@ -4,7 +4,7 @@
             <div class="introduce_box">
                 <div class="left">
                     <img  class="Rotation rotation_style"  src="https://media.openserver.cn/turbochain/assets/solution_title_bg.png">
-                    <div class="title">SOLUTION</div>
+                    <div class="title">PRODUCT</div>
                     <div class="subtitle">{{$t("solution.bankTitle")}}</div>
                     <!--<div class="title_bg"></div>-->
                 </div>
@@ -14,11 +14,23 @@
                         <br>{{$t("solution.bank.contentTwo")}}
                         <br>{{$t("solution.bank.contentThree")}}
                     </p>
+                    <a class="btn_login" target="_blank" href="https://www.turbochain.cn/download/ConfirmationLetter.zip">{{$t("solution.bank.download_btn")}}</a><!--{{$t("solution.creditchain.SysEntry")}}-->
+                  <!--  <a target="_blank" href="https://www.turbochain.cn/download/ConfirmationLetter.zip" class="more">
+                        <span>下载客户端</span>
+                    </a>-->
                 </div>
                <!-- <a class="more" href="">
                     <span>查看更多</span>
                 </a>-->
             </div>
+        </div>
+        <div class="demand p_10">
+            <video controls autoplay muted loop poster="../assets/video/confirmation.png" class="bgvid" id="bgvid"  preload="metadata" playsinline="true"
+                   webkit-playsinline="true"  x-webkit-airplay="true" x5-video-orientation="portraint" x5-video-player-type="h5" x5-video-player-fullscreen="true">
+                <!-- playsinline="true" webkit-playsinline="true 解决ios自动播放全屏问题
+                  x5-video-player-type="h5" x5-video-player-fullscreen="true" 解决安卓同层级播放-->
+                <source src="https://www.turbochain.cn/download/xzh.mp4" type="video/mp4">
+            </video>
         </div>
         <div class="demand" >
             <div class="title-box">
@@ -48,7 +60,7 @@
         <div class="summarize">
             <div class="title-box">
                 <div class="title">TURBOCHAIN</div>
-                <div class="subtitle">{{$t("solution.programOverview")}}</div>
+                <div class="subtitle">{{$t("solution.productOverview")}}</div>
             </div>
             <ul class="list">
                 <li class="item">
@@ -166,6 +178,57 @@
 </style>
 
 <style scoped lang="scss">
+    video{
+        width: 100%;
+    }
+    .btn_login{
+        display: block;
+        text-align: center;
+        background: url("https://media.openserver.cn/turbochain/assets/btn_bg.png") no-repeat 50%;
+        line-height: 56px;
+        position: absolute;
+        bottom: -10vh;
+        right: 2vw;
+        color: #fff;
+        width: 197px;
+        height: 56px;
+        cursor: pointer;
+    }
+    .introduce_box{
+        .more {
+            position: absolute;
+            margin-top: 32px;
+            margin-bottom: -50vh;
+            font-weight: bold;
+            display: block;
+            width: 197px;
+            height: 56px;
+            line-height: 56px;
+            color: #ffaa00;
+            border: 2px solid #ffaa00;
+            background-image: none;
+            border-radius: 28px;
+            transition: 0.3s;
+            -moz-transition: 0.3s;
+            -webkit-transition: 0.3s;
+            -o-transition: 0.3s;
+            span {
+                display: block;
+                text-align: center;
+            }
+            span:after{
+                content:none;
+            }
+        }
+        .more:hover {
+            color: #ffffff;
+            border: 2px solid #ffaa00;
+            background-color: #ffaa00;
+              box-shadow: 0px 0px 10px 6px rgba(0,0,0,0.1);
+          }
+    }
+
+
     .introduce {
         display: flex;
         height: auto;

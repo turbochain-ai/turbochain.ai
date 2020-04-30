@@ -21,7 +21,6 @@
     margin-top: -34%;
 }
 
-/*
 .introduce {
     display: flex;
     height: auto;
@@ -30,7 +29,6 @@
     position: relative;
     background-size: cover;
 }
-*/
 
 .introduce_box {
     position: relative;
@@ -40,8 +38,8 @@
 
 .introduce_box .more {
     position: absolute;
-    bottom: 10vh;
-    right: 2vw;
+    bottom: 40vh;
+    right: 0vw;
     color: #ffffff;
     display: block;
     width: 197px;

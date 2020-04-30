@@ -10,7 +10,7 @@
         <div class="footer-item-container">
 
           <div class="footer-item footer-item_00">
-            <img src="./assets/homepage_logo.png">
+            <img src="https://media.openserver.cn/turbochain/assets/homepage_logo.png">
           </div>
           <div class="footer-item footer-item_01">
 

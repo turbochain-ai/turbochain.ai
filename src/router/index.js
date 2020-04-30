@@ -67,7 +67,7 @@ export default [
     component: BlockChain
   },
   {
-    path: '/solution/bankConfirmation',
+    path: '/bankConfirmation',
     name: 'BankConfirmation',
     component: BankConfirmation
   },
